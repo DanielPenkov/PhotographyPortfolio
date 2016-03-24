@@ -1,3 +1,4 @@
 #Gitignore
 images/*
-.idea/*
+.idea/workspace.xml
+
