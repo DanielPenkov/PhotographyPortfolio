@@ -1,0 +1,265 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #333;
+}
+.description {
+  width: 80%;
+  margin: 50px auto;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu{
+  padding-left: 5%;
+  font-family: Raleway,sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.menu-container {
+  width: 100%;
+  margin: 20px auto;
+  background: white;
+}
+.menu-item-right{
+  float: right!important;
+  background: white!important;
+  width: 50px!important;
+  padding-top: 20px!important;
+
+}
+
+.menu-icon{
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 0!important;
+  display: block;
+}
+
+.header-logo{
+  /*//height: 80px;*/
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.menu-mobile {
+  display: none;
+  padding: 20px;
+}
+.menu-mobile:after {
+  content: "\f394";
+  font-family: "Ionicons";
+  font-size: 2.5rem;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-25%);
+  transform: translateY(-25%);
+}
+.menu-dropdown-icon:before {
+  content: "\f489";
+  font-family: "Ionicons";
+  display: none;
+  cursor: pointer;
+  float: right;
+  padding: 1.5em 2em;
+  background: white;
+  color: #333;
+}
+.menu > ul {
+  margin: 0 auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+  box-sizing: border-box;
+}
+.menu > ul:before,
+.menu > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul:after {
+  clear: both;
+}
+.menu > ul > li {
+  float: left;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+.menu > ul > li a {
+  text-decoration: none;
+  padding: 20px 20px;
+  display: block;
+}
+.menu > ul > li:hover {
+  background: #f0f0f0;
+}
+
+.menu > ul > li > ul {
+  display: none;
+  width: 50%;
+  background: white;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  margin: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  text-align: center;
+}
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul > li > ul:after {
+  clear: both;
+}
+.menu > ul > li > ul > li {
+  margin: 0;
+  padding-bottom: 0;
+  list-style: none;
+  width: 25%;
+  background: none;
+  float: left;
+}
+.menu > ul > li > ul > li a {
+  color: #777;
+  padding: .2em 0;
+  width: 95%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.menu > ul > li > ul > li > ul {
+  display: block;
+  padding: 0;
+  margin: 10px 0 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+  content: "";
+  display: table;
+}
+.menu > ul > li > ul > li > ul:after {
+  clear: both;
+}
+.menu > ul > li > ul > li > ul > li {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  font-size: .8em;
+}
+.menu > ul > li > ul > li > ul > li a {
+  border: 0;
+}
+.menu > ul > li > ul.normal-sub {
+  width: 300px;
+  left: auto;
+  padding: 10px 20px;
+}
+.menu > ul > li > ul.normal-sub > li {
+  width: 100%;
+}
+.menu > ul > li > ul.normal-sub > li a {
+  border: 0;
+  padding: 1em 0;
+}
+
+.footer {
+  clear: both; //prevents floating elements from right/left of footer
+position: relative; //Positions footer relative to other elements on hte page
+z-index: 1; //z-index positions elements in front or behind eachother, most have a //natual z-index of -1
+height: -3em; //exactly what it says...
+margin-top: 40em; //moves footer to bottom of all elements
+
+}
+.alternative-icons{
+
+  display: none;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 1230px) {
+
+.menu{
+  padding-left: 5px;
+}
+  .menu-container {
+    width: 100%;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-dropdown-icon:before {
+    display: block;
+  }
+  .menu > ul {
+    display: none;
+  }
+  .menu > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .menu > ul > li a {
+    padding: 1.5em;
+    width: 100%;
+    display: block;
+  }
+  .menu > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul.normal-sub {
+    width: 100%;
+  }
+  .menu > ul > li > ul > li {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .menu > ul > li > ul > li:first-child {
+    margin: 0;
+  }
+  .menu > ul > li > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul > li > ul > li {
+    float: none;
+  }
+  .menu .show-on-mobile {
+    display: block;
+  }
+  .menu-item-right{
+    display: none!important;
+  }
+  .alternative-icons{
+    margin-top: 10px;
+    display: block;
+   text-align: center;
+  }
+  .alternative-icons a{
+   padding-left: 5px;
+  }
+
+
+}

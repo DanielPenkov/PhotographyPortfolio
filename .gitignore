@@ -1,4 +1,4 @@
-#Gitignore
-images/*
-.idea/workspace.xml
-
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
