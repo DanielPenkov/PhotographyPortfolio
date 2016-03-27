@@ -28,7 +28,7 @@
     ]) ?>
 
 </head>
-<body>
+<body onresize="start()>
 <div class="header-logo">
     <p style="font-size:30px; margin-bottom: 5px;"> <strong>Gergana Kurukyuvlieva</strong> </p>
     <p> <strong>Photographer in Aalborg & Norresunby</strong>  </p>
@@ -96,7 +96,6 @@
 
 <?= $this->fetch('content') ?>
 
-<footer>This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</footer>
 
 </body>
 </html>

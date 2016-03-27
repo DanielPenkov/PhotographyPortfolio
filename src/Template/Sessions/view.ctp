@@ -22,25 +22,39 @@
         <div class="frame crazy" id="crazy">
             <ul class="slidee">
                 <li>
-                    <?= $this->Html->image('sessions/test/peizaj-1-168-kb-jph-high.jpg') ?>
+                    <?= $this->Html->image('sessions/test/peizaj-1-168-kb-jph-high.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/portret-4-130kb-jpg-maximum.jpg') ?>
+                    <?= $this->Html->image('sessions/test/portret-4-130kb-jpg-maximum.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/peizaj-2-107kb-jpg-very-high.jpg') ?>
+                    <?= $this->Html->image('sessions/test/peizaj-2-107kb-jpg-very-high.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/peizaj-3-127kb-jpg-very-high.jpg') ?>
+                    <?= $this->Html->image('sessions/test/peizaj-3-127kb-jpg-very-high.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/portret-3-171kb-jpg-maximum.jpg') ?>
+                    <?= $this->Html->image('sessions/test/portret-3-171kb-jpg-maximum.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/peizaj-4-192kb-jpg-high.jpg') ?>
+                    <?= $this->Html->image('sessions/test/peizaj-4-192kb-jpg-high.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
                 <li>
-                    <?= $this->Html->image('sessions/test/portret-2-171-kb-jpg-maximum.jpg') ?>
+                    <?= $this->Html->image('sessions/test/portret-2-171-kb-jpg-maximum.jpg',[
+                        'class' => 'fill'
+                    ]) ?>
                 </li>
             </ul>
         </div>

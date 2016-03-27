@@ -3,7 +3,7 @@
 <head>
     <?= $this->Html->charset() ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content=" ">
     <meta name="description" content="enter any meta description here" />
     <meta name="keywords" content="enter any meta keyword here" />
@@ -18,8 +18,9 @@
         'menu.css',
         'ionicons.min.css',
         'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
-    ]) ?>
 
+    ]) ?>
+<!--'https://fonts.googleapis.com/css?family=Abel'-->
     <?= $this->Html->script([
         'jquery-2.2.2.min.js',
         'menu.js'
@@ -29,8 +30,8 @@
 <body>
 
 <div class="header-logo">
-    <p style="font-size:30px; margin-bottom: 5px;"> <strong>Gergana Kurukyuvlieva</strong> </p>
-    <p> <strong>Photographer in Aalborg & Norresunby</strong>  </p>
+    <p style="font-size:30px; margin-bottom: 5px;"> GERGANA KURUKYUVLIEVA</p>
+    <p style="color: black;font-size: 25px;font-family: 'Bilbo', cursive;"> Photographer in Aalborg and Norresunby  </p>
 </div>
 <div class="alternative-icons">
 

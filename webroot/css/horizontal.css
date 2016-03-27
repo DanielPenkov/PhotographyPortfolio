@@ -1,61 +1,78 @@
 body { background: white; }
 button:focus {outline:0;}
 .container {
-	margin: 0 auto;
-	position: relative;
-	margin-bottom: 80px;
 }
+
+
+.fill {
+	align-items:center;
+	overflow:hidden;
+	height: 100%;
+	max-width:99%!important;
+}
+.fill img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%
+}
+
 
 /* Example wrapper */
 .wrap {
-	position: relative;
-	margin: 3% 0;
+	width: 100%!important;
+	position: absolute;
+	bottom: 10px;
+	height: 70%;
+	display: inline-block;!important;
+	margin: 0 0 0 0!important;
+	padding: 0 0 0 0!important;
 }
 /* Frame */
 .frame {
-	height: 600px;
-	line-height: 250px;
-	overflow: hidden;
 	width: 100%;
+	height: 100%;
+	line-height: 250px;
+	display: inline-block;
 }
 .frame ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	height: 600px;
+	height: 100%;
 	font-size: 50px;
 }
 .frame ul li {
 	float: left;
-	height: 600px;
-	margin: 0 5px 0 0;
+	height: 100%;
 	padding: 0;
-	background: #333;
+	background: #fff;
 	color: #ddd;
 	text-align: center;
 	cursor: pointer;
+	display: inline-block!important;
+	max-width: 100%!important;
 }
 .frame ul li.active {
 	color: #fff;
-	background: #a03232;
+	background: #fff;
+	display: inline-block!important;
 }
 
 /* Scrollbar */
 .scrollbar {
-	margin: 0 0 1em 0;
+	margin-top: -6px;
 	height: 10px;
 	background: #ccc;
 	line-height: 0;
+	margin-left: 4px;
 }
 .scrollbar .handle {
-	width: 100px;
 	height: 100%;
 	background: #292a33;
 	cursor: pointer;
 }
 .scrollbar .handle .mousearea {
 	position: absolute;
-	top: -9px;
 	left: 0;
 	width: 100%;
 	height: 20px;
@@ -67,6 +84,7 @@ button:focus {outline:0;}
 	margin: 20px 0;
 	padding: 0;
 	text-align: center;
+	display: inline-block;
 }
 .pages li {
 	display: inline-block;
@@ -81,15 +99,15 @@ button:focus {outline:0;}
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
 }
 .pages li:hover {
-	background: #aaa;
+	background: #fff;
 }
 .pages li.active {
-	background: #666;
+	background: #fff;
 }
 
 
 .controls .btn.prevPage {
-	    margin: 25px 0;
+	margin: 25px 0;
     text-align: center;
     border-radius: 50% 50% 50% 50%;
     cursor: pointer;
@@ -112,106 +130,27 @@ right: 5px;
     margin-top: -20px;
 }
 
-@media screen and (max-height : 600px) and (min-width: 450px){
-	img{
-		height: 300px;
-	}
-	.frame {
-		height:300px;
+
+@media screen and (max-width: 800px) {
+	.wrap {
 		width: 100%;
+		position: relative;
+		text-align: center;
+	}
 
-	}
-	.frame ul {
-		height: 300px;
-	}
-	.frame ul li {
-		height: 300px;
-	}
-}
-@media screen and (min-height: 600px) and (max-height : 650px) and (min-width: 450px){
-	img{
-		height: 400px;
-	}
-	.frame {
-		height:400px;
-		width: 100%;
 
+	.fill {
+		align-items:center;
+		overflow:hidden;
+		height: auto;
+		width:99vh!important;
+		margin: 5px auto;
 	}
-	.frame ul {
-		height: 400px;
+	.fill img {
+		flex-shrink: 0;
+		min-width: 100%;
+		min-height: 100%
 	}
-	.frame ul li {
-		height: 400px;
-	}
-}
-@media screen and (min-height: 650px) and (max-height : 750px) and (min-width: 450px){
-	img{
-		height: 450px;
-	}
-	.frame {
-		height:450px;
-		width: 100%;
-
-	}
-	.frame ul {
-		height: 450px;
-	}
-	.frame ul li {
-		height: 450px;
-	}
-}
-
-@media screen and (min-height: 751px) and (max-height : 850px) and (min-width: 450px){
-	img{
-		height: 500px;
-	}
-	.frame {
-		height:500px;
-		width: 100%;
-
-	}
-	.frame ul {
-		height: 500px;
-	}
-	.frame ul li {
-		height: 500px;
-	}
-}
-
-@media screen and (min-height: 851px) and (max-height : 900px) and (min-width: 450px){
-	img{
-		height: 600px;
-	}
-	.frame {
-		height:600px;
-		width: 100%;
-
-	}
-	.frame ul {
-		height: 600px;
-	}
-	.frame ul li {
-		height: 600px;
-	}
-}
-@media screen and (min-height: 900px) and (min-width: 450px) {
-	img{
-		height: 650px;
-	}
-	.frame {
-		height:650px;
-		width: 650%;
-
-	}
-	.frame ul {
-		height: 650px;
-	}
-	.frame ul li {
-		height: 650px;
-	}
-}
-
-@media screen and (max-width: 450px) {
 	ul{
 		width: 100%!important;
 	}

@@ -221,7 +221,7 @@
 					// Item
 					var $item = $(element);
 					var rect = element.getBoundingClientRect();
-					var itemSize = round(o.horizontal ? rect.width || rect.right - rect.left : rect.height || rect.bottom - rect.top);
+					var itemSize = round(o.horizontal ? (rect.width + 0.5) || rect.right - rect.left : rect.height || rect.bottom - rect.top);
 					var itemMarginStart = getPx($item, o.horizontal ? 'marginLeft' : 'marginTop');
 					var itemMarginEnd = getPx($item, o.horizontal ? 'marginRight' : 'marginBottom');
 					var itemSizeFull = itemSize + itemMarginStart + itemMarginEnd;
@@ -264,7 +264,7 @@
 				});
 
 				// Resize SLIDEE to fit all items
-				$slidee[0].style[o.horizontal ? 'width' : 'height'] = (borderBox ? slideeSize: slideeSize - paddingStart - paddingEnd) + 'px';
+				$slidee[0].style[o.horizontal ? 'width' : 'height'] = (borderBox ? slideeSize: slideeSize - paddingStart - paddingEnd ) + 'px';
 
 				// Adjust internal SLIDEE size for last margin
 				slideeSize -= ignoredMargin;
