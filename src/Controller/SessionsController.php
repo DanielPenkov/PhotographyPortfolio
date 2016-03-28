@@ -33,6 +33,7 @@ class SessionsController extends AppController
      */
     public function view($id = null)
     {
+        
         $this->viewBuilder()->layout('session');
     }
 

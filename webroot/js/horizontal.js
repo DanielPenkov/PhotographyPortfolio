@@ -27,12 +27,13 @@ jQuery(function($){
 			scrollBy: 1,
 			pagesBar: $wrap.find('.pages'),
 			activatePageOn: 'click',
-			speed: 300,
+			speed: 800,
 			elasticBounds: 1,
 			easing: 'easeOutExpo',
 			dragHandle: 1,
 			dynamicHandle: 1,
 			clickBar: 1,
+			keyboardNavBy: 'items',
 
 			// Buttons
 			forward: $wrap.find('.forward'),

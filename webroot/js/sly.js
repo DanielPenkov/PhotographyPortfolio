@@ -2175,7 +2175,7 @@
 		scrollBar:     null,  // Selector or DOM element for scrollbar container.
 		dragHandle:    false, // Whether the scrollbar handle should be draggable.
 		dynamicHandle: false, // Scrollbar handle represents the ratio between hidden and visible content.
-		minHandleSize: 50,    // Minimal height or width (depends on sly direction) of a handle in pixels.
+		minHandleSize: 20,    // Minimal height or width (depends on sly direction) of a handle in pixels.
 		clickBar:      false, // Enable navigation by clicking on scrollbar.
 		syncSpeed:     0.5,   // Handle => SLIDEE synchronization speed, where: 1 = instant, 0 = infinite.
 
@@ -2202,11 +2202,11 @@
 		startPaused:   false, // Whether to start in paused sate.
 
 		// Mixed options
-		moveBy:        300,     // Speed in pixels per second used by forward and backward buttons.
-		speed:         0,       // Animations speed in milliseconds. 0 to disable animations.
+		moveBy:        800,     // Speed in pixels per second used by forward and backward buttons.
+		speed:         800,       // Animations speed in milliseconds. 0 to disable animations.
 		easing:        'swing', // Easing for duration based (tweening) animations.
 		startAt:       1,    // Starting offset in pixels or items.
-		keyboardNavBy: true,    // Enable keyboard navigation by 'items' or 'pages'.
+		keyboardNavBy: 'items',    // Enable keyboard navigation by 'items' or 'pages'.
 
 		// Classes
 		draggedClass:  'dragged', // Class for dragged elements (like SLIDEE or scrollbar handle).

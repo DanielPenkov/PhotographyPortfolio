@@ -108,6 +108,9 @@ html {
       width:300px!important;
       height: 300px;
    }
+   .gallery-container{
+      margin-top: 100px;
+   }
 }
 
 @media screen and (min-width : 350px) and  (max-width : 600px) {
@@ -124,6 +127,9 @@ html {
    .view .mask,.view .content {
       width:100%!important;
       height: 100%;
+   }
+   .gallery-container{
+      margin-top: 100px;
    }
 }
 
@@ -142,6 +148,10 @@ html {
       width:100%!important;
       height: 100%;
    }
+   .gallery-container{
+      width:98%;
+      margin: 100px 0 0 3.5%;
+   }
 }
 
 @media screen and (min-width : 800px) and  (max-width : 1200px) {
@@ -158,6 +168,9 @@ html {
    .view .mask,.view .content {
       width:100%!important;
       height: 100%;
+   }
+   .gallery-container{
+      margin: 100px 0 0 3.5%;
    }
 }
 
@@ -176,6 +189,9 @@ html {
       width:100%!important;
       height: 100%;
    }
+   .gallery-container{
+      margin: 0 0 0 3.5%;
+   }
 }
 
 @media screen and (min-width : 1400px)  {
@@ -192,5 +208,8 @@ html {
    .view .mask,.view .content {
       width:100%!important;
       height: 100%;
+   }
+   .gallery-container{
+      margin: 0 0 0 3.5%;
    }
 }

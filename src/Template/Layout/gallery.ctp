@@ -30,9 +30,14 @@
 <body>
 
 <div class="header-logo">
-    <p style="font-size:30px; margin-bottom: 5px;"> GERGANA KURUKYUVLIEVA</p>
-    <p style="color: black;font-size: 25px;font-family: 'Bilbo', cursive;"> Photographer in Aalborg and Norresunby  </p>
-</div>
+    <p style="font-size:30px;">      GERGANA KURUKYUVLIEVA</p>
+
+
+
+
+
+    <p style="opacity: 0.5; color: black;font-size: 20px;font-family: 'Quintessential', cursive;"><span class="menu-line fa fa-camera-retro"></span> Photographer in Aalborg and Norresunby  </p>
+    </div>
 <div class="alternative-icons">
 
     <a href="#"> <span class="fa fa-facebook"> </span></a>

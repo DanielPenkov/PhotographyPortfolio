@@ -28,10 +28,12 @@
     ]) ?>
 
 </head>
-<body onresize="start()>
+<body onresize="start()">
+
 <div class="header-logo">
-    <p style="font-size:30px; margin-bottom: 5px;"> <strong>Gergana Kurukyuvlieva</strong> </p>
-    <p> <strong>Photographer in Aalborg & Norresunby</strong>  </p>
+    <p style="font-size:30px; margin-bottom: 0px!important;">      GERGANA KURUKYUVLIEVA</p>
+
+    <p style="opacity: 0.5; color: black;font-size: 20px;font-family: 'Quintessential', cursive;"><span class="menu-line fa fa-camera-retro"></span> Photographer in Aalborg and Norresunby  </p>
 </div>
 <div class="alternative-icons">
 
