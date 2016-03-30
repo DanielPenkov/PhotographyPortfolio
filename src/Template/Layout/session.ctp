@@ -12,7 +12,6 @@
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css([
-        'ospb.css',
         'horizontal.css',
         'menu.css',
         'ionicons.min.css',
@@ -28,23 +27,9 @@
     ]) ?>
 
 </head>
-<body onresize="start()">
+<body>
 
-<div class="header-logo">
-    <p style="font-size:30px; margin-bottom: 0px!important;">      GERGANA KURUKYUVLIEVA</p>
-
-    <p style="opacity: 0.5; color: black;font-size: 20px;font-family: 'Quintessential', cursive;"><span class="menu-line fa fa-camera-retro"></span> Photographer in Aalborg and Norresunby  </p>
-</div>
-<div class="alternative-icons">
-
-   <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-
-</div>
 <div class="menu-container">
- 
     <div class="menu">
         <ul>
             <li><a href="#"> HOME</a></li>
@@ -83,21 +68,15 @@
             </li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">CONTACT</a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
 
-
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-facebook"></span> </a>
-            </li>
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-twitter"></span> </a>
-            </li>
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-envelope-o"></span> </a>
-            </li>
         </ul>
     </div>
 
 </div>
 
 <?= $this->fetch('content') ?>
-
-
 </body>
 </html>

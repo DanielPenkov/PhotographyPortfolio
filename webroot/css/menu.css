@@ -1,19 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 @import url(https://fonts.googleapis.com/css?family=Bilbo);
-
-
-
-
 @import url(https://fonts.googleapis.com/css?family=Quintessential);
 
-
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-* {
-  box-sizing: border-box;
-}
 a {
   color: #333;
 }
@@ -21,18 +9,14 @@ a {
   width: 80%;
   margin: 50px auto;
 }
-/* ––––––––––––––––––––––––––––––––––––––––––––––––––
-megamenu.js STYLE STARTS HERE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* ––––––––––––––––––––––––––––––––––––––––––––––––––
-Screen style's
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .menu{
-  padding-left: 5%;
   font-family: 'Quintessential', cursive;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 3px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .menu-container {
@@ -228,15 +212,7 @@ margin-top: 40em; //moves footer to bottom of all elements
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (min-width: 1230px) , screen and (max-height: 700px) {
-  .header-logo{
-    display:none;
-  }
 
-  .alternative-icons{
-    display: none;
-  }
-}
 
 @media screen and (min-height: 700px) {
   .header-logo{
@@ -248,10 +224,11 @@ Mobile style's
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (min-width:400px) and (max-width: 1200px) {
 
 .menu{
-  padding-left: 5px;
+  width: 90%;
+  margin:10px auto;
 }
   .menu-container {
     width: 100%;
@@ -318,5 +295,78 @@ Mobile style's
   .alternative-icons{
     display: none;
   }
+}
 
+@media screen and (min-width:100px) and (max-width: 400px) {
+
+  .menu{
+    width: 100%;
+    margin:10px auto;
+    font-size: 60%;
+  }
+  .menu-container {
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+    top:0;
+    margin:0px;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-dropdown-icon:before {
+    display: block;
+  }
+  .menu > ul {
+    display: none;
+  }
+  .menu > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .menu > ul > li a {
+    padding: 1.5em;
+    width: 100%;
+    display: block;
+  }
+  .menu > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul.normal-sub {
+    width: 100%;
+  }
+  .menu > ul > li > ul > li {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .menu > ul > li > ul > li:first-child {
+    margin: 0;
+  }
+  .menu > ul > li > ul > li > ul {
+    position: relative;
+  }
+  .menu > ul > li > ul > li > ul > li {
+    float: none;
+  }
+  .menu .show-on-mobile {
+    display: block;
+  }
+  .menu-item-right{
+    display: none!important;
+  }
+  .alternative-icons{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .header-logo{
+    display:none;
+  }
+
+  .alternative-icons{
+    display: none;
+  }
 }

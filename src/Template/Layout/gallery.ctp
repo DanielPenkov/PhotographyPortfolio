@@ -10,44 +10,26 @@
 
     <title>Geri Stories</title>
     <?= $this->Html->meta('icon') ?>
-
     <?= $this->Html->css([
-        'demo.css',
-        'style_common.css',
-        'style1.css',
+        'gallery.css',
         'menu.css',
         'ionicons.min.css',
         'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
 
     ]) ?>
-<!--'https://fonts.googleapis.com/css?family=Abel'-->
     <?= $this->Html->script([
         'jquery-2.2.2.min.js',
         'menu.js'
     ]) ?>
-
 </head>
 <body>
 
 <div class="header-logo">
-    <p style="font-size:30px;">      GERGANA KURUKYUVLIEVA</p>
-
-
-
-
-
-    <p style="opacity: 0.5; color: black;font-size: 20px;font-family: 'Quintessential', cursive;"><span class="menu-line fa fa-camera-retro"></span> Photographer in Aalborg and Norresunby  </p>
-    </div>
-<div class="alternative-icons">
-
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-    <a href="#"> <span class="fa fa-facebook"> </span></a>
-
+    <p style="font-size:30px;margin-bottom:5px;"> GERGANA KURUKYUVLIEVA</p>
+    <p style="margin-top:5px;color: black;font-size: 20px;font-family: 'Quintessential', cursive;"><span class="menu-line fa fa-camera-retro"></span> Photographer in Aalborg and Norresunby  </p>
 </div>
-<div class="menu-container">
 
+<div class="menu-container">
     <div class="menu">
         <ul>
             <li><a href="#"> HOME</a></li>
@@ -86,18 +68,15 @@
             </li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">CONTACT</a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
 
-
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-facebook"></span> </a>
-            </li>
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-twitter"></span> </a>
-            </li>
-            <li class="menu-item-right"><a class="menu-icon" href="http://marioloncarek.com"><span class="fa fa-envelope-o"></span> </a>
-            </li>
         </ul>
     </div>
 
 </div>
+
 
 <?= $this->fetch('content') ?>
 

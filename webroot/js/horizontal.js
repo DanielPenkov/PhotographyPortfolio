@@ -2,16 +2,16 @@ jQuery(function($){
 	'use strict';
 
 	(function () {
-		window.setTimeout(start, 500);
+		window.onresize = function(event) {
+			start();
+		};
+		
+		window.setTimeout(start, 100);
 		
 		function start() {
 		var $frame  = $('#crazy');
 		var $slidee = $frame.children('ul').eq(0);
 		var $wrap   = $frame.parent();
-
-			console.log($wrap);
-			console.log($slidee);
-
 
 		// Call Sly on frame
 		$frame.sly({
