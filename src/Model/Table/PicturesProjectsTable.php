@@ -1,19 +1,19 @@
 <?php
 namespace App\Model\Table;
 
-use App\Model\Entity\Picture;
+use App\Model\Entity\PicturesProject;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 /**
- * Pictures Model
+ * PicturesProjects Model
  *
- * @property \Cake\ORM\Association\BelongsTo $Categories
- * @property \Cake\ORM\Association\BelongsTo $Sessions
+ * @property \Cake\ORM\Association\BelongsTo $Projects
+ * @property \Cake\ORM\Association\BelongsTo $Pictures
  */
-class PicturesTable extends Table
+class PicturesProjectsTable extends Table
 {
 
     /**
@@ -26,12 +26,15 @@ class PicturesTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('pictures');
-        $this->displayField('name');
+        $this->table('pictures_projects');
+        $this->displayField('id');
         $this->primaryKey('id');
 
-        $this->belongsTo('Sessions', [
-            'foreignKey' => 'session_id'
+        $this->belongsTo('Projects', [
+            'foreignKey' => 'project_id'
+        ]);
+        $this->belongsTo('Pictures', [
+            'foreignKey' => 'picture_id'
         ]);
     }
 
@@ -47,16 +50,6 @@ class PicturesTable extends Table
             ->integer('id')
             ->allowEmpty('id', 'create');
 
-        $validator
-            ->allowEmpty('name');
-
-        $validator
-            ->requirePresence('url', 'create')
-            ->notEmpty('url');
-
-        $validator
-            ->allowEmpty('description');
-
         return $validator;
     }
 
@@ -69,8 +62,8 @@ class PicturesTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
-        $rules->add($rules->existsIn(['category_id'], 'Categories'));
-        $rules->add($rules->existsIn(['session_id'], 'Sessions'));
+        $rules->add($rules->existsIn(['project_id'], 'Projects'));
+        $rules->add($rules->existsIn(['picture_id'], 'Pictures'));
         return $rules;
     }
 }

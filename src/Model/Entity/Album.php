@@ -9,9 +9,9 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $name
  * @property string $description
- * @property \App\Model\Entity\Album[] $albums
+ * @property \App\Model\Entity\Picture[] $picture
  */
-class Category extends Entity
+class Album extends Entity
 {
 
     /**

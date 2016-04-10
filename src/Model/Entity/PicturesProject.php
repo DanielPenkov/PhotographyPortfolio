@@ -4,14 +4,15 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Category Entity.
+ * PicturesProject Entity.
  *
  * @property int $id
- * @property string $name
- * @property string $description
- * @property \App\Model\Entity\Album[] $albums
+ * @property int $project_id
+ * @property \App\Model\Entity\Project $project
+ * @property int $picture_id
+ * @property \App\Model\Entity\Picture $picture
  */
-class Category extends Entity
+class PicturesProject extends Entity
 {
 
     /**

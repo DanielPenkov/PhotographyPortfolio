@@ -49,11 +49,46 @@ Router::scope('/', function (RouteBuilder $routes) {
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'landing', 'landing']);
-
-    $routes->connect('/portraits/:id',
+    $routes->connect('/contacts', ['controller' => 'Pages', 'action' => 'contacts', 'contact']);
+    
+    $routes->connect('/portraits/cv', ['controller' => 'Albums', 'action' => 'view', 1]);
+    $routes->connect('/children', ['controller' => 'Albums', 'action' => 'view', 2]);
+    $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
+    $routes->connect('/business', ['controller' => 'Albums', 'action' => 'view', 4]);
+    $routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
+    
+    $routes->connect('/business/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 
+    $routes->connect('/cv/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+
+    $routes->connect('/children/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+
+    $routes->connect('/maternity/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+
+    $routes->connect('/landscapes/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+
+    $routes->connect('/women/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+
+    $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
+
+    
     /**
      * Connect catchall routes for all controllers.
      *

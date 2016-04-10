@@ -1,69 +1,34 @@
 <script type="text/javascript">
-
     $(document).ready(function() {
         $('.controls').hide();
-
         $(".wrap").hover(function(){
             $('.controls').show();
         });
-
         $(".wrap").mouseleave(function(){
             $('.controls').hide();
         });
-
     });
-
 </script>
 
+
+<div class="overlay">
+    <div class="icon">
+        <center>
+            <i> <?= $this->Html->image('loading.gif') ?></i>
+        </center>
+    </div>
+</div>
 
 <div class="pagespan container">
 
     <div class="wrap">
         <div class="frame crazy" id="crazy">
             <ul class="slidee">
-
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga1.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga2.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga3.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga4.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga5.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga6.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga7.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-
-                <li>
-                    <?= $this->Html->image('sessions/business_yoga/Business_yoga8.jpg',[
-                        'class' => 'fill'
-                    ]) ?>
-                </li>
-                
+                <?php foreach ($pictures as $picture) { ?>
+                    <li>
+                        <?= $this->Html->image($picture->url,['class' => 'fill']) ?>
+                    </li>
+                <?php } ?>
             </ul>
         </div>
         <div class="controls center">

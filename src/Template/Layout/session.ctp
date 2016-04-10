@@ -28,53 +28,98 @@
 
 </head>
 <body>
+<script>
+    $(function() {
 
+        $(document).keydown(function(event){
+            if(event.keyCode==123){
+                return false;
+            }
+            else if (event.ctrlKey && event.shiftKey && event.keyCode==73){
+                return false;
+            }
+        });
+
+        $(document).on("contextmenu",function(e){
+            e.preventDefault();
+        });
+
+
+        var name = window.location.pathname;
+
+        if (name.indexOf('home') > -1) {
+            $('#home').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('landscapes') > -1) {
+            $('#landscapes').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('portraits') > -1) {
+            $('#portraits').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('children') > -1) {
+            $('#children').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('maternity') > -1) {
+            $('#maternity').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('business') > -1) {
+            $('#business').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('projects') > -1) {
+            $('#projects').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('contacts') > -1) {
+            $('#contacts').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        }
+    });
+</script>
+<div class="header-logo">
+    <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
+    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
+</div>
 <div class="menu-container">
     <div class="menu">
         <ul>
-            <li><a href="#"> HOME</a></li>
-            <li><a href="#">LANDSCAPES</a>
-                <ul>
-                    <li><a href="#">Today</a></li>
-                    <li><a href="#">Calendar</a></li>
-                    <li><a href="#">Sport</a></li>
-                </ul>
+            <li id="home">
+                <?= $this->Html->link('HOME', ['controller' => 'Home', 'action' => 'index']); ?>
             </li>
-            <li><a href="#">PORTRAITS</a></li>
-            <li><a href="#">CHILDREN</a></li>
-            <li><a href="#">MATERNITY</a></li>
-            <li><a href="#">BUSINESS</a>
+            <li id="landscapes">
+                <?= $this->Html->link('LANDSCAPES', '/landscapes'); ?>
+            </li>
+            <li id ='portraits'>
+                <?= $this->Html->link('PORTRAITS', '/portraits'); ?>
                 <ul>
-                    <li><a href="#">School</a>
-                        <ul>
-                        </ul>
+                    <li>
+                        <?= $this->Html->link('CV', '/portraits/cv'); ?>
+                        <ul></ul>
                     </li>
-                    <li><a href="#">Study</a>
-                        <ul>
-
-                        </ul>
+                    <li>
+                        <?= $this->Html->link('WOMEN', '/portraits/women'); ?>
+                        <ul></ul>
                     </li>
-                    <li><a href="#">Research</a>
-                        <ul>
-
-                        </ul>
+                    <li>
+                        <?= $this->Html->link('MEN', '/portraits/men'); ?>
+                        <ul></ul>
                     </li>
-                    <li><a href="#">Something</a>
-                        <ul>
-
-                        </ul>
+                    <li>
+                        <?= $this->Html->link('COUPLES', '/portraits/couples'); ?>
+                        <ul></ul>
                     </li>
                 </ul>
             </li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li id="children">
+                <?= $this->Html->link('CHILDREN', '/children'); ?>
+            </li>
+            <li id = 'maternity'>
+                <?= $this->Html->link('MATERNITY', '/maternity'); ?>
+            </li>
+            <li id = 'business'>
+                <?= $this->Html->link('BUSINESS', '/business'); ?>
+            </li>
+            <li id = 'projects'>
+                <?= $this->Html->link('PROJECTS', '/projects'); ?>
+            </li>
+            <li id="contacts">
+                <?= $this->Html->link('CONTACTS', '/contacts'); ?>
+            </li>
             <li class="menu-item-right"><a class="menu-icon" href="#"><span class="fa fa-instagram"></span></a></li>
             <li class="menu-item-right"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
             <li class="menu-item-right"><a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
-
         </ul>
     </div>
-
 </div>
 
 <?= $this->fetch('content') ?>

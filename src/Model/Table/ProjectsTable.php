@@ -1,18 +1,18 @@
 <?php
 namespace App\Model\Table;
 
-use App\Model\Entity\Session;
+use App\Model\Entity\Project;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 /**
- * Sessions Model
+ * Projects Model
  *
- * @property \Cake\ORM\Association\HasMany $Picture
+ * @property \Cake\ORM\Association\BelongsToMany $Pictures
  */
-class SessionsTable extends Table
+class ProjectsTable extends Table
 {
 
     /**
@@ -25,15 +25,17 @@ class SessionsTable extends Table
     {
         parent::initialize($config);
 
-        $this->table('sessions');
-        $this->displayField('name');
+        $this->table('projects');
+        $this->displayField('title');
         $this->primaryKey('id');
 
-        $this->belongsTo('Albums');
-        $this->hasMany('Pictures', [
-            'foreignKey' => 'session_id'
+        $this->addBehavior('Timestamp');
+
+        $this->belongsToMany('Pictures', [
+            'foreignKey' => 'project_id',
+            'targetForeignKey' => 'picture_id',
+            'joinTable' => 'pictures_projects'
         ]);
-        
     }
 
     /**
@@ -49,7 +51,7 @@ class SessionsTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->allowEmpty('name');
+            ->allowEmpty('title');
 
         $validator
             ->allowEmpty('description');

@@ -1,8 +1,17 @@
 html {
    box-sizing: border-box!important;
+   height: 65%;
+}
+body{
+   height: 100%;
+   position: relative;
 }
 *, *:before, *:after {
    box-sizing: initial!important;
+}
+
+.main-container {
+   min-height: 100%;
 }
 
 .content{
@@ -185,7 +194,22 @@ html {
    transition-delay: 0.2s;
 }
 
-
+.project{
+   max-width:800px;
+   width:80%;
+   margin: 80px auto;
+}
+.title{
+   font-family: 'Cinzel', serif;
+}
+.project-description{
+   text-align: justify;
+}
+.project-image{
+   width: 100%;
+   margin: auto;
+   margin-bottom: 10px;
+}
 @media screen and (min-width : 200px) and  (max-width : 350px) {
 
    .img-box{
@@ -302,6 +326,6 @@ html {
       height: 100%;
    }
    .gallery-container{
-      margin: 0 0 0 3.5%;
+      margin: 50px 0 0 3.5%;
    }
 }

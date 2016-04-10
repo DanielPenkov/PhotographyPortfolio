@@ -32,4 +32,9 @@ class PagesController extends AppController
     {
         $this->viewBuilder()->layout('landing');
     }
+
+    public function contacts()
+    {
+        $this->viewBuilder()->layout('gallery');
+    }
 }

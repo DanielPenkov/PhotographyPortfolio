@@ -1,6 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function(){
-        $('.slider').slider({ indicators:false,transition:2000, interval:3000});
+        $('.slider').slider({ indicators:false,transition:2000, interval:2000});
     });
 </script>
 
@@ -27,14 +27,23 @@
 </div>
 <div class="slider fullscreen">
     <ul class="slides">
-<!--        <li>-->
-<!--           --><?//= $this->Html->image('front/1/child-1-page-jpg-very-high-304kb.jpg') ?>
-<!--        </li>-->
-<!--        <li>-->
-<!--            --><?//= $this->Html->image('front/3/peizaj-jpg-high-180kb.jpg') ?>
-<!--        </li>-->
         <li>
-            <?= $this->Html->image('front/5/portret-1-page-jpg-very-high-420-kb.jpg') ?>
+            <?= $this->Html->image('front/peizaj-jpg-high-180kb.jpg') ?>
+        </li>
+        <li>
+            <?= $this->Html->image('front/DSC_0014website-nachalna.jpg') ?>
+        </li>
+        <li>
+            <?= $this->Html->image('front/DSC_3846website-nachalna.jpg') ?>
+        </li>
+        <li>
+            <?= $this->Html->image('front/DSC_0346website-nachalna.jpg') ?>
+        </li>
+        <li>
+            <?= $this->Html->image('front/DSC_0339website-nachalna.jpg') ?>
+        </li>
+        <li>
+            <?= $this->Html->image('front/portret-1-page-jpg-very-high-420-kb.jpg') ?>
         </li>
     </ul>
 </div>

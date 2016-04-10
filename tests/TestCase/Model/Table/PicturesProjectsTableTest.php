@@ -1,22 +1,22 @@
 <?php
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\CategoriesTable;
+use App\Model\Table\PicturesProjectsTable;
 use Cake\ORM\TableRegistry;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\CategoriesTable Test Case
+ * App\Model\Table\PicturesProjectsTable Test Case
  */
-class CategoriesTableTest extends TestCase
+class PicturesProjectsTableTest extends TestCase
 {
 
     /**
      * Test subject
      *
-     * @var \App\Model\Table\CategoriesTable
+     * @var \App\Model\Table\PicturesProjectsTable
      */
-    public $Categories;
+    public $PicturesProjects;
 
     /**
      * Fixtures
@@ -24,7 +24,10 @@ class CategoriesTableTest extends TestCase
      * @var array
      */
     public $fixtures = [
-        'app.categories',
+        'app.pictures_projects',
+        'app.projects',
+        'app.pictures',
+        'app.sessions',
         'app.albums'
     ];
 
@@ -36,8 +39,8 @@ class CategoriesTableTest extends TestCase
     public function setUp()
     {
         parent::setUp();
-        $config = TableRegistry::exists('Categories') ? [] : ['className' => 'App\Model\Table\CategoriesTable'];
-        $this->Categories = TableRegistry::get('Categories', $config);
+        $config = TableRegistry::exists('PicturesProjects') ? [] : ['className' => 'App\Model\Table\PicturesProjectsTable'];
+        $this->PicturesProjects = TableRegistry::get('PicturesProjects', $config);
     }
 
     /**
@@ -47,7 +50,7 @@ class CategoriesTableTest extends TestCase
      */
     public function tearDown()
     {
-        unset($this->Categories);
+        unset($this->PicturesProjects);
 
         parent::tearDown();
     }
@@ -68,6 +71,16 @@ class CategoriesTableTest extends TestCase
      * @return void
      */
     public function testValidationDefault()
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
+
+    /**
+     * Test buildRules method
+     *
+     * @return void
+     */
+    public function testBuildRules()
     {
         $this->markTestIncomplete('Not implemented yet.');
     }

@@ -10,7 +10,7 @@ use Cake\Validation\Validator;
 /**
  * Categories Model
  *
- * @property \Cake\ORM\Association\HasMany $Picture
+ * @property \Cake\ORM\Association\HasMany $Albums
  */
 class CategoriesTable extends Table
 {
@@ -29,7 +29,7 @@ class CategoriesTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
 
-        $this->hasMany('Pictures', [
+        $this->hasMany('Albums', [
             'foreignKey' => 'category_id'
         ]);
     }
