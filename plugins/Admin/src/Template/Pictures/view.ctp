@@ -23,7 +23,7 @@
         </tr>
     </table>
     <div class="row">
-        <?= $this->Html->image('http://localhost/geri/img/' . $picture->url, ['fullBase' => false]) ?>
+        <?= $this->Html->image($picture->url, ['fullBase' => true]) ?>
 
     </div>
     <div class="row">

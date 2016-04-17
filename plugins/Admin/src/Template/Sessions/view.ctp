@@ -40,7 +40,7 @@
             <tr>
                 <td><?= h($pictures->id) ?></td>
                 <td><?= h($pictures->name) ?></td>
-                <td><?= $this->Html->image('http://localhost/geri/img/' . $pictures->url, ['width' => '50', 'fullBase' => false]) ?></td>
+                <td><?= $this->Html->image($pictures->url, ['width' => '50', 'fullBase' => true]) ?></td>
                 <td><?= h($pictures->session_id) ?></td>
                 <td><?= h($pictures->description) ?></td>
                 <td><?= h($pictures->type) ?></td>
