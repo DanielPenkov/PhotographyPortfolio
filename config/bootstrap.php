@@ -191,6 +191,9 @@ Request::addDetector('tablet', function ($request) {
  */
 
 Plugin::load('Migrations');
+Plugin::load('Admin', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
+
+Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system

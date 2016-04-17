@@ -24,9 +24,10 @@ class SessionsController extends AppController
   
     public function view($id = null)
     {
+
         $pictures = $this->Pictures->find()
-            ->where(['Pictures.session_id' => $id, 'Pictures.type' => 'session']);
-        
+            ->where(['Pictures.session_id' => $id, 'Pictures.type' => 'session'])
+            ->order(['Pictures.placement' => 'ASC']);
 
         $this->set('pictures', $pictures);
     }

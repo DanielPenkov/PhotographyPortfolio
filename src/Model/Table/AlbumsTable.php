@@ -32,6 +32,7 @@ class AlbumsTable extends Table
         $this->hasMany('Sessions', [
             'foreignKey' => 'album_id'
         ]);
+        $this->belongsTo('Categories');
     }
 
     /**

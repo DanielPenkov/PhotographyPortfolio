@@ -33,6 +33,12 @@ class PicturesTable extends Table
         $this->belongsTo('Sessions', [
             'foreignKey' => 'session_id'
         ]);
+
+        $this->belongsToMany('Projects', [
+            'foreignKey' => 'picture_id',
+            'targetForeignKey' => 'project_id',
+            'joinTable' => 'pictures_projects'
+        ]);
     }
 
     /**
