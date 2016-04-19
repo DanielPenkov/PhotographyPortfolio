@@ -63,7 +63,7 @@ class PicturesController extends AppController
     {
         $picture = $this->Pictures->newEntity();
         if ($this->request->is('post')) {
-            $webroot = '/var/www/html/geri/webroot/';
+            $webroot = WWW_ROOT;
             $data = $this->request->data;
 
             if($data['type'] === 'thumbnails') {
