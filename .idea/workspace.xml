@@ -2,509 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12f149-dedb-48e9-9179-4f3a9b6d6e95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/cake.icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/cake.power.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/contact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/contact1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/contact2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/contact3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/00-website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/1/child-1-page-jpg-very-high-304kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/2/cv-1-page-jpg-high-192-kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/3/peizaj-jpg-high-180kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/4/peizaj-jpg-very-high-365kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/5/portret-1-page-jpg-very-high-420-kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/6/semeina-snimka-high-jpg-330kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0014website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0161website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0312website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0339website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0346website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_0422website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_3846website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/DSC_3878website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/IMG_5601web-radi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/joana-letiiii-website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/luna-nai-dobra-website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/luna-snimka-nai-dobraa-website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/peizaj-jpg-high-180kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/portret-1-page-jpg-very-high-420-kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/semeina-snimka-high-jpg-330kb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/front/wow-3-website-nachalna.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/po rubchetata.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/projects/test/zafina_and_zara_6and8_years_old_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/flights.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/game.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/geri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/Business/ipole_aalborg_/pole_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Business_yoga_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business/business_yoga/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Business_yoga_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/business_yoga/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/4months_baby_boy_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/4months_baby_boy/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Johan_4_monhts_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/johan_4_months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/kaloyan_5months/kaloqn_5months_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/lucas_1.5months/lucas_1.5months_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/mia_3months/mia_3months_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/newborn_baby_boy_1week/newborn_baby_boy_1week_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3 months/twins_3-months_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/twins_3_months/twins_3-months_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_6and8_years_old_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/children/zafina_and_zara_6_and_8_years_old/zafina_and_zara_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/couples/l_&amp;_p/l_and_p_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/alice/alice_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/alice/alice_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/alice/alice_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/andrei/1DSC_7310.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/andrei/3DSC_7287.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/andrei/DSC_7269.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_alberto/Alberto_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_alberto/Alberto_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_alberto/Alberto_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_alberto/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_anna/Anna_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_anna/Anna_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_anna/Anna_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_anna/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_dimitrios/Dimitrios_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_dimitrios/Dimitrios_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_dimitrios/Dimitrios_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_dimitrios/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_eva/Eva_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_eva/Eva_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_eva/Eva_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_eva/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_mette/Mette_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_mette/Mette_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_mette/Mette_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_mette/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_sophie/Sophie_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_sophie/Sophie_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_sophie/Sophie_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_sophie/Sophie_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_sophie/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_zell/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_zell/Zell_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_zell/Zell_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/cv_zell/Zell_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/sophie/Sophie_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/sophie/Sophie_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/cv/sophie/Sophie_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/&quot;the_palace&quot;,_balchik,_bulgaria/balchik_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london,_uk/london_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/london_architecture/london_arch_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_3.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/sofia,_bulgaria/sofia_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/landscapes/vrachanski_balkan_nature_park,_bulgaria/vrachanski_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/mengyao_/Mengyao_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/patrycja/patrycja_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/maternity/youjin/youjin_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/andrei_outdoor/andrei_outdoor_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/men/jason/jason_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/peizaj-1-168-kb-jph-high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/peizaj-2-107kb-jpg-very-high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/peizaj-3-127kb-jpg-very-high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/peizaj-4-192kb-jpg-high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/portret-1-162kb-jpg-very-high.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/portret-2-171-kb-jpg-maximum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/portret-3-171kb-jpg-maximum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/portret-4-130kb-jpg-maximum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/test/portret-4-150kb-jpg-mximum.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/andreea/andreea_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/radi_at_sunset/radi_at_sunset_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rali_in_the_bus/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rali_in_the_bus/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rali_in_the_bus/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rali_in_the_bus/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rali_in_the_bus/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/rumi/rumi_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/tanya_in_the_library/tanq_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_at_home/yoana_at_home_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_in_the_snow/yoana_in_the_snow_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/DSC_0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/joana-letiiii-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/tDSC_0018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/tDSC_0053.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/tDSC_0121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/sessions/women/yoana_on_the_roof/tDSC_0175.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/1/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/2/cv-kvadrat-png-8-54kb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/3/portret-kvadrat-png-8-60kb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/4months_baby_boy_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Alberto_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Anna_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Business_yoga_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Dimitrios_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Eva_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Johan_4_monhts_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Mengyao_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Mette_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Sophie_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/Zell_Thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/alice_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/andreea_thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/andrei_outdoor_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/andrei_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/balchik_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/full_moon_aalborg_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/geri.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/jason_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/kaloqn_5months_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/l_and_p_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/london_arch_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/london_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/lucas_1.5months_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/mia_3months_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/newborn_baby_boy_1week_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/patrycja_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/pole_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/radi_at_sunset_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/radost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/rumi_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/skinflick.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/sofia_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/tanq_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/twins_3-months_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/vrachanski_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/yoana_at_home_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/yoana_in_the_snow_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/yoana_on_the_roof_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/youjin_thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/img/thumbnails/zafina_and_zara_thumbnail.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_projects" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_projects" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_sessions" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_sessions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations__users_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations__users_en__u_s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_categories" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_projects" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_sessions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_users" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations__users_en__u_s" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/views/empty" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures_projects" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures_projects" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Table/PicturesTable.php" afterPath="$PROJECT_DIR$/Model/Table/PicturesTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ProjectsController.php" afterPath="$PROJECT_DIR$/src/Controller/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/PicturesProjectsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/PicturesProjectsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Home/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Home/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" afterPath="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/PicturesProjectsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/PicturesProjectsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/ProjectsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/ProjectsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/PicturesProjectsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/PicturesProjectsTableTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/ProjectsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/ProjectsTableTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/gallery.css" afterPath="$PROJECT_DIR$/webroot/css/gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/menu.css" afterPath="$PROJECT_DIR$/webroot/css/menu.css" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -526,41 +60,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php">
+      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Home/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1462041712793" expanded="true" signature="468:584" placeholder="..." />
+                <marker date="1462041712793" expanded="true" signature="516:584" placeholder="..." />
+                <marker date="1462041712793" expanded="true" signature="654:993" placeholder="..." />
+                <marker date="1462041712793" expanded="true" signature="709:801" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PicturesTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/PicturesTable.php">
+      <file leaf-file-name="gallery.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/CategoriesTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="298" column="4" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -574,16 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/menu.css" />
-        <option value="$PROJECT_DIR$/view/galery.html" />
-        <option value="$PROJECT_DIR$/css/horizontal.css" />
-        <option value="$PROJECT_DIR$/src/Template/Portraits/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/PortraitsController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Pages/home.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Pages/display.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/GaleryController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Galery/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Gallery/index.ctp" />
         <option value="$PROJECT_DIR$/webroot/js/menu.js" />
         <option value="$PROJECT_DIR$/webroot/css/landing.css" />
         <option value="$PROJECT_DIR$/webroot/css/demo.css" />
@@ -598,18 +119,13 @@
         <option value="$PROJECT_DIR$/src/Model/Table/SessionsTable.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/webroot/js/sly.js" />
-        <option value="$PROJECT_DIR$/src/Controller/ProjectsController.php" />
         <option value="$PROJECT_DIR$/src/Template/Projects/view.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/PagesController.php" />
         <option value="$PROJECT_DIR$/src/Template/Albums/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Projects/index.ctp" />
-        <option value="$PROJECT_DIR$/webroot/css/gallery.css" />
         <option value="$PROJECT_DIR$/src/Template/Sessions/view.ctp" />
         <option value="$PROJECT_DIR$/webroot/js/horizontal.js" />
         <option value="$PROJECT_DIR$/webroot/css/horizontal.css" />
         <option value="$PROJECT_DIR$/src/Template/Categories/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" />
-        <option value="$PROJECT_DIR$/webroot/css/menu.css" />
         <option value="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
@@ -618,13 +134,28 @@
         <option value="$PROJECT_DIR$/src/Controller/AlbumsController.php" />
         <option value="$PROJECT_DIR$/config/routes.php" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Home/index.ctp" />
-        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" />
         <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/view.ctp" />
         <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Sessions/view.ctp" />
         <option value="$PROJECT_DIR$/plugins/Admin/src/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/PicturesTable.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Pictures/add.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" />
+        <option value="$PROJECT_DIR$/Model/Table/PicturesTable.php" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Projects/index.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp" />
+        <option value="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Home/index.ctp" />
+        <option value="$PROJECT_DIR$/webroot/css/gallery.css" />
+        <option value="$PROJECT_DIR$/webroot/css/menu.css" />
       </list>
     </option>
   </component>
@@ -638,9 +169,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1684" />
-    <option name="width" value="1274" />
-    <option name="height" value="1012" />
+    <option name="x" value="1676" />
+    <option name="width" value="1688" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -682,6 +213,110 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geri" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -816,18 +451,18 @@
       <workItem from="1460884432726" duration="1507000" />
       <workItem from="1461062029493" duration="421000" />
       <workItem from="1461062499401" duration="46000" />
-      <workItem from="1462010093181" duration="339000" />
+      <workItem from="1462010093181" duration="26122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222064000" />
+    <option name="totallyTimeSpent" value="247847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1684" y="0" width="1274" height="1012" extended-state="0" />
+    <frame x="1676" y="0" width="1688" height="1020" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23447712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -864,125 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="18" selection-start-line="24" selection-start-column="0" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Categories/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" selection-start-line="4" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4968">
-          <caret line="276" column="16" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Categories/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" selection-start-line="4" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1046,27 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="480" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Categories/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1109,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/AlbumsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1127,27 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Home/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1165,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="65" column="51" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1183,13 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-618">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Sessions/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1219,8 +672,233 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#70#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#70#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Pictures/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/Layout/gallery.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="9" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Table/SessionsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/Table/PicturesTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/Layout/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding>
+            <element signature="e#35#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Projects/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <marker date="1462029616780" expanded="true" signature="1678:1713" placeholder="..." />
+            <marker date="1462029616780" expanded="true" signature="1802:1838" placeholder="..." />
+            <marker date="1462029616780" expanded="true" signature="1883:1919" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Sessions/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="42" column="105" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="105" selection-start-line="38" selection-start-column="105" selection-end-line="38" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Home/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1462041712793" expanded="true" signature="468:584" placeholder="..." />
+            <marker date="1462041712793" expanded="true" signature="516:584" placeholder="..." />
+            <marker date="1462041712793" expanded="true" signature="654:993" placeholder="..." />
+            <marker date="1462041712793" expanded="true" signature="709:801" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="298" column="4" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
           <folding />
         </state>
       </provider>

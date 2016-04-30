@@ -1,7 +1,10 @@
 <?php
-namespace App\Controller;
+namespace Admin\Controller;
 
-use App\Controller\AppController;
+use Admin\Controller\AppController;
+use App\Model\Entity\Projects;
+
+
 
 /**
  * Projects Controller
@@ -10,6 +13,18 @@ use App\Controller\AppController;
  */
 class ProjectsController extends AppController
 {
+
+    public function initialize()
+    {
+        parent::initialize();
+
+        $this->loadModel('Categories');
+        $this->loadModel('Pictures');
+        $this->loadModel('Albums');
+        $this->loadModel('Sessions');
+        $this->loadModel('Projects');
+    }
+
 
     /**
      * Index method

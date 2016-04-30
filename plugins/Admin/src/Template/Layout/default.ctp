@@ -28,6 +28,9 @@ $cakeDescription = 'Admin panel';
 
     <?= $this->Html->css('/admin/css/base') ?>
     <?= $this->Html->css('/admin/css/cake') ?>
+    <?= $this->Html->script([
+        'jquery-2.2.2.min.js'
+    ]) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>

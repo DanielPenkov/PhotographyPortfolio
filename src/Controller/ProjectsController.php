@@ -30,7 +30,7 @@ class ProjectsController extends AppController
         ->contain([
             'Pictures' => function ($q) {
                 return $q
-                    ->where(['Pictures.type' => 'project_index']);
+                    ->where(['Pictures.type' => 'project_thumbnail']);
             }
         ]);
 

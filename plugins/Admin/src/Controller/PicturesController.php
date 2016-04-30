@@ -70,6 +70,19 @@ class PicturesController extends AppController
                 $path = $webroot . 'img' . DS . 'thumbnails';
                 file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
                 $data['url'] = 'thumbnails/' . $data['url']['name'];
+            } elseif ($data['type'] === 'project_thumbnail') {
+                $path = $webroot . 'img' . DS . 'thumbnails';
+                file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
+                $data['url'] = 'thumbnails/' . $data['url']['name'];
+                unset($data['session_id']);
+                $project = $this->Projects->get($data['project_id']);
+                $data['projects']  = [
+                    [
+                        'id' => $project->id,
+
+                    ]
+                ];
+
             } elseif ($data['type'] === 'session') {
 
                 $session = $this->Sessions->get($data['session_id'], ['contain' => ['Albums']]);
@@ -90,18 +103,44 @@ class PicturesController extends AppController
 
                 file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
                 $data['url'] = 'sessions/' . $album . '/' . $dirName . '/' . $data['url']['name'];
-            }
 
-            $picture = $this->Pictures->patchEntity($picture, $data);
-            if ($this->Pictures->save($picture)) {
+            } elseif ($data['type'] === 'project') {
+
+
+                $project = $this->Projects->get($data['project_id']);
+
+                $dirName = str_replace(' ', '_', strtolower($project->title));
+                $projectPath = $webroot . 'img' . DS . 'projects' . DS . $dirName;
+
+
+                if (!file_exists($projectPath) && !is_dir($projectPath)) {
+                    mkdir($projectPath);
+                }
+
+                file_put_contents($projectPath . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
+                $data['url'] = 'projects' . DS . $dirName . DS . $data['url']['name'];
+
+                unset($data['session_id']);
+                $data['projects']  = [
+                    [
+                        'id' => $project->id,
+
+                    ]
+                ];
+        }
+
+        $picture = $this->Pictures->patchEntity($picture, $data);
+            if ($this->Pictures->save($picture, ['associated' => ['Projects']])) {
                 $this->Flash->success(__('The picture has been saved.'));
                 return $this->redirect(['action' => 'index']);
             } else {
+
+
                 $this->Flash->error(__('The picture could not be saved. Please, try again.'));
             }
         }
         $sessions = $this->Pictures->Sessions->find('list', ['limit' => 200, 'order' => ['Sessions.id' => 'DESC']]);
-        $projects = $this->Pictures->Projects->find('list', ['limit' => 200]);
+        $projects = $this->Pictures->Projects->find('list', ['limit' => 200, 'order' => ['Projects.id' => 'DESC']]);
         $this->set(compact('picture', 'sessions', 'projects'));
         $this->set('_serialize', ['picture']);
     }

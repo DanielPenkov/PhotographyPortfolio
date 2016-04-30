@@ -16,10 +16,10 @@
     </div>
 
     <div class="contact-icons">
-        <span class="fa fa-facebook fa-4x social-icons"></span>
-        <span class="fa fa-behance fa-4x social-icons"></span>
-        <span class="fa fa-instagram fa-4x social-icons"></span>
-        <span class="fa fa-envelope fa-4x social-icons"></span>
+        <a href="https://www.facebook.com/gergana.stories" target="_blank"> <span class="fa fa-facebook fa-4x social-icons"></span></a>
+        <a href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance fa-4x social-icons"></span></a>
+        <a href="https://www.instagram.com/kurukyuvlieva" target="_blank"><span class="fa fa-instagram fa-4x social-icons"></span></a>
+        <a href="mailto:radiaciq@gmail.com" target="_top"><span class="fa fa-envelope fa-4x social-icons"></span></a>
 
     </div>
 </div>

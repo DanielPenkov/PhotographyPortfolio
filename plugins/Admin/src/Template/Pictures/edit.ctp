@@ -10,7 +10,6 @@
             echo $this->Form->input('description');
             echo $this->Form->input('type');
             echo $this->Form->input('placement');
-            echo $this->Form->input('projects._ids', ['options' => $projects]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

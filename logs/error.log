@@ -964,3 +964,1626 @@ Stack Trace:
 
 2016-04-30 09:53:53 Warning: Missing configuration file: "config/permissions.php". Using default permissions
 2016-04-30 09:53:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:04:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:08:38 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:08:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/admin/projects
+Referer URL: http://localhost/geri/admin
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:09:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:09:47 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:10:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:11:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => 'Admin',
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/admin/projects
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:14:34 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:14:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:14:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:14:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:14:40 Error: [RuntimeException] Table "Cake\ORM\Table" is not associated with "Pictures"
+Request URL: /geri/admin/projects/add
+Referer URL: http://localhost/geri/admin/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/ProjectsController.php(64): Cake\ORM\Table->__get('Pictures')
+#1 [internal function]: Admin\Controller\ProjectsController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\ProjectsController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 10:14:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:46 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:47 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:15:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:36:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:36:54 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::ffffff() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'ffffff',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /geri/home/ffffff
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-30 10:37:01 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::ffffff() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'ffffff',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /geri/home/ffffff
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-30 10:37:02 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::ffffff() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'ffffff',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /geri/home/ffffff
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-30 10:37:03 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::ffffff() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'ffffff',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /geri/home/ffffff
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-30 10:41:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:41:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:41:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:41:15 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:45:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:45:56 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:45:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:46:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:46:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:46:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:46:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:47:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:47:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:47:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:47:32 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:48:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:49:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:49:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:51:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:51:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:51:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:51:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 10:52:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:52:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:47 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:56 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:54:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:56:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:56:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:56:32 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:59:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 10:59:32 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:00:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:00:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:01:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:02:17 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:02:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:02:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:04:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:04:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:05:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:05:10 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:05:49 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:06:34 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:06:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:07:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:08:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:11:17 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:11:17 Error: [RuntimeException] Table "App\Model\Table\PicturesTable" is not associated with "Ptojects"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(104): Cake\ORM\Table->__get('Ptojects')
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 11:14:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:14:58 Error: [RuntimeException] Table "App\Model\Table\PicturesTable" is not associated with "Ptojects"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(104): Cake\ORM\Table->__get('Ptojects')
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 11:15:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:15:00 Error: [RuntimeException] Table "App\Model\Table\PicturesTable" is not associated with "Ptojects"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(104): Cake\ORM\Table->__get('Ptojects')
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 11:19:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:19:57 Error: [RuntimeException] Table "App\Model\Table\PicturesTable" is not associated with "Ptojects"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(104): Cake\ORM\Table->__get('Ptojects')
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 11:19:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:19:59 Error: [RuntimeException] Table "App\Model\Table\PicturesTable" is not associated with "Ptojects"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(104): Cake\ORM\Table->__get('Ptojects')
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 11:25:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:25:08 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:25:10 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:25:10 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:25:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:25:51 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:27:18 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:19 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:20 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:20 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:20 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:29 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(113): Cake\Core\ClassLoader->_requireFile('/var/www/html/g...')
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/ClassLoader.php(85): Cake\Core\ClassLoader->_loadMappedFile('Admin\\', 'Controller\\Pict...')
+#2 [internal function]: Cake\Core\ClassLoader->loadClass('Admin\\Controlle...')
+#3 [internal function]: spl_autoload_call('Admin\\Controlle...')
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('Admin\\Controlle...')
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Pic...', 'Admin')
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(91): Cake\Core\App::className('Admin.Pictures', 'Controller', 'Controller')
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(51): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(390): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventManager.php(356): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#13 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#14 {main}
+
+
+2016-04-30 11:27:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:27:30 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:27:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:27:33 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:27:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:27:40 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:27:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:27:41 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:28:15 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:28:15 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:28:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:28:16 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:28:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:28:16 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:28:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:28:18 Error: [Error] Call to a member function find() on boolean
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 [internal function]: Admin\Controller\PicturesController->add()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#4 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-04-30 11:28:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:30:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:30:32 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "sessions"
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Table.php(1201): Cake\ORM\Query->firstOrFail()
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(75): Cake\ORM\Table->get(Array, Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 11:30:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:43:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:54:43 Warning: Warning (2): file_get_contents(): Filename cannot be empty in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 106]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_get_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 106
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 11:56:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:56:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:57:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:57:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:57:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:58:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 11:58:12 Warning: Warning (2): file_get_contents(): Filename cannot be empty in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 106]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_get_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 106
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 11:59:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:00:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:00:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:00:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:00:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:01:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:01:19 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:01:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:08:02 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests"
+Request URL: /geri/debug_kit/toolbar/f514457a-2572-4039-9cc6-050bce37e148
+Referer URL: http://localhost/geri/home
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Table.php(1201): Cake\ORM\Query->firstOrFail()
+#1 /var/www/html/geri/vendor/cakephp/debug_kit/src/Controller/RequestsController.php(62): Cake\ORM\Table->get(Array, Array)
+#2 [internal function]: DebugKit\Controller\RequestsController->view('f514457a-2572-4...')
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:08:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:08:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:08:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:08:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:09:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:09:18 Error: [TypeError] Argument 2 passed to Cake\ORM\Association\BelongsToMany::link() must be of the type array, object given, called in /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php on line 109
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(109): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Object(App\Model\Entity\Project))
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 12:10:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:10:26 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(109): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:11:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:12:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:14:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:14:36 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(111): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:14:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:14:40 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(111): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:03 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:03 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:06 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:12 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:24 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:29 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:33 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:15:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:46 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:15:46 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(112): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:17:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:17:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:17:06 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:17:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:17:09 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:17:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:17:24 Error: [TypeError] Argument 2 passed to Cake\ORM\Association\BelongsToMany::link() must be of the type array, object given, called in /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php on line 114
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Object(App\Model\Entity\Project))
+#1 [internal function]: Admin\Controller\PicturesController->add()
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 12:17:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:10 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:19 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:19 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:18:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:23 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:18:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:18:31 Error: [InvalidArgumentException] Source entity needs to be persisted before proceeding
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(114): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:18:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:46 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:19:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:20:46 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:14 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:49 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:21:52 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:22:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:23:53 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:24:04 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:24:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:24:21 Error: [Error] Call to a member function isNew() on integer
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(115): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:24:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:24:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:24:39 Error: [Error] Call to a member function isNew() on integer
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(115): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:27:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:27:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:27:41 Error: [Error] Call to a member function isNew() on integer
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Association/BelongsToMany.php(704): Cake\ORM\Association\BelongsToMany->_checkPersistenceStatus(Object(App\Model\Entity\Picture), Array)
+#1 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(122): Cake\ORM\Association\BelongsToMany->link(Object(App\Model\Entity\Picture), Array)
+#2 [internal function]: Admin\Controller\PicturesController->add()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#6 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-04-30 12:27:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:29:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:29:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:29:54 Warning: Warning (2): file_get_contents(): Filename cannot be empty in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 107]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_get_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 107
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 12:29:54 Warning: Warning (2): file_put_contents(/var/www/html/geri/webroot/img/projects/testproject/) [<a href='http://php.net/function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Is a directory in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 107]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_put_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 107
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 12:29:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:32:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:32:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:32:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:32:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:33:03 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:33:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:33:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:33:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:33:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:34:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:35:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:35:01 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:35:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:35:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:35:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:36:14 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:36:15 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:36:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:38:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:38:55 Error: [ParseError] syntax error, unexpected '=', expecting ']'
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/var/www/html/g...', Array)
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/var/www/html/g...')
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#5 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-04-30 12:39:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:40:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:42:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:44:20 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:44:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:45:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:45:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:45:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:45:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:46:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:46:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:47:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:47:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:47:43 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:47:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:47:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:48:28 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:48:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:49:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:49:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:49:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:49:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 12:58:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:01:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:03:15 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:04:32 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:05:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:05:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:05:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:05:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:06:00 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:06:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:06:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:07:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:07:03 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 13:07:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:04:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:04:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:05:14 Error: [Cake\Controller\Exception\MissingActionException] Action ProjectsController::3() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProjectsController',
+  'action' => '3',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /geri/projects/3
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ProjectsController))
+#2 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-04-30 14:05:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/projects/var/www/html/geri/webroot/img/projects/testproject/
+Referer URL: http://localhost/geri/projects/view/3
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:05:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/projects/var/www/html/geri/webroot/img/projects/testproject/
+Referer URL: http://localhost/geri/projects/view/3
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:05:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:05:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:02 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/projects/var/www/html/geri/webroot/img/projects/testproject/
+Referer URL: http://localhost/geri/admin/pictures/view/435
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:06:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:39 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:06:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:32 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:07:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:08:26 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 14:08:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 14:08:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:07:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:07:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:08:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:09:29 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:09:31 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:12:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:12:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:12:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:13:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/projects
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 15:14:34 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:14:35 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:16:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:18:06 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:18:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:18:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:19:12 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:19:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:19:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:20:17 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:22:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:22:40 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:24:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:24:33 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:24:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:24:41 Warning: Warning (2): file_get_contents(): Filename cannot be empty in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 75]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_get_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 15:24:41 Warning: Warning (2): file_put_contents(/var/www/html/geri/webroot/img/thumbnails/) [<a href='http://php.net/function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Is a directory in [/var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php, line 75]
+Request URL: /geri/admin/pictures/add
+Referer URL: http://localhost/geri/admin/pictures/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+file_put_contents - [internal], line ??
+Admin\Controller\PicturesController::add() - ROOT/plugins/Admin/src/Controller/PicturesController.php, line 75
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2016-04-30 15:24:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:26:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:28:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:28:05 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:37 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:41 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:30:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:31:03 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:34:34 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:34:36 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:34:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:35:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:35:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:35:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:35:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:38:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:38:57 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:38:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:03 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:19 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:42 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:39:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:41:14 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:41:22 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:41:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:41:28 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:41:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:45 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:48 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:52 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:55 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:56 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:42:59 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:43:14 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:43:17 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:43:24 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:44:30 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:44:44 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:44:50 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:44:52 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:07 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:09 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:16 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:18 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:23 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:45:27 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:11 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:13 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:14 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:17 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:25 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:51 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:47:54 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:48:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 15:48:08 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 17:08:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/home
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 17:08:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /geri/img/
+Referer URL: http://localhost/geri/home
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

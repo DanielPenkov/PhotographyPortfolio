@@ -28,7 +28,8 @@ class PicturesProjectsTableTest extends TestCase
         'app.projects',
         'app.pictures',
         'app.sessions',
-        'app.albums'
+        'app.albums',
+        'app.categories'
     ];
 
     /**
