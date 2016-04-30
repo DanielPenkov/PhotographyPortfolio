@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12f149-dedb-48e9-9179-4f3a9b6d6e95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/favicon.ico" afterPath="$PROJECT_DIR$/webroot/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/error.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/error.ctp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Controller-controller-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-add-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-delete-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-edit-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-index-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-Controller-view-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Element-form-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Layout-default-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Model-entity-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-Model-table-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-tests-fixture-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/Bake-tests-test-case-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/add-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/edit-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/index-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/bake/view-ctp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/sessions/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/tests/empty" afterPath="" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -265,82 +279,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -476,18 +414,18 @@
       <workItem from="1460884432726" duration="1507000" />
       <workItem from="1461062029493" duration="421000" />
       <workItem from="1461062499401" duration="46000" />
-      <workItem from="1462010093181" duration="28398000" />
+      <workItem from="1462010093181" duration="28885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250123000" />
+    <option name="totallyTimeSpent" value="250610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1676" y="0" width="1688" height="1020" extended-state="7" />
-    <editor active="true" />
+    <frame x="1676" y="0" width="1688" height="1020" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
