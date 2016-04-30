@@ -1,6 +1,5 @@
 <?php
 return [
-    
     /**
      * Debug Level:
      *

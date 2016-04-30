@@ -2,62 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12f149-dedb-48e9-9179-4f3a9b6d6e95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Console/Installer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/AppController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/CategoriesController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/Component/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/HomeController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/PagesController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/PicturesController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Controller/SessionsController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Behavior/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Entity/Category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Entity/Picture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Entity/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Table/CategoriesTable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Table/PicturesTable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Model/Table/SessionsTable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Categories/add.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Categories/edit.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Categories/index.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Categories/view.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Element/Flash/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Element/Flash/error.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Element/Flash/success.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Email/html/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Email/text/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Error/error400.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Error/error500.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Home/index.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/Email/html/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/Email/text/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/ajax.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/error.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/gallery.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/landing.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/rss/default.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Layout/session.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Pages/landing.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Pictures/add.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Pictures/edit.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Pictures/index.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Pictures/view.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Sessions/add.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Sessions/edit.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Sessions/index.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Template/Sessions/view.ctp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/View/AjaxView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/View/AppView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/View/Helper/empty" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/error.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/error.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/session.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pages/landing.ctp" afterPath="$PROJECT_DIR$/src/Template/Pages/landing.ctp" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -92,8 +39,8 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="18">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -412,12 +359,12 @@
       <workItem from="1462010093181" duration="29542000" />
       <workItem from="1462045807964" duration="367000" />
       <workItem from="1462047005109" duration="42000" />
-      <workItem from="1462047048084" duration="644000" />
+      <workItem from="1462047048084" duration="856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252320000" />
+    <option name="totallyTimeSpent" value="252532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1680" height="1016" extended-state="6" />
@@ -814,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="18">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -823,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
