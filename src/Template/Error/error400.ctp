@@ -1,3 +1,9 @@
+<?php
+use Cake\Core\Configure;
+use Cake\Error\Debugger;
+$this->layout = 'error';
+?>
+
 <style type="text/css">
     body {font-size:14px; color:#777777; font-family:arial; text-align:center;}
     h1 {font-size:180px; color:#99A7AF;}
