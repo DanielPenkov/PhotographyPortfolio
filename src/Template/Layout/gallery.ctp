@@ -110,7 +110,7 @@
             <li id="contacts">
                 <?= $this->Html->link('CONTACTS', '/contacts'); ?>
             </li>
-            <li class="menu-item-right"><a class="menu-icon" href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="menu-item-right"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
             <li class="menu-item-right"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
             <li class="menu-item-right"><a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
         </ul>

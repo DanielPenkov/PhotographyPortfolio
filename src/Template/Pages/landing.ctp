@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="https://www.facebook.com/gergana.stories" class="icon fa-facebook" target="_blank"><span class="label"></span></a></li>
                 <li><a href="https://www.behance.net/gkurukyuvlieva" class="icon fa-behance" target="_blank"><span class="label"></span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label"></span></a></li>
+                <li><a href="https://www.instagram.com/kurukyuvlieva/" class="icon fa-instagram" target="_blank"><span class="label"></span></a></li>
 
         </nav>
     </header>
