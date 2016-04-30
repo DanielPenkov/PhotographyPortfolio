@@ -1,43 +1,14 @@
-<?php
-use Cake\Core\Configure;
-use Cake\Error\Debugger;
+<style type="text/css">
+    body {font-size:14px; color:#777777; font-family:arial; text-align:center;}
+    h1 {font-size:180px; color:#99A7AF;}
+    h2 {color: #DE6C5D; font-family: arial; font-size: 20px; font-weight: bold; letter-spacing: -1px; margin: -3px 0 39px;}
+    a:link {color: #34536A;}
+    a:visited {color: #34536A;}
+    a:active {color: #34536A;}
+    a:hover {color: #34536A;}
+</style>
 
-$this->layout = 'error';
-
-if (Configure::read('debug')):
-    $this->layout = 'dev_error';
-
-    $this->assign('title', $message);
-    $this->assign('templateName', 'error500.ctp');
-
-    $this->start('file');
-?>
-<?php if (!empty($error->queryString)) : ?>
-    <p class="notice">
-        <strong>SQL Query: </strong>
-        <?= h($error->queryString) ?>
-    </p>
-<?php endif; ?>
-<?php if (!empty($error->params)) : ?>
-        <strong>SQL Query Params: </strong>
-        <?php Debugger::dump($error->params) ?>
-<?php endif; ?>
-<?php if ($error instanceof Error) : ?>
-        <strong>Error in: </strong>
-        <?= sprintf('%s, line %s', str_replace(ROOT, 'ROOT', $error->getFile()), $error->getLine()) ?>
-<?php endif; ?>
-<?php
-    echo $this->element('auto_table_warning');
-
-    if (extension_loaded('xdebug')):
-        xdebug_print_function_stack();
-    endif;
-
-    $this->end();
-endif;
-?>
-<h2><?= __d('cake', 'An Internal Error Has Occurred') ?></h2>
-<p class="error">
-    <strong><?= __d('cake', 'Error') ?>: </strong>
-    <?= h($message) ?>
-</p>
+<div class="col-md-12 text-center">
+    <h1 class="text-center">500</h1>
+    <h2>Internal server error</h2>
+</div>
