@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12f149-dedb-48e9-9179-4f3a9b6d6e95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_categories" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_projects" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_sessions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_users" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations__users_en__u_s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/views/empty" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_albums" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures_projects" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_pictures_projects" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model/Table/PicturesTable.php" afterPath="$PROJECT_DIR$/Model/Table/PicturesTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/PicturesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php" afterPath="$PROJECT_DIR$/plugins/Admin/src/Controller/ProjectsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Layout/default.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Pictures/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp" afterPath="$PROJECT_DIR$/plugins/Admin/src/Template/Projects/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ProjectsController.php" afterPath="$PROJECT_DIR$/src/Controller/ProjectsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/PicturesProjectsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/PicturesProjectsTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Home/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Home/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" afterPath="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/PicturesProjectsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/PicturesProjectsFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/ProjectsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/ProjectsFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/PicturesProjectsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/PicturesProjectsTableTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/ProjectsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/ProjectsTableTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/gallery.css" afterPath="$PROJECT_DIR$/webroot/css/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/menu.css" afterPath="$PROJECT_DIR$/webroot/css/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/landing.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/session.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,11 +45,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Layout/landing.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -126,9 +134,6 @@
         <option value="$PROJECT_DIR$/webroot/js/horizontal.js" />
         <option value="$PROJECT_DIR$/webroot/css/horizontal.css" />
         <option value="$PROJECT_DIR$/src/Template/Categories/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/SessionsController.php" />
         <option value="$PROJECT_DIR$/src/Controller/CategoriesController.php" />
         <option value="$PROJECT_DIR$/src/Controller/AlbumsController.php" />
@@ -156,6 +161,9 @@
         <option value="$PROJECT_DIR$/src/Template/Home/index.ctp" />
         <option value="$PROJECT_DIR$/webroot/css/gallery.css" />
         <option value="$PROJECT_DIR$/webroot/css/menu.css" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
       </list>
     </option>
   </component>
@@ -226,38 +234,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -298,25 +274,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Layout" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,12 +409,12 @@
       <workItem from="1460884432726" duration="1507000" />
       <workItem from="1461062029493" duration="421000" />
       <workItem from="1461062499401" duration="46000" />
-      <workItem from="1462010093181" duration="26122000" />
+      <workItem from="1462010093181" duration="26891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247847000" />
+    <option name="totallyTimeSpent" value="248616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1676" y="0" width="1688" height="1020" extended-state="6" />
@@ -499,13 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/contacts.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -566,27 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="24" selection-start-line="4" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/landing.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="72" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -899,6 +829,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/landing.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
           <folding />
         </state>
       </provider>
