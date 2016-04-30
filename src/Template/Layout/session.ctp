@@ -4,11 +4,11 @@
     <?= $this->Html->charset() ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content=" ">
-    <meta name="description" content="enter any meta description here" />
-    <meta name="keywords" content="enter any meta keyword here" />
-
-    <title>Geri Stories</title>
+    <meta name="author" content="Daniel Penkov">
+    <meta name="description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
+    <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer" />
+    <title>Gergana Stories</title>
+    
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css([
