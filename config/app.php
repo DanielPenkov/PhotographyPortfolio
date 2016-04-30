@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
+    'debug' => filter_var(env('DEBUG', true), FILTER_VALIDATE_BOOLEAN),
 
     /**
      * Configure basic information about the application.
@@ -225,8 +225,8 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'daniel',
-            'password' => 'QaJZz8W7r5LVzzQ3x22S',
+            'username' => 'root',
+            'password' => 'hipodil85',
             'database' => 'geri',
             'encoding' => 'utf8',
             'timezone' => 'UTC',

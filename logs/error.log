@@ -916,3 +916,51 @@ Stack Trace:
 #1 {main}
 
 
+2016-04-30 09:53:21 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 09:53:21 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'daniel'@'localhost' (using password: YES)
+Request URL: /geri/admin
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'daniel', 'QaJZz8W7r5LVzzQ...', Array)
+#1 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /var/www/html/geri/vendor/cakephp/cakephp/src/Database/Connection.php(317): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#9 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\PicturesTable))
+#10 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Table.php(1242): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\PicturesTable))
+#11 /var/www/html/geri/vendor/cakephp/cakephp/src/ORM/Table.php(945): Cake\ORM\Table->query()
+#12 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(166): Cake\ORM\Table->find('all', Array)
+#13 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(688): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\PicturesTable), Array)
+#14 /var/www/html/geri/plugins/Admin/src/Controller/PicturesController.php(34): Cake\Controller\Controller->paginate(Object(App\Model\Table\PicturesTable))
+#15 [internal function]: Admin\Controller\PicturesController->index()
+#16 /var/www/html/geri/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#17 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#18 /var/www/html/geri/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(Admin\Controller\PicturesController))
+#19 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-04-30 09:53:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Request URL: /geri/css/base.css
+Referer URL: http://localhost/geri/admin
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 09:53:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Request URL: /geri/css/cake.css
+Referer URL: http://localhost/geri/admin
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/html/geri/webroot/index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-30 09:53:53 Warning: Missing configuration file: "config/permissions.php". Using default permissions
+2016-04-30 09:53:58 Warning: Missing configuration file: "config/permissions.php". Using default permissions
