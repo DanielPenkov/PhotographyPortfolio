@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12f149-dedb-48e9-9179-4f3a9b6d6e95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/landing.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/session.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/menu.css" afterPath="$PROJECT_DIR$/webroot/css/menu.css" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,9 +37,21 @@
       <file leaf-file-name="gallery.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="-667">
               <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="509" column="13" selection-start-line="509" selection-start-column="13" selection-end-line="509" selection-end-column="13" />
+              <folding>
+                <element signature="e#5904#8166#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.ctp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="session.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-1567">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
@@ -113,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/Template/Pages/contacts.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Home/index.ctp" />
         <option value="$PROJECT_DIR$/webroot/css/gallery.css" />
-        <option value="$PROJECT_DIR$/webroot/css/menu.css" />
         <option value="$PROJECT_DIR$/src/Template/Pages/landing.ctp" />
         <option value="$PROJECT_DIR$/vendor/aura/installer-default/src/Aura/Composer/DefaultInstaller.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -125,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/Template/Layout/landing.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Layout/session.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Layout/gallery.ctp" />
+        <option value="$PROJECT_DIR$/webroot/css/menu.css" />
       </list>
     </option>
   </component>
@@ -197,7 +207,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,33 +221,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geri" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layout" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,12 +361,12 @@
       <workItem from="1462010093181" duration="29542000" />
       <workItem from="1462045807964" duration="367000" />
       <workItem from="1462047005109" duration="42000" />
-      <workItem from="1462047048084" duration="3472000" />
+      <workItem from="1462047048084" duration="4398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255148000" />
+    <option name="totallyTimeSpent" value="256074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1680" height="1016" extended-state="6" />
@@ -631,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Template/Error/error500.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -770,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/landing.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -788,9 +761,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/session.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-1567">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-667">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="509" column="13" selection-start-line="509" selection-start-column="13" selection-end-line="509" selection-end-column="13" />
+          <folding>
+            <element signature="e#5904#8166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -364,6 +364,9 @@ Mobile style's
     width:90%;
     margin-bottom: 0px;
   }
+  .menu > ul > li > ul {
+    height:220px;
+  }
 
   .fancy{
     width:65%;
@@ -502,6 +505,9 @@ Mobile style's
     margin-top: 100px;
     width:98%;
     margin-bottom: 0px;
+  }
+  .menu > ul > li > ul {
+    height:220px;
   }
 
   .fancy{
