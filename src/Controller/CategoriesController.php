@@ -38,6 +38,7 @@ class CategoriesController extends AppController
             ])
         ->first();
 
+
         $this->set('category', $category);
         $this->set('_serialize', ['category']);
     }
