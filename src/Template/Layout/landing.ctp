@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Daniel Penkov">
     <meta name="description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
-    <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer" />
+    <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana" />
     <title>Gergana Stories</title>
     
     <?= $this->Html->meta('icon') ?>
