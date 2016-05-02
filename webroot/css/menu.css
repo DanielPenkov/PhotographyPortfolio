@@ -295,7 +295,7 @@ hr.menu-line:after {
 
 .contact-container{
   width: 900px;
-  margin: 80px auto;
+  margin: 10px auto;
   text-align: left;
 }
 
@@ -303,6 +303,7 @@ hr.menu-line:after {
   width:250px;
   min-width: 250px;
   float: left;
+  margin-top: 50px;
 }
 
 .contact-img img{
@@ -319,7 +320,6 @@ hr.menu-line:after {
 
 .contact-title{
   width: 900px;
-  height: 75px;
   float: left;
   text-align: left;
   font-weight: 500;
@@ -337,9 +337,10 @@ hr.menu-line:after {
 }
 
 .contact-icons{
-  width:500px;
+  width: 50%;
+  margin-left: 25%;
   float: left;
-  margin-top:100px
+  margin-top: 100px
 }
 
 
