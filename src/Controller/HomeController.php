@@ -38,7 +38,7 @@ class HomeController extends AppController
                     ->where(['Sessions.is_front' => true])
                     ->contain(['Albums']);
             })
-            ->order(['Pictures.placement' => 'ASC']);
+            ->order('rand()');
 
         $this->set('pictures', $pictures);
     }
