@@ -8,8 +8,17 @@
     <meta name="description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
     <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana" />
     <title>Gergana Stories</title>
+    
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="da_DK" />
+    <meta property="og:title" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
+    <meta property="og:url" content="http://gerganastories.com/" />
+    <meta property="og:site_name" content="http://gerganastories.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
 
-    <title>Geri Stories</title>
+
+    
     <?= $this->Html->meta('icon') ?>
     <?= $this->Html->css([
         'gallery.css',
