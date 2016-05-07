@@ -109,7 +109,6 @@ class PicturesTable extends Table
             $today = date("Y-m-d");
             $pictureOfTheDay->first()->picture_of_the_day_date = $today;
             $this->save($pictureOfTheDay->first());
-
             return $pictureOfTheDay->first();
         }
 
