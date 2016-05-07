@@ -78,4 +78,45 @@ class PicturesTable extends Table
         $rules->add($rules->existsIn(['session_id'], 'Sessions'));
         return $rules;
     }
+
+    public function getPictureOfTheDay( $count = null)
+    {
+        $pictureOfTheDay = $this->find()
+            ->where([
+                'Pictures.type' => 'session',
+                'Pictures.picture_of_the_day_date IS NULL',
+                'Pictures.picture_of_the_day' => true
+            ])
+            ->order('rand()')
+            ->limit(1);
+
+        if (empty($pictureOfTheDay)) {
+            $pictureOfTheDay = $this->find()
+                ->where([
+                    'Pictures.type' => 'session',
+                    'Pictures.picture_of_the_day' => true
+                ])
+                ->order('rand()')
+                ->limit(1);
+        }
+
+        $webroot = WWW_ROOT;
+        $imgSize = getimagesize($webroot . DS . 'img' . DS . $pictureOfTheDay->first()->url);
+        $imgHeight = $imgSize[1];
+        $imgWidth = $imgSize[0];
+
+        if ($imgWidth > $imgHeight) {
+            $today = date("Y-m-d");
+            $pictureOfTheDay->first()->picture_of_the_day_date = $today;
+            $this->save($pictureOfTheDay->first());
+
+            return $pictureOfTheDay->first();
+        }
+
+        $picture = $pictureOfTheDay->first();
+        $picture->picture_of_the_day = false;
+        $this->save($picture);
+
+        return $this->getPictureOfTheDay();
+    }
 }

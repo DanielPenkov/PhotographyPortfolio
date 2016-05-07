@@ -7,7 +7,7 @@
 
     <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>
 
-    <?= $this->Html->image('sessions/landscapes/incredible_full_moon_over_aalborg/full_moon_aalborg_5.jpg', ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
+    <?= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
     <br><br><br>
     <p class="subtitle fancy"><span style="width:100%"> LATEST PHOTOS</span></p>
 </div>

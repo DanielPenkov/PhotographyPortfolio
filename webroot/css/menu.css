@@ -177,7 +177,7 @@ hr.menu-line:after {
 }
 .menu > ul > li a {
   text-decoration: none;
-  padding: 20px 20px;
+  padding: 20px 15px;
   display: block;
 }
 .menu > ul > li:hover {

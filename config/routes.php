@@ -52,13 +52,17 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/contacts', ['controller' => 'Pages', 'action' => 'contacts', 'contact']);
     
     $routes->connect('/portraits/cv', ['controller' => 'Albums', 'action' => 'view', 1]);
+    $routes->connect('/portraits/men', ['controller' => 'Albums', 'action' => 'view', 8]);
+    $routes->connect('/portraits/couples', ['controller' => 'Albums', 'action' => 'view', 9]);
     $routes->connect('/portraits/women', ['controller' => 'Albums', 'action' => 'view', 6]);
+
+    $routes->connect('/events/party', ['controller' => 'Albums', 'action' => 'view', 10]);
+
     $routes->connect('/children', ['controller' => 'Albums', 'action' => 'view', 2]);
     $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
     $routes->connect('/business', ['controller' => 'Albums', 'action' => 'view', 4]);
     $routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
-    $routes->connect('/portraits/men', ['controller' => 'Albums', 'action' => 'view', 8]);
-    $routes->connect('/portraits/couples', ['controller' => 'Albums', 'action' => 'view', 9]);
+
     
     $routes->connect('/business/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
@@ -98,7 +102,7 @@ Router::scope('/', function (RouteBuilder $routes) {
 
 
     $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
-
+    $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
     
     /**
      * Connect catchall routes for all controllers.

@@ -71,6 +71,8 @@
             $('#projects').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('contacts') > -1) {
             $('#contacts').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('events') > -1) {
+            $('#events').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         }
     });
 </script>
