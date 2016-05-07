@@ -108,7 +108,13 @@ class PicturesTable extends Table
         if ($imgWidth > $imgHeight) {
             $today = date("Y-m-d");
             $pictureOfTheDay->first()->picture_of_the_day_date = $today;
+            debug($today);
+            debug($pictureOfTheDay->first());
+
+
             $this->save($pictureOfTheDay->first());
+            debug($pictureOfTheDay->first());
+            die;
             return $pictureOfTheDay->first();
         }
 
