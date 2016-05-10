@@ -87,6 +87,11 @@ class PicturesTable extends Table
                 'Pictures.picture_of_the_day_date IS NULL',
                 'Pictures.picture_of_the_day' => true
             ])
+            ->matching('Sessions.Albums', function ($q) {
+                return $q
+                    ->where(['Albums.name !=' => 'business'])
+                    ->andWhere(['Albums.name !=' => 'cv']);
+            })
             ->order('rand()')
             ->limit(1);
 
@@ -96,6 +101,11 @@ class PicturesTable extends Table
                     'Pictures.type' => 'session',
                     'Pictures.picture_of_the_day' => true
                 ])
+                ->matching('Sessions.Albums', function ($q) {
+                    return $q
+                        ->where(['Albums.name !=' => 'business'])
+                        ->andWhere(['Albums.name !=' => 'cv']);
+                })
                 ->order('rand()')
                 ->limit(1);
         }
