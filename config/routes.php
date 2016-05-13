@@ -50,7 +50,8 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'landing', 'landing']);
     $routes->connect('/contacts', ['controller' => 'Pages', 'action' => 'contacts', 'contact']);
-    
+
+    $routes->connect('/portraits/cv-linkedin', ['controller' => 'Albums', 'action' => 'view', 1]);
     $routes->connect('/portraits/cv', ['controller' => 'Albums', 'action' => 'view', 1]);
     $routes->connect('/portraits/men', ['controller' => 'Albums', 'action' => 'view', 8]);
     $routes->connect('/portraits/couples', ['controller' => 'Albums', 'action' => 'view', 9]);
@@ -69,6 +70,9 @@ Router::scope('/', function (RouteBuilder $routes) {
         ['id' => '\d+', 'pass' => ['id']]);
 
     $routes->connect('/cv/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+    $routes->connect('/cv-linkedin/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 

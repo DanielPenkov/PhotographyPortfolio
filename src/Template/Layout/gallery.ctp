@@ -80,7 +80,7 @@
                 <?= $this->Html->link('PORTRAITS', '/portraits'); ?>
                 <ul>
                     <li>
-                        <?= $this->Html->link('CV', '/portraits/cv'); ?>
+                        <?= $this->Html->link('CV - LinkedIn', '/portraits/cv-linkedin'); ?>
                         <ul></ul>
                     </li>
                     <li>
