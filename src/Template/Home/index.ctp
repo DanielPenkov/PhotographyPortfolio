@@ -9,10 +9,8 @@
 
     <?= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
     <br><br><br>
-    <p class="subtitle fancy"><span style="width:100%"> LATEST PHOTOS</span></p>
+    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>
 </div>
-
-
 
 <?php foreach ($pictures as $picture) { ?>
     <div class="gallery-container home-gallery">
