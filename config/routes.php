@@ -58,11 +58,16 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/portraits/women', ['controller' => 'Albums', 'action' => 'view', 6]);
 
     $routes->connect('/events/party', ['controller' => 'Albums', 'action' => 'view', 10]);
+    $routes->connect('/events/christening', ['controller' => 'Albums', 'action' => 'view', 11]);
+    $routes->connect('/events/confirmation', ['controller' => 'Albums', 'action' => 'view', 12]);
 
     $routes->connect('/children', ['controller' => 'Albums', 'action' => 'view', 2]);
     $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
     $routes->connect('/business', ['controller' => 'Albums', 'action' => 'view', 4]);
     $routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
+
+    $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
+    $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
 
     
     $routes->connect('/business/:id',
@@ -75,23 +80,19 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/cv-linkedin/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
-
-
+    
     $routes->connect('/children/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
-
-
+    
     $routes->connect('/maternity/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
-
-
+    
     $routes->connect('/landscapes/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
-
-
+    
     $routes->connect('/women/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
@@ -103,10 +104,21 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/couples/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
+    
+    $routes->connect('/party/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+    
+    $routes->connect('/christening/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+    
+    $routes->connect('/confirmation/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
 
 
-    $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
-    $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
+
     
     /**
      * Connect catchall routes for all controllers.

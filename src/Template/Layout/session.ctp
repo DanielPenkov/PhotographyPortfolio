@@ -111,6 +111,23 @@
             <li id = 'business'>
                 <?= $this->Html->link('BUSINESS', '/business'); ?>
             </li>
+            <li id ='events'>
+                <?= $this->Html->link('EVENTS', '/events'); ?>
+                <ul>
+                    <li>
+                        <?= $this->Html->link('PARTY', '/events/party'); ?>
+                        <ul></ul>
+                    </li>
+                    <li>
+                        <?= $this->Html->link('CONFIRMATION', '/events/confirmation'); ?>
+                        <ul></ul>
+                    </li>
+                    <li>
+                        <?= $this->Html->link('CHRISTENING', '/events/christening'); ?>
+                        <ul></ul>
+                    </li>
+                </ul>
+            </li>
             <li id = 'projects'>
                 <?= $this->Html->link('PROJECTS', '/projects'); ?>
             </li>
