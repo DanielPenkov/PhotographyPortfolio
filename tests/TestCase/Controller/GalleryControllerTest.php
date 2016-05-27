@@ -36,7 +36,7 @@ class GalleryControllerTest extends IntegrationTestCase
      */
     public function testView()
     {
-        $this->markTestIncomplete('Not implemented yet.');
+        $this->markTestIncomplete('Not impleented yet.');
     }
 
     /**
