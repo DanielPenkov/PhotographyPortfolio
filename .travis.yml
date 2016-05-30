@@ -5,24 +5,8 @@ php:
 
 sudo: false
 
-env:
-  matrix:
-    - DB=mysql db_dsn='mysql://travis@0.0.0.0/cakephp_test'
-  global:
-    - DEFAULT=1
-
-matrix:
-  allow_failures:
-    - php: hhvm
-
-  fast_finish: true
-
-  include:
-    - php: hhvm
-      env: HHVM=1 DB=mysql db_dsn='mysql://travis@0.0.0.0/cakephp_test'
-
 script:
-  - sh -c phpunit --stderr; fi
+  - phpunit
 
 notifications:
   email: false
