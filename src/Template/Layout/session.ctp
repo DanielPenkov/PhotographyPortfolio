@@ -115,6 +115,10 @@
                 <?= $this->Html->link('EVENTS', '/events'); ?>
                 <ul>
                     <li>
+                        <?= $this->Html->link('PUBLIC EVENTS', '/events/public_events'); ?>
+                        <ul></ul>
+                    </li>
+                    <li>
                         <?= $this->Html->link('PARTY', '/events/party'); ?>
                         <ul></ul>
                     </li>
@@ -124,10 +128,6 @@
                     </li>
                     <li>
                         <?= $this->Html->link('CHRISTENING', '/events/christening'); ?>
-                        <ul></ul>
-                    </li>
-                    <li>
-                        <?= $this->Html->link('PUBLIC EVENTS', '/events/public_events'); ?>
                         <ul></ul>
                     </li>
                 </ul>
