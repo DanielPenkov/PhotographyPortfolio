@@ -126,6 +126,10 @@
                         <?= $this->Html->link('CHRISTENING', '/events/christening'); ?>
                         <ul></ul>
                     </li>
+                    <li>
+                        <?= $this->Html->link('PUBLIC EVENTS', '/events/public_events'); ?>
+                        <ul></ul>
+                    </li>
                 </ul>
             </li>
             <li id = 'projects'>

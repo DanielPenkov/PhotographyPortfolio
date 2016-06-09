@@ -60,6 +60,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/events/party', ['controller' => 'Albums', 'action' => 'view', 10]);
     $routes->connect('/events/christening', ['controller' => 'Albums', 'action' => 'view', 11]);
     $routes->connect('/events/confirmation', ['controller' => 'Albums', 'action' => 'view', 12]);
+    $routes->connect('/events/public_events', ['controller' => 'Albums', 'action' => 'view', 13]);
 
     $routes->connect('/children', ['controller' => 'Albums', 'action' => 'view', 2]);
     $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
@@ -117,9 +118,13 @@ Router::scope('/', function (RouteBuilder $routes) {
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 
+    $routes->connect('/public_events/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
 
 
-    
+
+
     /**
      * Connect catchall routes for all controllers.
      *
