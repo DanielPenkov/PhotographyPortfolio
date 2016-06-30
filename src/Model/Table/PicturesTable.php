@@ -90,7 +90,11 @@ class PicturesTable extends Table
             ->matching('Sessions.Albums', function ($q) {
                 return $q
                     ->where(['Albums.name !=' => 'business'])
-                    ->andWhere(['Albums.name !=' => 'cv-linkedin']);
+                    ->andWhere(['Albums.name !=' => 'cv-linkedin'])
+                    ->andWhere(['Albums.name !=' => 'party'])
+                    ->andWhere(['Albums.name !=' => 'christening'])
+                    ->andWhere(['Albums.name !=' => 'confirmation'])
+                    ->andWhere(['Albums.name !=' => 'public_events']);
             })
             ->order('rand()')
             ->limit(1);

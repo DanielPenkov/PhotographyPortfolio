@@ -47,9 +47,9 @@ class HomeController extends AppController
             ->where(['Pictures.picture_of_the_day_date' => $today])
             ->first();
         
-        if (empty($pictureOfTheDay)) {
+        //if (empty($pictureOfTheDay)) {
             $pictureOfTheDay = $this->Pictures->getPictureOfTheDAy();
-        }
+        //}
 
         $this->set('pictureOfTheDay', $pictureOfTheDay);
         $this->set('pictures', $pictures);
