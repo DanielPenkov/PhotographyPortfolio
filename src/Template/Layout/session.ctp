@@ -65,6 +65,8 @@
             $('#contacts').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('events') > -1) {
             $('#events').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('weddings') > -1) {
+            $('#weddings').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         }
     });
 </script>
@@ -78,9 +80,7 @@
             <li id="home">
                 <?= $this->Html->link('HOME', ['controller' => 'Home', 'action' => 'index']); ?>
             </li>
-            <li id="landscapes">
-                <?= $this->Html->link('LANDSCAPES', '/landscapes'); ?>
-            </li>
+
             <li id ='portraits'>
                 <?= $this->Html->link('PORTRAITS', '/portraits'); ?>
                 <ul>
@@ -104,6 +104,9 @@
             </li>
             <li id="children">
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
+            </li>
+            <li id="weddings">
+                <?= $this->Html->link('WEDDINGS', '/weddings'); ?>
             </li>
             <li id = 'maternity'>
                 <?= $this->Html->link('MATERNITY', '/maternity'); ?>
@@ -132,8 +135,8 @@
                     </li>
                 </ul>
             </li>
-            <li id = 'projects'>
-                <?= $this->Html->link('PROJECTS', '/projects'); ?>
+            <li id="landscapes">
+                <?= $this->Html->link('LANDSCAPES', '/landscapes'); ?>
             </li>
             <li id="contacts">
                 <?= $this->Html->link('CONTACTS', '/contacts'); ?>

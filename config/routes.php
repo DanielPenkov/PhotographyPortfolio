@@ -66,6 +66,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
     $routes->connect('/business', ['controller' => 'Albums', 'action' => 'view', 4]);
     $routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
+    $routes->connect('/weddings', ['controller' => 'Albums', 'action' => 'view', 14]);
 
     $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
     $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
@@ -119,6 +120,10 @@ Router::scope('/', function (RouteBuilder $routes) {
         ['id' => '\d+', 'pass' => ['id']]);
 
     $routes->connect('/public_events/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/weddings/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 
