@@ -84,7 +84,7 @@ a {
 
 .menu-container {
   width: 100%;
-  margin: 20px auto;
+  margin: 20px auto 50px auto;
   background: white;
 }
 .menu-item-right{

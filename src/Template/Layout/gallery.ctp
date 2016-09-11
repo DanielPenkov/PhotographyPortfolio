@@ -47,6 +47,23 @@
             $('#landscapes').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('portraits') > -1) {
             $('#portraits').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+            $('#portraitsSubmenu').css('display', 'block');
+            if (name.indexOf('cv-linkedin') > -1) {
+                $('#cv-linkedin a').css('color', 'black');
+                $('#cv-linkedin a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('women') > -1) {
+                $('#women a').css('color', 'black');
+                $('#women a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('women') === -1 && name.indexOf('men') > -1) {
+                $('#men a').css('color', 'black');
+                $('#men a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('couples') > -1) {
+                $('#couples a').css('color', 'black');
+                $('#couples a').css('border-bottom', ' 1px solid #B00000');
+            }
         } else if (name.indexOf('children') > -1) {
             $('#children').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('maternity') > -1) {
@@ -59,6 +76,23 @@
             $('#contacts').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('events') > -1) {
             $('#events').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+            $('#eventsSubmenu').css('display', 'block');
+            if (name.indexOf('public_events') > -1) {
+                $('#public_events a').css('color', 'black');
+                $('#public_events a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('party') > -1) {
+                $('#party a').css('color', 'black');
+                $('#party a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('confirmation') > -1) {
+                $('#confirmation a').css('color', 'black');
+                $('#confirmation a').css('border-bottom', ' 1px solid #B00000');
+            }
+            if (name.indexOf('christening') > -1) {
+                $('#christening a').css('color', 'black');
+                $('#christening a').css('border-bottom', ' 1px solid #B00000');
+            }
         } else if (name.indexOf('weddings') > -1) {
             $('#weddings').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         }
@@ -78,20 +112,20 @@
 
             <li id ='portraits'>
                 <?= $this->Html->link('PORTRAITS', '/portraits'); ?>
-                <ul>
-                    <li>
+                <ul id="portraitsSubmenu">
+                    <li id ='cv-linkedin'>
                         <?= $this->Html->link('CV - LinkedIn', '/portraits/cv-linkedin'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="women">
                         <?= $this->Html->link('WOMEN', '/portraits/women'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="men">
                         <?= $this->Html->link('MEN', '/portraits/men'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="couples">
                         <?= $this->Html->link('COUPLES', '/portraits/couples'); ?>
                         <ul></ul>
                     </li>
@@ -111,20 +145,20 @@
             </li>
             <li id ='events'>
                 <?= $this->Html->link('EVENTS', '/events'); ?>
-                <ul>
-                    <li>
+                <ul id="eventsSubmenu">
+                    <li id="public_events">
                         <?= $this->Html->link('PUBLIC EVENTS', '/events/public_events'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="party">
                         <?= $this->Html->link('PARTY', '/events/party'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="confirmation">
                         <?= $this->Html->link('CONFIRMATION', '/events/confirmation'); ?>
                         <ul></ul>
                     </li>
-                    <li>
+                    <li id="christening">
                         <?= $this->Html->link('CHRISTENING', '/events/christening'); ?>
                         <ul></ul>
                     </li>
