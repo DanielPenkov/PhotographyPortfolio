@@ -28,18 +28,34 @@ class CategoriesController extends AppController
 
     public function view($id = null)
     {
-        $category = $this->Categories->find()
+        $portraits = $this->Categories->find()
             ->where(['Categories.id' => $id])
             ->contain([
-                'Albums.Sessions.Pictures' =>  function ($q) {
+                'Albums' => function($q) {
                     return $q
-                        ->where(['Pictures.type' => 'thumbnails']);
-                }
-            ])
-        ->first();
+                        ->where(['Albums.name !=' => 'cv-linkedin'])
+                        ->contain(['Sessions.Pictures' =>  function ($q) {
+                            return $q
+                                ->where(['Pictures.type' => 'thumbnails']);
+                        }]);
+            }])
+            ->first();
 
+        $cvSessions = $this->Categories->find()
+            ->where(['Categories.id' => $id])
+            ->contain([
+                'Albums' => function($q) {
+                    return $q
+                        ->where(['Albums.name' => 'cv-linkedin'])
+                        ->contain(['Sessions.Pictures' =>  function ($q) {
+                            return $q
+                                ->where(['Pictures.type' => 'thumbnails']);
+                        }]);
+                }])
+            ->first();
 
-        $this->set('category', $category);
+        $this->set('cvSessions', $cvSessions);
+        $this->set('portraits', $portraits);
         $this->set('_serialize', ['category']);
     }
 }
