@@ -10,7 +10,7 @@
     <title>Gergana - Photographer in Aalborg and Nørresundby</title>
 
     <?php if($this->Url->build(null) === '/portraits/cv-linkedin') { ?>
-        <meta property="og:image" content="http://gerganastories.com/img/sessions/cv/veronika/veronika_2.jpg" />
+        <meta property="og:image" content="http://gerganastories.com//img/thumbnails/veronika_thumbnail.png" />
    <?php } ?>
 
 
