@@ -9,7 +9,7 @@
     <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
     <title>Gergana - Photographer in Aalborg and Nørresundby</title>
     <meta name="google-site-verification" content="BoAFuGdGetn3FJ0dmwkhDPx6TwOCAGCxOLLM9oAlQz4"/>
-    <meta property="og:image" content="http://gerganastories.com/img/sessions/cv/veronika/veronika_2.jpg" />
+
     
     <?= $this->Html->meta('icon') ?>
 
