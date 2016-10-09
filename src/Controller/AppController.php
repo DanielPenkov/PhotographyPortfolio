@@ -44,8 +44,8 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
-        $bugsnag = Bugsnag\Client::make("f863bae69ba54a72f711ab2cd42efe86");
-        Bugsnag\Handler::register($bugsnag);
+        //$bugsnag = Bugsnag\Client::make("f863bae69ba54a72f711ab2cd42efe86");
+        //Bugsnag\Handler::register($bugsnag);
     }
 
     /**
