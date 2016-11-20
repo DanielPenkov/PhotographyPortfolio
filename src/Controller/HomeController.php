@@ -3,38 +3,27 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use App\Model\Entity\Picture;
+use Cake\ORM\Query;
 
 /**
- * Galery Controller
+ * HomeController
  *
- * @property \App\Model\Table\GaleryTable $Galery
+ * @property \App\Model\Table\PicturesTable $Pictures
  */
 class HomeController extends AppController
 {
 
-    public function initialize()
+    public function index()
     {
-        parent::initialize();
-
         $this->loadModel('Pictures');
         $this->loadModel('Albums');
         $this->loadModel('Sessions');
 
         $this->viewBuilder()->layout('gallery');
-    }
 
-    /**
-     * Index method
-     *
-     * @return \Cake\Network\Response|null
-     */
-    public function index()
-    {
-        $this->viewBuilder()->layout('gallery');
-        
         $pictures = $this->Pictures->find()
             ->where(['Pictures.type' => 'thumbnails'])
-            ->matching('Sessions', function ($q) {
+            ->matching('Sessions', function (Query $q) {
                 return $q
                     ->where(['Sessions.is_front' => true])
                     ->contain(['Albums']);
@@ -46,7 +35,7 @@ class HomeController extends AppController
         $pictureOfTheDay = $this->Pictures->find()
             ->where(['Pictures.picture_of_the_day_date' => $today])
             ->first();
-        
+
         if (empty($pictureOfTheDay)) {
             $pictureOfTheDay = $this->Pictures->getPictureOfTheDAy();
         }

@@ -3,11 +3,14 @@ namespace Admin\Controller;
 
 use Admin\Controller\AppController;
 use App\Model\Entity\Pictures;
+use Cake\I18n\FrozenDate;
 
 /**
  * Pictures Controller
  *
  * @property \App\Model\Table\PicturesTable $Pictures
+ * @property \App\Model\Table\ProjectsTable $Projects
+ * @property \App\Model\Table\SessionsTable $Sessions
  */
 class PicturesController extends AppController
 {
@@ -21,11 +24,6 @@ class PicturesController extends AppController
         $this->loadModel('Projects');
     }
 
-   /**
-     * Index method
-     *
-     * @return \Cake\Network\Response|null
-     */
     public function index()
     {
         $this->paginate = [
@@ -37,13 +35,6 @@ class PicturesController extends AppController
         $this->set('_serialize', ['pictures']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Picture id.
-     * @return \Cake\Network\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $picture = $this->Pictures->get($id, [
@@ -54,11 +45,6 @@ class PicturesController extends AppController
         $this->set('_serialize', ['picture']);
     }
 
-    /**
-     * Add method
-     *
-     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $picture = $this->Pictures->newEntity();
@@ -145,20 +131,27 @@ class PicturesController extends AppController
         $this->set('_serialize', ['picture']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id Picture id.
-     * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $picture = $this->Pictures->get($id, [
             'contain' => ['Projects']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $picture = $this->Pictures->patchEntity($picture, $this->request->data);
+            $data = $this->request->data;
+
+            //Make it picture of the day
+            if ($data['set_picture_of_the_day'] !== '0') {
+                $pictureOfTheDay = $this->Pictures->find()
+                    ->orderDesc('Pictures.picture_of_the_day_date')
+                    ->first();
+
+                $pictureOfTheDay->picture_of_the_day_date = null;
+                $this->Pictures->save($pictureOfTheDay);
+
+                $data['picture_of_the_day_date'] = new FrozenDate();
+            }
+
+            $picture = $this->Pictures->patchEntity($picture, $data);
             if ($this->Pictures->save($picture)) {
                 $this->Flash->success(__('The picture has been saved.'));
                 return $this->redirect(['action' => 'index']);
@@ -172,13 +165,6 @@ class PicturesController extends AppController
         $this->set('_serialize', ['picture']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Picture id.
-     * @return \Cake\Network\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);

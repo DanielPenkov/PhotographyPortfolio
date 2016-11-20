@@ -31,11 +31,7 @@ class ProjectsTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsToMany('Pictures', [
-            'foreignKey' => 'project_id',
-            'targetForeignKey' => 'picture_id',
-            'joinTable' => 'pictures_projects'
-        ]);
+        $this->belongsToMany('Pictures');
     }
 
     /**

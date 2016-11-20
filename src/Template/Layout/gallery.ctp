@@ -23,13 +23,21 @@
     ]) ?>
     <?= $this->Html->script([
         'jquery-2.2.2.min.js',
-        'menu.js'
+        'menu.js',
+        'jquery.snow.min.1.0.js'
     ]) ?>
 </head>
 <body>
 <script>
     $(function() {
 
+        //Kogato miloto kaje go puskame!!!!
+//        $.fn.snow({
+//            flakeColor: 'white',
+//            newOn: 100,
+//            minSize: 30,
+//            maxSze: 40
+//        });
         $(document).keydown(function(event){
             if(event.keyCode==123){
                 return false;

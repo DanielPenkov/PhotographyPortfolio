@@ -29,9 +29,7 @@ class CategoriesTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
 
-        $this->hasMany('Albums', [
-            'foreignKey' => 'category_id'
-        ]);
+        $this->hasMany('Albums');
     }
 
     /**

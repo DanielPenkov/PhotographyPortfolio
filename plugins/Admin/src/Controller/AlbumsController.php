@@ -3,6 +3,7 @@ namespace Admin\Controller;
 
 use Admin\Controller\AppController;
 use App\Model\Entity\Albums;
+use Cake\ORM\Query;
 
 
 /**
@@ -12,6 +13,7 @@ use App\Model\Entity\Albums;
  */
 class AlbumsController extends AppController
 {
+
     public function initialize()
     {
         parent::initialize();
@@ -32,19 +34,12 @@ class AlbumsController extends AppController
         $this->set('_serialize', ['albums']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Album id.
-     * @return \Cake\Network\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $album = $this->Albums->get($id, [
             'contain' => [
                 'Categories',
-                'Sessions.Pictures' => function ($q) {
+                'Sessions.Pictures' => function (Query $q) {
                     return $q
                         ->where(['Pictures.type' => 'thumbnails']);
                 }]
@@ -54,11 +49,6 @@ class AlbumsController extends AppController
         $this->set('_serialize', ['album']);
     }
 
-    /**
-     * Add method
-     *
-     * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $album = $this->Albums->newEntity();
@@ -76,13 +66,6 @@ class AlbumsController extends AppController
         $this->set('_serialize', ['album']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id Album id.
-     * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $album = $this->Albums->get($id, [
@@ -102,13 +85,6 @@ class AlbumsController extends AppController
         $this->set('_serialize', ['album']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Album id.
-     * @return \Cake\Network\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
@@ -120,5 +96,5 @@ class AlbumsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
-  
+
 }

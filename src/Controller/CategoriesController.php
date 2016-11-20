@@ -2,39 +2,34 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\ORM\Query;
 
 
 /**
  * Categories Controller
  *
  * @property \App\Model\Table\CategoriesTable $Categories
+ * @property \App\Model\Table\AlbumsTable $Albums
+ * @property \App\Model\Table\SessionsTable $Sessions
  */
 class CategoriesController extends AppController
 {
-    /**
-     * {@inheritDoc}
-     */
-    public function initialize()
+    public function view($id = null)
     {
-        parent::initialize();
-
         $this->loadModel('Pictures');
         $this->loadModel('Categories');
         $this->loadModel('Albums');
         $this->loadModel('Sessions');
 
         $this->viewBuilder()->layout('gallery');
-    }
 
-    public function view($id = null)
-    {
         $portraits = $this->Categories->find()
             ->where(['Categories.id' => $id])
             ->contain([
-                'Albums' => function($q) {
+                'Albums' => function(Query $q) {
                     return $q
                         ->where(['Albums.name !=' => 'cv-linkedin'])
-                        ->contain(['Sessions.Pictures' =>  function ($q) {
+                        ->contain(['Sessions.Pictures' =>  function (Query $q) {
                             return $q
                                 ->where(['Pictures.type' => 'thumbnails']);
                         }]);

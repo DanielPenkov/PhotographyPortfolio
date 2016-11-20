@@ -30,15 +30,9 @@ class PicturesTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
 
-        $this->belongsTo('Sessions', [
-            'foreignKey' => 'session_id'
-        ]);
+        $this->belongsTo('Sessions');
 
-        $this->belongsToMany('Projects', [
-            'foreignKey' => 'picture_id',
-            'targetForeignKey' => 'project_id',
-            'joinTable' => 'pictures_projects'
-        ]);
+        $this->belongsToMany('Projects');
     }
 
     /**

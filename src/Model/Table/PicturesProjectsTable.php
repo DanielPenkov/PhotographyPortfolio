@@ -31,12 +31,8 @@ class PicturesProjectsTable extends Table
         $this->displayField('id');
         $this->primaryKey('id');
 
-        $this->belongsTo('Projects', [
-            'foreignKey' => 'project_id'
-        ]);
-        $this->belongsTo('Pictures', [
-            'foreignKey' => 'picture_id'
-        ]);
+        $this->belongsTo('Projects');
+        $this->belongsTo('Pictures');
     }
 
     /**

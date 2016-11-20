@@ -29,9 +29,8 @@ class AlbumsTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
 
-        $this->hasMany('Sessions', [
-            'foreignKey' => 'album_id'
-        ]);
+        $this->hasMany('Sessions');
+
         $this->belongsTo('Categories');
     }
 

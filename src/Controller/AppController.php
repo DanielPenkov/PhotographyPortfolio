@@ -15,6 +15,7 @@
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Cake\Core\Configure;
 use Cake\Event\Event;
 use Bugsnag;
 
@@ -44,8 +45,12 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
-        //$bugsnag = Bugsnag\Client::make("f863bae69ba54a72f711ab2cd42efe86");
-        //Bugsnag\Handler::register($bugsnag);
+        //Load Bugsnag
+        if (Configure::read('debug') === false) {
+            $bugsnag = Bugsnag\Client::make("f863bae69ba54a72f711ab2cd42efe86");
+            Bugsnag\Handler::register($bugsnag);
+            $bugsnag->notifyError('ErrorType', 'Test Error');
+        }
     }
 
     /**

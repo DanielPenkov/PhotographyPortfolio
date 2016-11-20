@@ -30,10 +30,7 @@ class SessionsTable extends Table
         $this->primaryKey('id');
 
         $this->belongsTo('Albums');
-        $this->hasMany('Pictures', [
-            'foreignKey' => 'session_id'
-        ]);
-        
+        $this->hasMany('Pictures');
     }
 
     /**
