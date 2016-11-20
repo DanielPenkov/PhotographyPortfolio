@@ -49,7 +49,6 @@ class AppController extends Controller
         if (Configure::read('debug') === false) {
             $bugsnag = Bugsnag\Client::make("f863bae69ba54a72f711ab2cd42efe86");
             Bugsnag\Handler::register($bugsnag);
-            $bugsnag->notifyError('ErrorType', 'Test Error');
         }
     }
 
