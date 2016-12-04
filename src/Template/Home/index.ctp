@@ -1,16 +1,66 @@
+<?= $this->Html->script([
+        'owl.carousel.js',
+]) ?>
+
+<?= $this->Html->css([
+    'owl.carousel.css',
+    'owl.theme.css'
+]) ?>
+
 <script>
     $(function () {
-        document.getElementById('pictureDay').ondragstart = function() { return false; };
+
+        $("#owl-demo").owlCarousel({
+
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 1000,
+            paginationSpeed : 600,
+            singleItem:true,
+            autoHeight : true
+        });
+        //document.getElementById('pictureDay').ondragstart = function() { return false; };
     });
 </script>
-<div class="pictureOfTheDay">
 
-    <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>
+<style>
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+    }
+</style>
 
-    <?= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
-    <br><br><br>
-    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>
+<!--Stop for christmas-->
+<!--<div class="pictureOfTheDay">-->
+<!---->
+<!--    <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>-->
+<!---->
+<!--    --><?//= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
+<!--    <br><br><br>-->
+<!--    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>-->
+<!--</div>-->
+
+
+
+
+<div class="gallery-container" id="demo">
+    <div class="container">
+        <div class="row pictureOfTheDay">
+            <p class="subtitle fancy"><span style="width:100%;color:#B00000">CHRISTMAS 2016</span></p>
+            <div class="span12">
+                <div id="owl-demo" class="owl-carousel">
+                    <div class="item"><img src="/christmas/koleda_1.jpg" alt="Owl Image"></div>
+                    <div class="item"><img src="/christmas/koleda_2.jpg" alt="Owl Image"></div>
+                    <div class="item"><img src="/christmas/koleda_3.jpg" alt="Owl Image"></div>
+                    <div class="item"><img src="/christmas/koleda_5.jpg" alt="Owl Image"></div>
+                    <div class="item"><img src="/christmas/koleda_8.jpg" alt="Owl Image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <?php foreach ($pictures as $picture) { ?>
     <div class="gallery-container home-gallery">
