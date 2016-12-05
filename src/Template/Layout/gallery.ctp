@@ -115,6 +115,13 @@
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
     <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
+    <div class="menu">
+        <ul style="width:150px">
+            <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+            <li style="width:50px"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
+            <li style="width:50px"> <a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
+        </ul>
+    </div>
 </div>
 <div class="menu-container">
     <div class="menu">
@@ -183,9 +190,9 @@
             <li id="contacts">
                 <?= $this->Html->link('CONTACTS', '/contacts'); ?>
             </li>
-            <li class="menu-item-right"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
-            <li class="menu-item-right"><a class="menu-icon" href="https://www.behance.net/gkurukyuvlieva" target="_blank"><span class="fa fa-behance"</span></a></li>
-            <li class="menu-item-right"><a class="menu-icon" href="https://www.facebook.com/gergana.stories" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li id="projects">
+                <?= $this->Html->link('PROJECTS', '/projects'); ?>
+            </li>
         </ul>
     </div>
 </div>
