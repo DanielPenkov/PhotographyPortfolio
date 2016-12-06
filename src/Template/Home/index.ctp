@@ -26,7 +26,7 @@
     #owl-demo .item img{
         display: block;
         width: 100%;
-        max-width: 1000px;
+        max-width: 650px;
         margin: auto;
     }
 </style>
