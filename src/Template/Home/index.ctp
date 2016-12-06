@@ -50,17 +50,20 @@
             <p class="subtitle fancy"><span style="width:100%;color:#B00000">CHRISTMAS 2016</span></p>
             <div class="span12">
                 <div id="owl-demo" class="owl-carousel">
-                    <div class="item"><img src="/christmas/koleda_1.jpg" alt="Owl Image"></div>
-                    <div class="item"><img src="/christmas/koleda_2.jpg" alt="Owl Image"></div>
-                    <div class="item"><img src="/christmas/koleda_3.jpg" alt="Owl Image"></div>
-                    <div class="item"><img src="/christmas/koleda_5.jpg" alt="Owl Image"></div>
-                    <div class="item"><img src="/christmas/koleda_8.jpg" alt="Owl Image"></div>
+                    <div class="item"><img src="/christmas/christmas_1.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_2.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_3.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_4.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_5.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_6.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_7.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_9.jpg" alt="Christmas image"></div>
+                    <div class="item"><img src="/christmas/christmas_10.jpg" alt="Christmas image"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <?php foreach ($pictures as $picture) { ?>
     <div class="gallery-container home-gallery">

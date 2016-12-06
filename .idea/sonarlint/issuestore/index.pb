@@ -21,3 +21,7 @@ O
 src/Template/Layout/gallery.ctp,1/d/1da7cbce3cab0d199625d83dd64d2c62dc393949
 K
 src/Template/Home/index.ctp,1/0/101b9444c57f1f8cf9e99726e8fb46f786972e48
+S
+#src/Template/Layout/rss/default.ctp,9/d/9d39e7d6ad019919a404758c488a428fd9321cfd
+R
+"src/Controller/PagesController.php,6/0/60bb68836bd7d9c9f03012daf2140dadf345bd6e
