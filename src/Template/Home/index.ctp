@@ -47,7 +47,11 @@
 <div class="gallery-container" id="demo">
     <div class="container">
         <div class="row pictureOfTheDay">
-            <p class="subtitle fancy"><span style="width:100%;color:#B00000">CHRISTMAS 2016</span></p>
+            <p class="subtitle fancy">
+                <span>
+                    <a style="width:100%;color:#B00000; font-size: 25px" class="menu-icon" href="https://www.facebook.com/events/1538523332830427/" target="_blank">CHRISTMAS 2016</a>
+                </span>
+            </p>
             <div class="span12">
                 <div id="owl-demo" class="owl-carousel">
                     <div class="item"><img src="/christmas/christmas_1.jpg" alt="Christmas image"></div>
