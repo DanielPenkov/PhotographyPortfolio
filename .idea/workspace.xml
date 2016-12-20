@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ac320b-aab4-4a00-a895-fe17c8505b78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_1.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_10.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_2.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_3.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_4.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_5.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_6.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_7.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/christmas/christmas_9.jpg" afterPath="$PROJECT_DIR$/webroot/christmas/christmas_9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Home/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Home/index.ctp" />
     </list>
     <ignored path="geri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +37,10 @@
       <file leaf-file-name="index.ctp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Template/Home/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
-                <marker date="1481136407864" expanded="false" signature="1014:1024" ph="..." />
+                <marker date="1481136505194" expanded="false" signature="1014:1024" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,8 +49,8 @@
       <file leaf-file-name="gallery.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-846">
-              <caret line="121" column="161" lean-forward="true" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="161" />
+            <state relative-caret-position="2178">
+              <caret line="121" column="161" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="161" />
               <folding />
             </state>
           </provider>
@@ -198,9 +188,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="1679" />
+    <option name="y" value="23" />
     <option name="width" value="1682" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -241,6 +232,32 @@
     <panes>
       <pane id="Scope">
         <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="/">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="home">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dancho">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dev">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -345,6 +362,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -459,7 +477,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,7 +525,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -665,12 +682,14 @@
       <workItem from="1480959584790" duration="3183000" />
       <workItem from="1481049215243" duration="923000" />
       <workItem from="1481051266231" duration="910000" />
-      <workItem from="1481136080480" duration="329000" />
+      <workItem from="1481136080480" duration="682000" />
+      <workItem from="1481218102986" duration="174000" />
+      <workItem from="1482261751666" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359696000" />
+    <option name="totallyTimeSpent" value="360227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,17 +701,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1682" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1679" y="23" width="1682" height="1027" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3378213" sideWeight="0.4871795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34638923" sideWeight="0.4871795" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2451613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24387528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39522058" sideWeight="0.51224947" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1070,18 +1089,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/gallery.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="121" column="161" lean-forward="true" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="161" />
+        <state relative-caret-position="2178">
+          <caret line="121" column="161" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="161" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Home/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="270">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
-            <marker date="1481136407864" expanded="false" signature="1014:1024" ph="..." />
+            <marker date="1481136505194" expanded="false" signature="1014:1024" ph="..." />
           </folding>
         </state>
       </provider>

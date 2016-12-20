@@ -49,7 +49,7 @@
         <div class="row pictureOfTheDay">
             <p class="subtitle fancy">
                 <span>
-                    <a style="width:100%;color:#B00000; font-size: 25px" class="menu-icon" href="https://www.facebook.com/events/1538523332830427/" target="_blank">CHRISTMAS 2016</a>
+                    <a style="width:100%;color:#B00000; font-size: 25px" class="menu-icon" href="https://www.facebook.com/pg/gergana.stories/photos/?tab=album&album_id=1154689054567126" target="_blank">CHRISTMAS 2016</a>
                 </span>
             </p>
             <div class="span12">
