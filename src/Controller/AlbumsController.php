@@ -16,6 +16,7 @@ class AlbumsController extends AppController
 {
     public function view($id = null)
     {
+
         $this->loadModel('Pictures');
         $this->loadModel('Albums');
         $this->loadModel('Sessions');

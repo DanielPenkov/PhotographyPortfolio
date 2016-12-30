@@ -79,6 +79,13 @@
             }
         } else if (name.indexOf('children') > -1) {
             $('#children').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+            $('#childrenSubmenu').css('display', 'block');
+
+            if (name.indexOf('christmas') > -1) {
+                $('#christmas a').css('color', 'black');
+                $('#christmas a').css('border-bottom', ' 1px solid #B00000');
+            }
+
         } else if (name.indexOf('maternity') > -1) {
             $('#maternity').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('business') > -1) {
@@ -153,6 +160,13 @@
             </li>
             <li id="children">
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
+                <ul id="childrenSubmenu">
+                    <li id="christmas">
+                        <?= $this->Html->link('CHRISTMAS SESSIONS', '/children/christmas'); ?>
+                        <ul></ul>
+                    </li>
+
+                </ul>
             </li>
             <li id="weddings">
                 <?= $this->Html->link('WEDDINGS', '/weddings'); ?>

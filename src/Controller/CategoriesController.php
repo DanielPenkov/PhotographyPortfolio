@@ -28,7 +28,10 @@ class CategoriesController extends AppController
             ->contain([
                 'Albums' => function(Query $q) {
                     return $q
-                        ->where(['Albums.name !=' => 'cv-linkedin'])
+                        ->where([
+                            'Albums.name !=' => 'cv-linkedin',
+                            'Albums.name !=' => 'christmas',
+                        ])
                         ->contain(['Sessions.Pictures' =>  function (Query $q) {
                             return $q
                                 ->where(['Pictures.type' => 'thumbnails']);

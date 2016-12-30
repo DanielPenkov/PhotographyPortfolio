@@ -112,6 +112,13 @@
             </li>
             <li id="children">
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
+                <ul>
+                    <li>
+                        <?= $this->Html->link('CHRISTMAS SESSIONS', '/christmas'); ?>
+                        <ul></ul>
+                    </li>
+
+                </ul>
             </li>
             <li id="weddings">
                 <?= $this->Html->link('WEDDINGS', '/weddings'); ?>
