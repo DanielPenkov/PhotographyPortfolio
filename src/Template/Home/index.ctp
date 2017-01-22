@@ -18,7 +18,7 @@
             singleItem:true,
             autoHeight : true
         });
-        //document.getElementById('pictureDay').ondragstart = function() { return false; };
+        document.getElementById('pictureDay').ondragstart = function() { return false; };
     });
 </script>
 
@@ -31,43 +31,15 @@
     }
 </style>
 
-<!--Stop for christmas-->
-<!--<div class="pictureOfTheDay">-->
-<!---->
-<!--    <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>-->
-<!---->
-<!--     $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px'])-->
-<!--    <br><br><br>-->
-<!--    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>-->
-<!--</div>-->
+<div class="pictureOfTheDay">
 
+    <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>
 
-
-
-<div class="gallery-container" id="demo">
-    <div class="container">
-        <div class="row pictureOfTheDay">
-            <p class="subtitle fancy">
-                <span>
-                    <a style="width:100%;color:#B00000; font-size: 25px" class="menu-icon" href="https://www.facebook.com/pg/gergana.stories/photos/?tab=album&album_id=1154689054567126" target="_blank">CHRISTMAS 2016</a>
-                </span>
-            </p>
-            <div class="span12">
-                <div id="owl-demo" class="owl-carousel">
-                    <div class="item"><img src="/christmas/christmas_1.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_2.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_3.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_4.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_5.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_6.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_7.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_9.jpg" alt="Christmas image"></div>
-                    <div class="item"><img src="/christmas/christmas_10.jpg" alt="Christmas image"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+     <?= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
+    <br><br><br>
+    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>
 </div>
+
 
 <?php foreach ($pictures as $picture) { ?>
     <div class="gallery-container home-gallery">

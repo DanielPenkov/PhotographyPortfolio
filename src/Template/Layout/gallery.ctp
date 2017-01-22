@@ -30,14 +30,6 @@
 <body>
 <script>
     $(function() {
-
-        //Kogato miloto kaje go puskame!!!!
-//        $.fn.snow({
-//            flakeColor: 'white',
-//            newOn: 100,
-//            minSize: 30,
-//            maxSze: 40
-//        });
         $(document).keydown(function(event){
             if(event.keyCode==123){
                 return false;
