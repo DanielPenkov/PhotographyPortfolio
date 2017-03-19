@@ -205,24 +205,19 @@
                 <?= $this->Html->link('BUSINESS', '/business'); ?>
                 <ul id="businessSubmenu">
                     <li id ='product-photography'>
-                        <?= $this->Html->link('Product photography', '/business/product-photography'); ?>
+                        <?= $this->Html->link('PRODUCT PHOTOGRAPHY', '/business/product-photography'); ?>
                         <ul></ul>
                     </li>
                     <li id="property-photography">
-                        <?= $this->Html->link('Property photography', '/business/property-photography'); ?>
+                        <?= $this->Html->link('PROPERTY PHOTOGRAPHY', '/business/property-photography'); ?>
                         <ul></ul>
                     </li>
                     <li id="other-business">
-                        <?= $this->Html->link('Other', '/business/other-business'); ?>
+                        <?= $this->Html->link('OTHER', '/business/other-business'); ?>
                         <ul></ul>
                     </li>
                 </ul>
             </li>
-
-
-
-
-
             <li id ='events'>
                 <?= $this->Html->link('EVENTS', '/events'); ?>
                 <ul id="eventsSubmenu">
