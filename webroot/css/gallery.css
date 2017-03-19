@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+
 html {
    box-sizing: border-box!important;
    height: 65%;
@@ -37,9 +39,9 @@ body{
 }
 
 .description-box h1 {
-    font-size: 24px;
+    font-family: 'Marcellus SC', serif;
+    font-size: 20px;
     font-weight: 100;
-    font-style: italic;
     text-align: center;
 }
 
