@@ -30,17 +30,6 @@ class HomeController extends AppController
             })
             ->order('rand()');
 
-        $today = date("Y-m-d");
-
-        $pictureOfTheDay = $this->Pictures->find()
-            ->where(['Pictures.picture_of_the_day_date' => $today])
-            ->first();
-
-        if (empty($pictureOfTheDay)) {
-            $pictureOfTheDay = $this->Pictures->getPictureOfTheDAy();
-        }
-
-        $this->set('pictureOfTheDay', $pictureOfTheDay);
         $this->set('pictures', $pictures);
     }
 }

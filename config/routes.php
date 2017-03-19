@@ -51,27 +51,35 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'landing', 'landing']);
     $routes->connect('/contacts', ['controller' => 'Pages', 'action' => 'contacts', 'contact']);
 
+    $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
     $routes->connect('/portraits/cv-linkedin', ['controller' => 'Albums', 'action' => 'view', 1]);
     $routes->connect('/portraits/cv', ['controller' => 'Albums', 'action' => 'view', 1]);
     $routes->connect('/portraits/men', ['controller' => 'Albums', 'action' => 'view', 8]);
     $routes->connect('/portraits/couples', ['controller' => 'Albums', 'action' => 'view', 9]);
     $routes->connect('/portraits/women', ['controller' => 'Albums', 'action' => 'view', 6]);
 
+    $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
     $routes->connect('/events/party', ['controller' => 'Albums', 'action' => 'view', 10]);
     $routes->connect('/events/christening', ['controller' => 'Albums', 'action' => 'view', 11]);
     $routes->connect('/events/confirmation', ['controller' => 'Albums', 'action' => 'view', 12]);
     $routes->connect('/events/public_events', ['controller' => 'Albums', 'action' => 'view', 13]);
 
-    $routes->connect('/children', ['controller' => 'Albums', 'action' => 'view', 2]);
+    $routes->connect('/children', ['controller' => 'Categories', 'action' => 'view', 3]);
     $routes->connect('/children/christmas', ['controller' => 'Albums', 'action' => 'view', 15]);
+    $routes->connect('/children/studio', ['controller' => 'Albums', 'action' => 'view', 16]);
+    $routes->connect('/children/clients-place', ['controller' => 'Albums', 'action' => 'view', 17]);
+
+    $routes->connect('/business', ['controller' => 'Categories', 'action' => 'view', 4]);
+    $routes->connect('/business/product-photography', ['controller' => 'Albums', 'action' => 'view', 18]);
+    $routes->connect('/business/property-photography', ['controller' => 'Albums', 'action' => 'view', 19]);
+    $routes->connect('/business/other-business', ['controller' => 'Albums', 'action' => 'view', 20]);
 
     $routes->connect('/maternity', ['controller' => 'Albums', 'action' => 'view', 3]);
-    $routes->connect('/business', ['controller' => 'Albums', 'action' => 'view', 4]);
     $routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
     $routes->connect('/weddings', ['controller' => 'Albums', 'action' => 'view', 14]);
 
-    $routes->connect('/portraits', ['controller' => 'Categories', 'action' => 'view', 1]);
-    $routes->connect('/events', ['controller' => 'Categories', 'action' => 'view', 2]);
+
+
 
     
     $routes->connect('/business/:id',
@@ -130,6 +138,26 @@ Router::scope('/', function (RouteBuilder $routes) {
         ['id' => '\d+', 'pass' => ['id']]);
 
     $routes->connect('/christmas/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/studio/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/clients-place/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/property-photography/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/product-photography/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/other-business/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 

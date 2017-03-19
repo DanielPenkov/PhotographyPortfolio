@@ -1,47 +1,21 @@
-<?= $this->Html->script([
-        'owl.carousel.js',
-]) ?>
+<?php
+/**
+ * @var array $pictures
+ */
+?>
 
-<?= $this->Html->css([
-    'owl.carousel.css',
-    'owl.theme.css'
-]) ?>
-
-<script>
-    $(function () {
-
-        $("#owl-demo").owlCarousel({
-
-            navigation : true, // Show next and prev buttons
-            slideSpeed : 1000,
-            paginationSpeed : 600,
-            singleItem:true,
-            autoHeight : true
-        });
-        document.getElementById('pictureDay').ondragstart = function() { return false; };
-    });
-</script>
-
-<style>
-    #owl-demo .item img{
-        display: block;
-        width: 100%;
-        max-width: 650px;
-        margin: auto;
-    }
-</style>
-
-<div class="pictureOfTheDay">
-
-    <p class="subtitle fancy"><span style="width:100%">PICTURE OF THE DAY</span></p>
-
-     <?= $this->Html->image($pictureOfTheDay->url, ['id' => 'pictureDay', 'width'=>'100%', 'max-width' => '800px']) ?>
-    <br><br><br>
-    <p class="subtitle fancy"><span style="width:100%"> LATEST GALLERIES</span></p>
+<div class="description-container">
+    <div class="description-box">
+        <h1>
+            <?= __('Aalborg based freelance photographer 
+            specializing in different kinds of photography - portraits, family, maternity, 
+            weddings, babies and events. Please take a moment to look through my portfolio and 
+            decide if we\'ll be a great fit for each other.')?>
+        </h1>
+    </div>
 </div>
 
-
-<?php foreach ($pictures as $picture) { ?>
+<?php foreach ($pictures as $picture) : ?>
     <div class="gallery-container home-gallery">
         <div class="view view-first image-box">
             <?= $this->Html->image($picture->url,[
@@ -62,5 +36,5 @@
 
         </div>
     </div>
-<?php } ?>
+<?php endforeach; ?>
 

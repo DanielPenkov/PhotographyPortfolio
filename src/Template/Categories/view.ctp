@@ -1,6 +1,7 @@
 <?php
-shuffle($portraits->albums) ;
-foreach ($portraits->albums as $album) {
+
+shuffle($categoryPictures->albums) ;
+foreach ($categoryPictures->albums as $album) {
     if (!empty($album->sessions)) {
         shuffle($album->sessions);
         foreach ($album->sessions as $session) { ?>

@@ -7,7 +7,7 @@
     <meta name="author" content="Daniel Penkov">
     <meta name="description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
     <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
-    <title>Gergana - Photographer in Aalborg and Nørresundby</title>
+    <title>Gergana - Fotograf i Aalborg og Nørresundby</title>
 
     <?php if($this->Url->build(null) === '/portraits/cv-linkedin') { ?>
         <meta property="og:image" content="http://gerganastories.com//img/thumbnails/veronika_thumbnail.png" />
@@ -78,10 +78,36 @@
                 $('#christmas a').css('border-bottom', ' 1px solid #B00000');
             }
 
+            if (name.indexOf('studio') > -1) {
+                $('#studio a').css('color', 'black');
+                $('#studio a').css('border-bottom', ' 1px solid #B00000');
+            }
+
+            if (name.indexOf('clients-place') > -1) {
+                $('#clients-place a').css('color', 'black');
+                $('#clients-place a').css('border-bottom', ' 1px solid #B00000');
+            }
+
         } else if (name.indexOf('maternity') > -1) {
             $('#maternity').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('business') > -1) {
             $('#business').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+            $('#businessSubmenu').css('display', 'block');
+
+            if (name.indexOf('product-photography') > -1) {
+                $('#product-photography a').css('color', 'black');
+                $('#product-photography a').css('border-bottom', ' 1px solid #B00000');
+            }
+
+            if (name.indexOf('property-photography') > -1) {
+                $('#properyy-photography a').css('color', 'black');
+                $('#property-photography a').css('border-bottom', ' 1px solid #B00000');
+            }
+
+            if (name.indexOf('other-business') > -1) {
+                $('#other-business a').css('color', 'black');
+                $('#other-business a').css('border-bottom', ' 1px solid #B00000');
+            }
         } else if (name.indexOf('projects') > -1) {
             $('#projects').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('contacts') > -1) {
@@ -113,7 +139,7 @@
 
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
+    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg og Nørresundby")?></p>
     <div class="menu">
         <ul style="width:150px">
             <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
@@ -158,6 +184,14 @@
                         <ul></ul>
                     </li>
 
+                    <li id="studio">
+                        <?= $this->Html->link('AT MY STUDIO', '/children/studio'); ?>
+                        <ul></ul>
+                    </li>
+                    <li id="clients-place">
+                        <?= $this->Html->link('AT CLIENTS HOME', '/children/clients-place'); ?>
+                        <ul></ul>
+                    </li>
                 </ul>
             </li>
             <li id="weddings">
@@ -166,9 +200,29 @@
             <li id = 'maternity'>
                 <?= $this->Html->link('MATERNITY', '/maternity'); ?>
             </li>
-            <li id = 'business'>
+
+            <li id ='business'>
                 <?= $this->Html->link('BUSINESS', '/business'); ?>
+                <ul id="businessSubmenu">
+                    <li id ='product-photography'>
+                        <?= $this->Html->link('Product photography', '/business/product-photography'); ?>
+                        <ul></ul>
+                    </li>
+                    <li id="property-photography">
+                        <?= $this->Html->link('Property photography', '/business/property-photography'); ?>
+                        <ul></ul>
+                    </li>
+                    <li id="other-business">
+                        <?= $this->Html->link('Other', '/business/other-business'); ?>
+                        <ul></ul>
+                    </li>
+                </ul>
             </li>
+
+
+
+
+
             <li id ='events'>
                 <?= $this->Html->link('EVENTS', '/events'); ?>
                 <ul id="eventsSubmenu">

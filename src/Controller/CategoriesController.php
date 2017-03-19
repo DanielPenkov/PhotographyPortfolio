@@ -23,7 +23,10 @@ class CategoriesController extends AppController
 
         $this->viewBuilder()->layout('gallery');
 
-        $portraits = $this->Categories->find()
+        /*
+         * Get all pictures from category without CV and Christmas sessions
+         */
+        $categoryPictures = $this->Categories->find()
             ->where(['Categories.id' => $id])
             ->contain([
                 'Albums' => function(Query $q) {
@@ -38,14 +41,16 @@ class CategoriesController extends AppController
                         }]);
             }])
             ->first();
-
+        /*
+         * Order Cv sessions at bottom
+         */
         $cvSessions = $this->Categories->find()
             ->where(['Categories.id' => $id])
             ->contain([
-                'Albums' => function($q) {
+                'Albums' => function(Query $q) {
                     return $q
                         ->where(['Albums.name' => 'cv-linkedin'])
-                        ->contain(['Sessions.Pictures' =>  function ($q) {
+                        ->contain(['Sessions.Pictures' =>  function (Query $q) {
                             return $q
                                 ->where(['Pictures.type' => 'thumbnails']);
                         }]);
@@ -53,7 +58,7 @@ class CategoriesController extends AppController
             ->first();
 
         $this->set('cvSessions', $cvSessions);
-        $this->set('portraits', $portraits);
+        $this->set('categoryPictures', $categoryPictures);
         $this->set('_serialize', ['category']);
     }
 }

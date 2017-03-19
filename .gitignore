@@ -3,5 +3,6 @@
 /tmp/*
 /logs/*
 webroot/img/*
+.idea/
 
 docker-compose.yml

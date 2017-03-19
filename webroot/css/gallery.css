@@ -18,6 +18,31 @@ body{
    width:100%;
 }
 
+
+.description-container {
+   width: 91%;
+   margin: auto;
+   margin-bottom: 70px;
+}
+
+.description-box {
+    background: #f9f9f9;
+    margin: 1.5em 10px;
+    box-shadow: 0 0 20px 1px #aaa;
+    border-radius: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.description-box h1 {
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
 .view {
    width:350px!important;
    height: 350px;
@@ -227,6 +252,32 @@ body{
    .gallery-container{
       margin-top: 80px;
    }
+
+    .description-container {
+        width: 99%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+
+    .description-box {
+        background: #f9f9f9;
+        margin: 1.5em 10px;
+        box-shadow: 0 0 20px 1px #aaa;
+        border-radius: 10px;
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+    }
+
+    .description-box h1 {
+        font-size: 18px;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width : 350px) and  (max-width : 600px) {
@@ -250,6 +301,33 @@ body{
    .home-gallery{
       margin-top: 20px!important;
    }
+
+
+    .description-container {
+        width: 99%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+
+    .description-box {
+        background: #f9f9f9;
+        margin: 1.5em 10px;
+        box-shadow: 0 0 20px 1px #aaa;
+        border-radius: 10px;
+        width: 98%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+    }
+
+    .description-box h1 {
+        font-size: 18px;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width : 600px) and  (max-width : 800px) {
@@ -274,6 +352,33 @@ body{
    .home-gallery{
       margin-top: 20px!important;
    }
+
+
+    .description-container {
+        width: 99%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+
+    .description-box {
+        background: #f9f9f9;
+        margin: 1.5em 10px;
+        box-shadow: 0 0 20px 1px #aaa;
+        border-radius: 10px;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+    }
+
+    .description-box h1 {
+        font-size: 18px;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width : 800px) and  (max-width : 1200px) {
@@ -297,6 +402,32 @@ body{
    .home-gallery{
       margin-top: 20px!important;
    }
+
+    .description-container {
+        width: 99%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+
+    .description-box {
+        background: #f9f9f9;
+        margin: 1.5em 10px;
+        box-shadow: 0 0 20px 1px #aaa;
+        border-radius: 10px;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+    }
+
+    .description-box h1 {
+        font-size: 18px;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width : 1200px) and  (max-width : 1400px) {
@@ -307,7 +438,8 @@ body{
       width: 95%!important;
    }
    .view {
-      width:22.5%!important;
+      /*width:22.5%!important;*/
+      width:31.5%!important;
       height: 100%;
    }
    .view .mask,.view .content {
@@ -327,7 +459,8 @@ body{
       width: 95%!important;
    }
    .view {
-      width:18%!important;
+      /*width:18%!important;*/
+      width:30%!important;
       height: 100%;
    }
    .view .mask,.view .content {
