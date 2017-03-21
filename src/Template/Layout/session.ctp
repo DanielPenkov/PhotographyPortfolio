@@ -7,7 +7,7 @@
     <meta name="author" content="Daniel Penkov">
     <meta name="description" content="Gergana Kurukyuvlieva -  Photographer in Aalborg and Nørresundby" />
     <meta name="keywords" content="photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
-    <title>Gergana - Fotograf i Aalborg og Nørresundby</title>
+    <title>Gergana - Photographer in Aalborg and Nørresundby</title>
 
 
     <?= $this->Html->meta('icon') ?>
@@ -47,91 +47,25 @@
 
 
         var name = window.location.pathname;
+
         if (name.indexOf('home') > -1) {
             $('#home').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('landscapes') > -1) {
             $('#landscapes').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('portraits') > -1) {
             $('#portraits').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
-            $('#portraitsSubmenu').css('display', 'block');
-            if (name.indexOf('cv-linkedin') > -1) {
-                $('#cv-linkedin a').css('color', 'black');
-                $('#cv-linkedin a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('women') > -1) {
-                $('#women a').css('color', 'black');
-                $('#women a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('women') === -1 && name.indexOf('men') > -1) {
-                $('#men a').css('color', 'black');
-                $('#men a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('couples') > -1) {
-                $('#couples a').css('color', 'black');
-                $('#couples a').css('border-bottom', ' 1px solid #B00000');
-            }
         } else if (name.indexOf('children') > -1) {
             $('#children').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
-            $('#childrenSubmenu').css('display', 'block');
-
-            if (name.indexOf('christmas') > -1) {
-                $('#christmas a').css('color', 'black');
-                $('#christmas a').css('border-bottom', ' 1px solid #B00000');
-            }
-
-            if (name.indexOf('studio') > -1) {
-                $('#studio a').css('color', 'black');
-                $('#studio a').css('border-bottom', ' 1px solid #B00000');
-            }
-
-            if (name.indexOf('clients-place') > -1) {
-                $('#clients-place a').css('color', 'black');
-                $('#clients-place a').css('border-bottom', ' 1px solid #B00000');
-            }
-
         } else if (name.indexOf('maternity') > -1) {
             $('#maternity').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('business') > -1) {
             $('#business').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
-            $('#businessSubmenu').css('display', 'block');
-
-            if (name.indexOf('product-photography') > -1) {
-                $('#product-photography a').css('color', 'black');
-                $('#product-photography a').css('border-bottom', ' 1px solid #B00000');
-            }
-
-            if (name.indexOf('property-photography') > -1) {
-                $('#properyy-photography a').css('color', 'black');
-                $('#property-photography a').css('border-bottom', ' 1px solid #B00000');
-            }
-
-            if (name.indexOf('other-business') > -1) {
-                $('#other-business a').css('color', 'black');
-                $('#other-business a').css('border-bottom', ' 1px solid #B00000');
-            }
         } else if (name.indexOf('projects') > -1) {
             $('#projects').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('contacts') > -1) {
             $('#contacts').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('events') > -1) {
             $('#events').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
-            $('#eventsSubmenu').css('display', 'block');
-            if (name.indexOf('public_events') > -1) {
-                $('#public_events a').css('color', 'black');
-                $('#public_events a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('party') > -1) {
-                $('#party a').css('color', 'black');
-                $('#party a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('confirmation') > -1) {
-                $('#confirmation a').css('color', 'black');
-                $('#confirmation a').css('border-bottom', ' 1px solid #B00000');
-            }
-            if (name.indexOf('christening') > -1) {
-                $('#christening a').css('color', 'black');
-                $('#christening a').css('border-bottom', ' 1px solid #B00000');
-            }
         } else if (name.indexOf('weddings') > -1) {
             $('#weddings').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         }
@@ -139,7 +73,7 @@
 </script>
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg og Nørresundby")?></p>
+    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
     <div class="menu">
         <ul style="width:150px">
             <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
@@ -157,20 +91,20 @@
 
             <li id ='portraits'>
                 <?= $this->Html->link('PORTRAITS', '/portraits'); ?>
-                <ul id="portraitsSubmenu">
-                    <li id ='cv-linkedin'>
+                <ul>
+                    <li>
                         <?= $this->Html->link('CV - LinkedIn', '/portraits/cv-linkedin'); ?>
                         <ul></ul>
                     </li>
-                    <li id="women">
+                    <li>
                         <?= $this->Html->link('WOMEN', '/portraits/women'); ?>
                         <ul></ul>
                     </li>
-                    <li id="men">
+                    <li>
                         <?= $this->Html->link('MEN', '/portraits/men'); ?>
                         <ul></ul>
                     </li>
-                    <li id="couples">
+                    <li>
                         <?= $this->Html->link('COUPLES', '/portraits/couples'); ?>
                         <ul></ul>
                     </li>
@@ -178,20 +112,20 @@
             </li>
             <li id="children">
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
-                <ul id="childrenSubmenu">
-                    <li id="christmas">
-                        <?= $this->Html->link('CHRISTMAS SESSIONS', '/children/christmas'); ?>
+                <ul>
+                    <li>
+                        <?= $this->Html->link('CHRISTMAS SESSIONS', '/christmas'); ?>
                         <ul></ul>
                     </li>
-
-                    <li id="studio">
+                    <li>
                         <?= $this->Html->link('AT MY STUDIO', '/children/studio'); ?>
                         <ul></ul>
                     </li>
-                    <li id="clients-place">
+                    <li>
                         <?= $this->Html->link('AT CLIENTS HOME', '/children/clients-place'); ?>
                         <ul></ul>
                     </li>
+
                 </ul>
             </li>
             <li id="weddings">
@@ -200,19 +134,19 @@
             <li id = 'maternity'>
                 <?= $this->Html->link('MATERNITY', '/maternity'); ?>
             </li>
-
-            <li id ='business'>
+            <li id = 'business'>
                 <?= $this->Html->link('BUSINESS', '/business'); ?>
-                <ul id="businessSubmenu">
-                    <li id ='product-photography'>
+
+                <ul >
+                    <li>
                         <?= $this->Html->link('PRODUCT PHOTOGRAPHY', '/business/product-photography'); ?>
                         <ul></ul>
                     </li>
-                    <li id="property-photography">
+                    <li>
                         <?= $this->Html->link('PROPERTY PHOTOGRAPHY', '/business/property-photography'); ?>
                         <ul></ul>
                     </li>
-                    <li id="other-business">
+                    <li>
                         <?= $this->Html->link('OTHER', '/business/other-business'); ?>
                         <ul></ul>
                     </li>
@@ -220,20 +154,20 @@
             </li>
             <li id ='events'>
                 <?= $this->Html->link('EVENTS', '/events'); ?>
-                <ul id="eventsSubmenu">
-                    <li id="public_events">
+                <ul>
+                    <li>
                         <?= $this->Html->link('PUBLIC EVENTS', '/events/public_events'); ?>
                         <ul></ul>
                     </li>
-                    <li id="party">
+                    <li>
                         <?= $this->Html->link('PARTY', '/events/party'); ?>
                         <ul></ul>
                     </li>
-                    <li id="confirmation">
+                    <li>
                         <?= $this->Html->link('CONFIRMATION', '/events/confirmation'); ?>
                         <ul></ul>
                     </li>
-                    <li id="christening">
+                    <li>
                         <?= $this->Html->link('CHRISTENING', '/events/christening'); ?>
                         <ul></ul>
                     </li>
@@ -250,6 +184,7 @@
             </li>
         </ul>
     </div>
+</div>
 
 <?= $this->fetch('content') ?>
 
