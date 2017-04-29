@@ -73,6 +73,11 @@
             $('#children').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
             $('#childrenSubmenu').css('display', 'block');
 
+            if (name.indexOf('spring') > -1) {
+                $('#spring a').css('color', 'black');
+                $('#spring a').css('border-bottom', ' 1px solid #B00000');
+            }
+
             if (name.indexOf('christmas') > -1) {
                 $('#christmas a').css('color', 'black');
                 $('#christmas a').css('border-bottom', ' 1px solid #B00000');
@@ -179,6 +184,10 @@
             <li id="children">
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
                 <ul id="childrenSubmenu">
+                    <li id="spring">
+                        <?= $this->Html->link('SPRING SESSIONS', '/children/spring'); ?>
+                        <ul></ul>
+                    </li>
                     <li id="christmas">
                         <?= $this->Html->link('CHRISTMAS SESSIONS', '/children/christmas'); ?>
                         <ul></ul>

@@ -114,6 +114,10 @@
                 <?= $this->Html->link('CHILDREN', '/children'); ?>
                 <ul>
                     <li>
+                        <?= $this->Html->link('SPRING SESSIONS', '/spring'); ?>
+                        <ul></ul>
+                    </li>
+                    <li>
                         <?= $this->Html->link('CHRISTMAS SESSIONS', '/christmas'); ?>
                         <ul></ul>
                     </li>

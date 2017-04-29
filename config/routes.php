@@ -68,6 +68,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/children/christmas', ['controller' => 'Albums', 'action' => 'view', 15]);
     $routes->connect('/children/studio', ['controller' => 'Albums', 'action' => 'view', 16]);
     $routes->connect('/children/clients-place', ['controller' => 'Albums', 'action' => 'view', 17]);
+    $routes->connect('/children/spring', ['controller' => 'Albums', 'action' => 'view', 21]);
 
     $routes->connect('/business', ['controller' => 'Categories', 'action' => 'view', 4]);
     $routes->connect('/business/product-photography', ['controller' => 'Albums', 'action' => 'view', 18]);
@@ -138,6 +139,10 @@ Router::scope('/', function (RouteBuilder $routes) {
         ['id' => '\d+', 'pass' => ['id']]);
 
     $routes->connect('/christmas/:id',
+        ['controller' => 'Sessions', 'action' => 'view'],
+        ['id' => '\d+', 'pass' => ['id']]);
+
+    $routes->connect('/spring/:id',
         ['controller' => 'Sessions', 'action' => 'view'],
         ['id' => '\d+', 'pass' => ['id']]);
 
