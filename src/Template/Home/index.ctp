@@ -6,7 +6,12 @@
 
 <style>
     .category-description {
-        background: #f9f9f9;margin: 1.5em 10px;border-radius: 10px;width: 100%; margin-right: auto; margin-left!important;padding: 10px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        width: 100%;
+        margin-right: auto;
+        margin-left!important;
+        padding: 10px;
     }
 
     .category-description h1 {
