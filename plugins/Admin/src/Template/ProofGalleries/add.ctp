@@ -15,7 +15,7 @@
         <legend><?= __('Add Proof Gallery') ?></legend>
         <?php
             echo $this->Form->control('name');
-            echo $this->Form->control('access_code');
+            echo $this->Form->control('number_allowed', ['empty' => true]);
             echo $this->Form->control('expired', ['empty' => true]);
         ?>
     </fieldset>

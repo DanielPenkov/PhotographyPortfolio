@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Daniel Penkov">
-    <meta name="description" content="Fotograf i Aalborg og Nørresundby - Gergana Kurukyuvlieva" />
+    <meta name="description" content="Fotograf i Aalborg - Gergana Kurukyuvlieva" />
     <meta name="keywords" content="fotograf, photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
-    <title>Gergana - Fotograf i Aalborg og Nørresundby</title>
+    <title>Gergana - Fotograf i Aalborg</title>
     <meta name="google-site-verification" content="BoAFuGdGetn3FJ0dmwkhDPx6TwOCAGCxOLLM9oAlQz4"/>
 
     

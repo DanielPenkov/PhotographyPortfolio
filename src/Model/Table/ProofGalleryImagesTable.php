@@ -36,10 +36,7 @@ class ProofGalleryImagesTable extends Table
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
 
-        $this->belongsTo('ProofGalleries', [
-            'foreignKey' => 'proof_gallery_id',
-            'joinType' => 'INNER'
-        ]);
+        $this->belongsTo('ProofGalleries');
     }
 
     /**

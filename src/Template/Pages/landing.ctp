@@ -28,22 +28,31 @@
 <div class="slider fullscreen">
     <ul class="slides">
         <li>
-            <?= $this->Html->image('front/peizaj-jpg-high-180kb.jpg') ?>
+            <?= $this->Html->image('front/aalborg_fotograf.jpg') ?>
         </li>
         <li>
-            <?= $this->Html->image('front/DSC_0014website-nachalna.jpg') ?>
+            <?= $this->Html->image('front/aalborg_portræt_fotograf.jpg') ?>
+        </li>
+
+        <li>
+            <?= $this->Html->image('front/børn_fotograf.jpg') ?>
+        </li>
+
+        <li>
+            <?= $this->Html->image('front/børns_fotograf.jpg') ?>
         </li>
         <li>
-            <?= $this->Html->image('front/DSC_3846website-nachalna.jpg') ?>
+            <?= $this->Html->image('front/børns_fotograf_aalborg.jpg') ?>
         </li>
         <li>
-            <?= $this->Html->image('front/DSC_0346website-nachalna.jpg') ?>
+            <?= $this->Html->image('front/bryllup_aalborg.jpg') ?>
+        </li>
+
+        <li>
+            <?= $this->Html->image('front/portræt_fotograf.jpg') ?>
         </li>
         <li>
-            <?= $this->Html->image('front/DSC_0339website-nachalna.jpg') ?>
-        </li>
-        <li>
-            <?= $this->Html->image('front/portret-1-page-jpg-very-high-420-kb.jpg') ?>
+            <?= $this->Html->image('front/solnedgang_aalborg.jpg') ?>
         </li>
     </ul>
 </div>

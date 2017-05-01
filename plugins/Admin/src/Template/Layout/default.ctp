@@ -60,6 +60,9 @@ $cakeDescription = 'Admin panel';
                 <li>
                     <?= $this->Html->link('Projects', '/admin/projects'); ?>
                 </li>
+                <li>
+                    <?= $this->Html->link('Proof galleries', '/admin/proof_galleries'); ?>
+                </li>
             </ul>
         </div>
     </nav>

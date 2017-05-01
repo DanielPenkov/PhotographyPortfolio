@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Daniel Penkov">
-    <meta name="description" content="Fotograf i Aalborg og Nørresundby - Gergana Kurukyuvlieva" />
+    <meta name="description" content="Fotograf i Aalborg - Gergana Kurukyuvlieva" />
     <meta name="keywords" content="fotograf,photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
-    <title>Gergana - Fotograf i Aalborg og Nørresundby</title>
+    <title>Gergana - Fotograf i Aalborg</title>
 
     <?php if($this->Url->build(null) === '/portraits/cv-linkedin') { ?>
         <meta property="og:image" content="http://gerganastories.com//img/thumbnails/veronika_thumbnail.png" />
@@ -267,7 +267,7 @@
 <div class="footer">
     <div class="copyright">
         All material © copyright by Gergana Kurukyuvlieva
-        <h3 style="font-weight: 300" ><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg og Nørresundby")?></h3>
+        <h2 style="font-weight: 300" ><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></h2>
         <p>
             All rights reserved. Site by <?= $this->Html->link('Daniel Penkov', 'http://danielpenkov.eu'); ?>
         </p>

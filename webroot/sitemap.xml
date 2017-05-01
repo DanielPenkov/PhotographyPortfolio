@@ -1,63 +1,516 @@
 <?xml version="1.0" encoding="UTF-8"?>
-                 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-                 <url><loc>http://gerganastories.com</loc></url>
-<url><loc>http://gerganastories.com/home</loc></url>
-<url><loc>http://gerganastories.com/landscapes</loc></url>
-<url><loc>http://gerganastories.com/portraits</loc></url>
-<url><loc>http://gerganastories.com/portraits/cv-linkedin</loc></url>
-<url><loc>http://gerganastories.com/portraits/women</loc></url>
-<url><loc>http://gerganastories.com/portraits/men</loc></url>
-<url><loc>http://gerganastories.com/portraits/couples</loc></url>
-<url><loc>http://gerganastories.com/children</loc></url>
-<url><loc>http://gerganastories.com/maternity</loc></url>
-<url><loc>http://gerganastories.com/business</loc></url>
-<url><loc>http://gerganastories.com/projects</loc></url>
-<url><loc>http://gerganastories.com/contacts</loc></url>
-<url><loc>http://gerganastories.com/men/35</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/3</loc></url>
-<url><loc>http://gerganastories.com/children/52</loc></url>
-<url><loc>http://gerganastories.com/landscapes/44</loc></url>
-<url><loc>http://gerganastories.com/children/14</loc></url>
-<url><loc>http://gerganastories.com/women/21</loc></url>
-<url><loc>http://gerganastories.com/children/13</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/50</loc></url>
-<url><loc>http://gerganastories.com/maternity/29</loc></url>
-<url><loc>http://gerganastories.com/women/41</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/6</loc></url>
-<url><loc>http://gerganastories.com/men/36</loc></url>
-<url><loc>http://gerganastories.com/landscapes/40</loc></url>
-<url><loc>http://gerganastories.com/children/17</loc></url>
-<url><loc>http://gerganastories.com/landscapes/30</loc></url>
-<url><loc>http://gerganastories.com/landscapes/42</loc></url>
-<url><loc>http://gerganastories.com/women/24</loc></url>
-<url><loc>http://gerganastories.com/women/31</loc></url>
-<url><loc>http://gerganastories.com/women/33</loc></url>
-<url><loc>http://gerganastories.com/women/22</loc></url>
-<url><loc>http://gerganastories.com/women/23</loc></url>
-<url><loc>http://gerganastories.com/women/25</loc></url>
-<url><loc>http://gerganastories.com/landscapes/37</loc></url>
-<url><loc>http://gerganastories.com/landscapes/43</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/4</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/49</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/46</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/9</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/47</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/7</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/34</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/48</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/45</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/5</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/8</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/26</loc></url>
-<url><loc>http://gerganastories.com/cv-linkedin/51</loc></url>
-<url><loc>http://gerganastories.com/couples/38</loc></url>
-<url><loc>http://gerganastories.com/children/10</loc></url>
-<url><loc>http://gerganastories.com/children/11</loc></url>
-<url><loc>http://gerganastories.com/children/12</loc></url>
-<url><loc>http://gerganastories.com/children/15</loc></url>
-<url><loc>http://gerganastories.com/children/16</loc></url>
-<url><loc>http://gerganastories.com/maternity/27</loc></url>
-<url><loc>http://gerganastories.com/maternity/28</loc></url>
-<url><loc>http://gerganastories.com/business/39</loc></url>
-<url><loc>http://gerganastories.com/business/2</loc></url>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+    <url>
+        <loc>http://gerganastories.com/</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/home</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/portraits</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/portraits/cv-linkedin</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/portraits/women</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/portraits/men</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/portraits/couples</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/children</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/children/spring</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/children/christmas</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/children/studio</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/children/clients-place</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/weddings</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/product-photography</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/property-photography</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/other-business</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/events</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/events/public_events</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/events/party</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/events/confirmation</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/events/christening</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/contacts</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/78</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/104</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/103</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/spring/145</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/57</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/weddings/121</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/60</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/17</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christening/55</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/spring/144</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/29</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/studio/133</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/confirmation/54</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/109</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/97</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/men/36</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/134</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/69</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/130</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/74</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/42</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/87</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/113</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/studio/115</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/101</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/129</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/21</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/108</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/77</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/3</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/product-photography/96</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/131</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/studio/127</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/men/35</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/40</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/132</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/couples/88</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/50</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/weddings/81</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/117</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/100</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/107</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/53</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/59</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/spring/146</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/52</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/24</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/89</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/couples/82</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/14</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/44</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/couples/136</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/118</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/weddings/80</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/84</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/116</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/122</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/76</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/75</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/58</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/94</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/92</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/83</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christening/112</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/30</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/weddings/140</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/119</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/135</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/142</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/men/106</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/41</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/product-photography/105</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/men/102</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/33</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/23</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/22</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/25</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/women/31</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/couples/38</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/6</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/51</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/114</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/26</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/4</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/49</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/5</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/99</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/46</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/73</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/48</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/47</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/45</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/137</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/34</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/7</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/98</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/110</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/70</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/111</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/138</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/86</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/72</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/139</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/8</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/9</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/71</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/cv-linkedin/85</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/studio/143</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/11</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/10</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/13</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/16</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/15</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/62</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/clients-place/12</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christmas/123</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christmas/124</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christmas/125</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/27</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/maternity/28</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/product-photography/141</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/2</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/business/39</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/90</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/67</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/68</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/93</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/95</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/63</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/public_events/91</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/party/61</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/party/56</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/christening/128</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/37</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/landscapes/43</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/2</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/3</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/4</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/5</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/6</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/7</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/8</loc>
+    </url>
+    <url>
+        <loc>http://gerganastories.com/projects/view/9</loc>
+    </url>
 </urlset>

@@ -36,9 +36,7 @@ class ProofGalleriesTable extends Table
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
 
-        $this->hasMany('ProofGalleryImages', [
-            'foreignKey' => 'proof_gallery_id'
-        ]);
+        $this->hasMany('ProofGalleryImages');
     }
 
     /**

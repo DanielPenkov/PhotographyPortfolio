@@ -190,10 +190,52 @@ Request::addDetector('tablet', function ($request) {
  *
  */
 
+Configure::write('Glide', [
+    // Value of 'serverConfig' is passed as argument to Glide's ServerFactory::create() call.
+    // http://glide.thephpleague.com/1.0/config/setup/
+
+    'scope' => null,
+    'serverConfig' => [
+        // Path or League\Flysystem adapter instance to read images from.
+        // http://glide.thephpleague.com/1.0/config/source-and-cache/
+        'source' => WWW_ROOT ,
+
+        // Path or League\Flysystem adapter instance to write cached images to.
+        'cache' => WWW_ROOT . 'glide_cache',
+
+        // Optional: URL part to be omitted from source path
+        // http://glide.thephpleague.com/1.0/config/source-and-cache/#set-a-base-url
+        'base_url' => '/glide/',
+
+        // Optional: Response class for serving images. You normally don't need
+        // to change this. By default an instance of \ADmad\Glide\Responses\CakeResponseFactory()
+        // will be used.
+        // http://glide.thephpleague.com/1.0/config/responses/
+        'response' => null,
+        'watermarks' => WWW_ROOT . '/img/',
+    ],
+
+    // Optional: Use secure URLs to prevent URL parameter manipulation.
+    // http://glide.thephpleague.com/1.0/config/security/
+    'secureUrls' => false,
+
+    // Optional: Cache duration. This makes GlideFilter set appropriate cache headers.
+    'cache' => '+1 days',
+
+    // Optional: Any response headers you may want to set
+    'headers' => [
+    ],
+]);
+
+
+
 Plugin::load('Migrations');
 Plugin::load('Admin', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
+Plugin::load('Client', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
 
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+Plugin::load('CakephpJqueryFileUpload');
+Plugin::load('ADmad/Glide');
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
@@ -207,6 +249,7 @@ if (Configure::read('debug')) {
 DispatcherFactory::add('Asset');
 DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
+DispatcherFactory::add('ADmad/Glide.Glide', ['for' => '/glide']);
 
 /**
  * Enable default locale format parsing.

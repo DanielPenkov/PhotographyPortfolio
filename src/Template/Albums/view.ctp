@@ -1,3 +1,6 @@
+<div style="text-align: center; margin-top: 100px; color:#777; font-size: 1.2em;">
+    Click on the image to see full gallery
+</div>
 <?php foreach ($pictures as $picture) { ?>
     <div class="gallery-container">
         <div class="view view-first image-box">

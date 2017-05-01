@@ -1,5 +1,8 @@
-<?php
+<div style="text-align: center; margin-top: 100px; color:#777; font-size: 1.2em;">
+    Click on the image to see full gallery
+</div>
 
+<?php
 shuffle($categoryPictures->albums) ;
 foreach ($categoryPictures->albums as $album) {
     if (!empty($album->sessions)) {

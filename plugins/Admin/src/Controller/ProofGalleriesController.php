@@ -2,11 +2,15 @@
 namespace Admin\Controller;
 
 use Admin\Controller\AppController;
+use Cake\ORM\Query;
+use Cake\Routing\Router;
+use Cake\Utility\Text;
 
 /**
  * ProofGalleries Controller
  *
- * @property \Admin\Model\Table\ProofGalleriesTable $ProofGalleries
+ * @property \App\Model\Table\ProofGalleriesTable $ProofGalleries
+ * @property \App\Model\Table\ProofGalleriesTable $ProofGalleryImages
  */
 class ProofGalleriesController extends AppController
 {
@@ -24,104 +28,22 @@ class ProofGalleriesController extends AppController
         $this->set('_serialize', ['proofGalleries']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Proof Gallery id.
-     * @return \Cake\Network\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
     public function view($id = null)
     {
-        $proofGallery = $this->ProofGalleries->get($id, [
-            'contain' => []
-        ]);
+        $this->loadModel('ProofGalleries');
 
-        if ($this->request->is('post')) {
-            $webroot = WWW_ROOT;
+        $proofGallery = $this->ProofGalleries->find()
+            ->where(['ProofGalleries.id' => $id])
+            ->contain(['ProofGalleryImages'])
+            ->first();
 
-            debug($this->request);
-            die;
-
-
-            $data = $this->request->data;
-
-            debug($data);
-            die;
-
-
-            if($data['type'] === 'thumbnails') {
-                $path = $webroot . 'img' . DS . 'thumbnails';
-                file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
-                $data['url'] = 'thumbnails/' . $data['url']['name'];
-            } elseif ($data['type'] === 'project_thumbnail') {
-                $path = $webroot . 'img' . DS . 'thumbnails';
-                file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
-                $data['url'] = 'thumbnails/' . $data['url']['name'];
-                unset($data['session_id']);
-                $project = $this->Projects->get($data['project_id']);
-                $data['projects']  = [
-                    [
-                        'id' => $project->id,
-
-                    ]
-                ];
-
-            } elseif ($data['type'] === 'session') {
-
-                $session = $this->Sessions->get($data['session_id'], ['contain' => ['Albums']]);
-                $album = $session->album->name;
-
-                $albumPath = $webroot . 'img' . DS . 'sessions' . DS . $album;
-
-                if (!file_exists($albumPath) && !is_dir($albumPath)) {
-                    mkdir($albumPath);
-                }
-
-                $dirName = str_replace(' ', '_', strtolower($session->name));
-                $path = $webroot . 'img' . DS . 'sessions' . DS . $album . DS . $dirName;
-
-                if (!file_exists($path) && !is_dir($path)) {
-                    mkdir($path);
-                }
-
-                file_put_contents($path . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
-                $data['url'] = 'sessions/' . $album . '/' . $dirName . '/' . $data['url']['name'];
-
-            } elseif ($data['type'] === 'project') {
-
-
-                $project = $this->Projects->get($data['project_id']);
-
-                $dirName = str_replace(' ', '_', strtolower($project->title));
-                $projectPath = $webroot . 'img' . DS . 'projects' . DS . $dirName;
-
-
-                if (!file_exists($projectPath) && !is_dir($projectPath)) {
-                    mkdir($projectPath);
-                }
-
-                file_put_contents($projectPath . DS . $data['url']['name'],file_get_contents($this->request->data['url']['tmp_name']));
-                $data['url'] = 'projects' . DS . $dirName . DS . $data['url']['name'];
-
-                unset($data['session_id']);
-                $data['projects']  = [
-                    [
-                        'id' => $project->id,
-
-                    ]
-                ];
-            }
-
-            $picture = $this->Pictures->patchEntity($picture, $data);
-            if ($this->Pictures->save($picture, ['associated' => ['Projects']])) {
-                $this->Flash->success(__('The picture has been saved.'));
-                return $this->redirect(['action' => 'index']);
-            } else {
-
-
-                $this->Flash->error(__('The picture could not be saved. Please, try again.'));
-            }
+        if ($this->request->query('selected') === 'true') {
+            $proofGallery = $this->ProofGalleries->find()
+                ->where(['ProofGalleries.id' => $id])
+                ->contain(['ProofGalleryImages' => function(Query $q) {
+                    return $q->where(['ProofGalleryImages.approved' => true]);
+                }])
+                ->first();
         }
 
         $this->set('proofGallery', $proofGallery);
@@ -138,10 +60,11 @@ class ProofGalleriesController extends AppController
         $proofGallery = $this->ProofGalleries->newEntity();
         if ($this->request->is('post')) {
             $proofGallery = $this->ProofGalleries->patchEntity($proofGallery, $this->request->getData());
+            $proofGallery->access_code = substr(Text::uuid(), 0, 5);
             if ($this->ProofGalleries->save($proofGallery)) {
                 $this->Flash->success(__('The proof gallery has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'view', $proofGallery->id]);
             }
             $this->Flash->error(__('The proof gallery could not be saved. Please, try again.'));
         }
@@ -194,4 +117,56 @@ class ProofGalleriesController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
+    public function upload($id)
+    {
+        $this->loadModel('ProofGalleryImages');
+        $this->viewBuilder()->setClassName('Json');
+        $this->loadComponent('CakephpJqueryFileUpload.JqueryFileUpload');
+
+        $options = array(
+            'max_file_size' => 2222048000,
+            'max_number_of_files' => 300,
+            'access_control_allow_methods' => array(
+                'POST'
+            ),
+            'access_control_allow_origin' => Router::fullBaseUrl(),
+            'accept_file_types' => '/\.(jpe?g|png)$/i',
+            'upload_dir' => WWW_ROOT . 'img' . DS . 'proof_galeries' . DS . $id . DS,
+            'upload_url' => '/files/uploads/',
+            'print_response' => false
+        );
+
+        $result = $this->JqueryFileUpload->upload($options);
+
+
+        foreach ($result['files'] as $file) {
+
+            $imageRecord = $this->ProofGalleryImages->newEntity([
+                'proof_gallery_id' => $id,
+                'name' => $file->name,
+                'url' => DS .  'img' . DS . 'proof_galeries' . DS . $id . DS . $file->name
+            ]);
+
+            $this->ProofGalleryImages->save($imageRecord);
+        }
+
+        $this->set('response', 'success');
+        $this->set('_serialize', ['response']);
+
+    }
+
+    public function deleteImage()
+    {
+        $this->viewBuilder()->setClassName('Json');
+
+        $this->loadModel('ProofGalleryImages');
+
+        $imageId = $this->request->data('id');
+
+        $picture = $this->ProofGalleryImages->get($imageId);
+
+        $this->ProofGalleryImages->delete($picture);
+
+        $this->set('success', true);
+    }
 }

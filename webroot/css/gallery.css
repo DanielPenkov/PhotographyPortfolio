@@ -387,7 +387,7 @@ body{
       width: 95%!important;
    }
    .view {
-      width:30%!important;
+      width: 22%!important;
       height: 100%;
    }
    .view .mask,.view .content {
@@ -436,7 +436,7 @@ body{
    }
    .view {
       /*width:22.5%!important;*/
-      width:31.5%!important;
+      width: 23%!important;
       height: 100%;
    }
    .view .mask,.view .content {
@@ -457,7 +457,7 @@ body{
    }
    .view {
       /*width:18%!important;*/
-      width:30%!important;
+      width: 23%!important;
       height: 100%;
    }
    .view .mask,.view .content {
