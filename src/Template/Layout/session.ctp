@@ -73,7 +73,7 @@
 </script>
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <h1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg og Nørresundby")?></h1>
+    <h1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></h1>
     <div class="menu">
         <ul style="width:150px">
             <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
