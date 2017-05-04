@@ -12,7 +12,7 @@ use Cake\ORM\Query;
 class ProofGalleryImagesController extends AppController
 {
     public $paginate = [
-        'limit' => 21,
+        'limit' => 1000,
     ];
 
 
