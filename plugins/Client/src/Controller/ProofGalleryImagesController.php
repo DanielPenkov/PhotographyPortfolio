@@ -58,8 +58,6 @@ class ProofGalleryImagesController extends AppController
             ->where(['ProofGalleryImages.approved' => true])
             ->count();
 
-        $pictures = $this->paginate($pictures);
-
         $this->set('count', $count);
         $this->set('pictures', $pictures);
         $this->set('gallery', $proofGallery);
