@@ -38,11 +38,11 @@
     <div class="category-description">
             <h1>
                 <p>
-                <?= __('I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
-                Artistic portraits, maternity, couples, families.')?>
+                I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
+                Artistic portraits, maternity, couples, families.
                 </p>
                 <p>
-                    <?=__('Perfect business portrait for CV and Linkedin. I photograph on different backgrounds and promise you will get your best expression.')?>
+                   Perfect business portrait for CV and Linkedin on different backgrounds and promise  you will get your best expression.
                 </p>
 
             </h1>
@@ -80,7 +80,7 @@
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%;"> CHILDREN</span></p>
     <div class="category-description">
         <h1>
-            <?= __('Children grow up so fast - the pictures we make keep the memories brighter. Babies, toddlers, family portraits with mom & dad, in my photo studio or your home.')?>
+            Children grow up so fast - Save those precious moments. Babies, toddlers, family portraits with mom & dad, in my photo studio or your home.
         </h1>
     </div>
 </div>

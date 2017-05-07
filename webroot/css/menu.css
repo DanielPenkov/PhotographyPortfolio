@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cinzel);
 @import url(https://fonts.googleapis.com/css?family=Bilbo);
 @import url(https://fonts.googleapis.com/css?family=Quintessential);
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lateef|Libre+Baskerville|Rancho');
 
 a {
   color: #333;
@@ -15,10 +16,11 @@ a {
 }
 
 .pictureOfTheDay{
-  font-family: 'Cinzel',serif;
+  font-family:  'Libre Baskerville', serif;
   width:60%;
   margin: 50px auto;
   text-align: center;
+    font-weight: 100;
 }
 
 .fancy {
@@ -29,7 +31,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px ;
- font-family: 'Cinzel';
+    font-family: 'Cinzel';
   width: 33%;
 }
 .fancy span {
