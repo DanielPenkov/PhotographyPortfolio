@@ -109,7 +109,6 @@ class ProofGalleriesController extends AppController
         $this->request->allowMethod(['post', 'delete']);
 
         $this->loadModel('ProofGalleryImages');
-
         $this->ProofGalleryImages->deleteAll(['proof_gallery_id' => $id]);
 
         $proofGallery = $this->ProofGalleries->get($id);
