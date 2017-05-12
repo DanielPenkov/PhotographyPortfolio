@@ -107,6 +107,11 @@ class ProofGalleriesController extends AppController
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
+
+        $this->loadModel('ProofGalleryImages');
+
+        $this->ProofGalleryImages->deleteAll(['proof_gallery_id' => $id]);
+
         $proofGallery = $this->ProofGalleries->get($id);
         if ($this->ProofGalleries->delete($proofGallery)) {
             $this->Flash->success(__('The proof gallery has been deleted.'));
