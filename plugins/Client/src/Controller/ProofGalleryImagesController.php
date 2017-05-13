@@ -26,7 +26,7 @@ class ProofGalleryImagesController extends AppController
         if (empty($this->request->session()->read('galleryId'))) {
             $this->request->session()->write('galleryId', $galleryId);
         } elseif (!empty($this->request->session()->read('galleryId')) &&
-            $this->request->session()->read('galleryId') !== $this->request->params['pass'][0] &&
+            $this->request->session()->read('galleryId') !== $galleryId &&
             $this->request->param('action') !== 'select') {
             return $this->redirect(['controller' => 'Login', 'action' => 'index']);
         }
