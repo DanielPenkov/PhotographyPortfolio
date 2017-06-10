@@ -21,6 +21,11 @@
     }
 </style>
 
+<div class="promo-img" style="text-align: center; margin-top: 80px;">
+    <a href="https://www.facebook.com/gergana.stories" target="_blank">
+        <img src="/images/cv-offer.png" style="width:100%;max-width: 800px;">
+    </a>
+</div>
 
 <div class="description-container" style="display:none">
     <div class="description-box">
