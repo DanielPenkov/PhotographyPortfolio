@@ -7,12 +7,11 @@
     <meta name="author" content="Daniel Penkov">
     <meta name="description" content="Aalborg based freelance photographer
             specializing in different kinds of photography - portraits, family, maternity,
-            weddings, babies and events. Please take a moment to look through my portfolio and
-            decide if we'll be a great fit for each other." />
+            weddings, babies and events." />
     <meta name="keywords" content="fotograf, photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
     <title>Gergana - Fotograf i Aalborg</title>
     <meta name="google-site-verification" content="BoAFuGdGetn3FJ0dmwkhDPx6TwOCAGCxOLLM9oAlQz4"/>
-
+    <link rel="canonical" href="http://gerganastories.com/">
     
     <?= $this->Html->meta('icon') ?>
 

@@ -7,15 +7,13 @@
     <meta name="author" content="Daniel Penkov">
     <meta name="description" content="Aalborg based freelance photographer
             specializing in different kinds of photography - portraits, family, maternity,
-            weddings, babies and events. Please take a moment to look through my portfolio and
-            decide if we'll be a great fit for each other" />
+            weddings, babies and events." />
     <meta name="keywords" content="fotograf,photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
     <title>Gergana - Fotograf i Aalborg</title>
-
+    <link rel="canonical" href="http://gerganastories.com/<?= $this->request->url . '/'?>">
     <?php if($this->Url->build(null) === '/portraits/cv-linkedin') { ?>
         <meta property="og:image" content="http://gerganastories.com//img/thumbnails/veronika_thumbnail.png" />
    <?php } ?>
-
 
     <?= $this->Html->meta('icon') ?>
     <?= $this->Html->css([
@@ -147,7 +145,7 @@
 
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <h1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></h1>
+    <H1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></H1>
     <div class="menu">
         <ul style="width:150px">
             <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>
@@ -270,7 +268,7 @@
 <div class="footer">
     <div class="copyright">
         All material © copyright by Gergana Kurukyuvlieva
-        <h2 style="font-weight: 300" ><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></h2>
+        <H2 style="font-weight: 300" ><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></H2>
         <p>
             All rights reserved. Site by <?= $this->Html->link('Daniel Penkov', 'http://danielpenkov.eu'); ?>
         </p>

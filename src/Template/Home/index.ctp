@@ -29,28 +29,24 @@
 
 <div class="description-container" style="display:none">
     <div class="description-box">
-        <h1>
+        <H1>
             <?= __('Aalborg based freelance photographer 
             specializing in different kinds of photography - portraits, family, maternity, 
             weddings, babies and events. Please take a moment to look through my portfolio and 
             decide if we\'ll be a great fit for each other.')?>
-        </h1>
+        </H1>
     </div>
 </div>
 
 <div class="pictureOfTheDay">
     <p class="subtitle fancy"><span style="width:100%"> PORTRAITS</span></p>
     <div class="category-description">
-            <h1>
-                <p>
+            <H1>
                 I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
                 Artistic portraits, maternity, couples, families.
-                </p>
-                <p>
-                   Perfect business portrait for CV and Linkedin on different backgrounds and promise  you will get your best expression.
-                </p>
-
-            </h1>
+                <br><br>
+                Perfect business portrait for CV and Linkedin on different backgrounds and promise  you will get your best expression.
+            </H1>
     </div>
 </div>
 
@@ -84,9 +80,9 @@
 <div class="pictureOfTheDay">
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%;"> CHILDREN</span></p>
     <div class="category-description">
-        <h1>
+        <H1>
             Children grow up so fast - Save those precious moments. Babies, toddlers, family portraits with mom & dad, in my photo studio or your home.
-        </h1>
+        </H1>
     </div>
 </div>
 
@@ -120,9 +116,9 @@
 <div class="pictureOfTheDay">
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%;"> WEDDINGS</span></p>
     <div class="category-description">
-        <h1>
+        <H1>
             <?= __('Wedding photography in Aalborg - candid moments, traditional poses or romantic and intimate photo session - you will have it all!')?>
-        </h1>
+        </H1>
     </div>
 </div>
 
@@ -159,9 +155,9 @@
 <div class="pictureOfTheDay">
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%"> EVENTS</span></p>
     <div class="category-description">
-        <h1>
+        <H1>
             <?= __('Coverage of different events - festivals, fairs, concerts, theater. The price depends on type, location and duration of the event.')?>
-        </h1>
+        </H1>
     </div>
 </div>
 
