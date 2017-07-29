@@ -40,7 +40,7 @@
     <p class="subtitle fancy"><span style="width:100%"> PORTRAITS</span></p>
     <div class="category-description">
             <H1>
-                i offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
+                I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
                 Artistic portraits, maternity, couples, families.
                 <br><br>
                 Perfect business portrait for CV and Linkedin on different backgrounds and promise  you will get your best expression.
