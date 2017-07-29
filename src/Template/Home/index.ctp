@@ -28,7 +28,7 @@
 <div class="description-container" style="display:none">
     <div class="description-box">
         <H1>
-            <?= __('aalborg based freelance photographer 
+            <?= __('Аalborg based freelance photographer 
             specializing in different kinds of photography - portraits, family, maternity, 
             weddings, babies and events. Please take a moment to look through my portfolio and 
             decide if we\'ll be a great fit for each other.')?>
@@ -40,7 +40,7 @@
     <p class="subtitle fancy"><span style="width:100%"> PORTRAITS</span></p>
     <div class="category-description">
             <H1>
-                I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
+                i offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
                 Artistic portraits, maternity, couples, families.
                 <br><br>
                 Perfect business portrait for CV and Linkedin on different backgrounds and promise  you will get your best expression.
