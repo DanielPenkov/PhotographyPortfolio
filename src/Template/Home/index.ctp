@@ -28,7 +28,7 @@
 <div class="description-container" style="display:none">
     <div class="description-box">
         <H1>
-            <?= __('Aalborg based freelance photographer 
+            <?= __('aalborg based freelance photographer 
             specializing in different kinds of photography - portraits, family, maternity, 
             weddings, babies and events. Please take a moment to look through my portfolio and 
             decide if we\'ll be a great fit for each other.')?>
