@@ -32,15 +32,26 @@ class HomeController extends AppController
             })
             ->order('rand()');
 
-
-
-
         $picturesCollection = new Collection($pictures);
 
         $groupedCollectionPictures = $picturesCollection
             ->groupBy('session.album.category.name')
             ->toArray();
 
+
+        $portraitsCollection = (new Collection($groupedCollectionPictures['portraits']))
+            ->groupBy('session.album.name')
+            ->toArray();
+
+        $otherSessionsCollection = (new Collection($groupedCollectionPictures['']))
+            ->groupBy('session.album.name')
+            ->toArray();
+
+        $groupedCollectionPictures['cv'] = $portraitsCollection['cv-linkedin'];
+        $groupedCollectionPictures['women'] = $portraitsCollection['women'];
+        $groupedCollectionPictures['couples'] = $portraitsCollection['couples'];
+        $groupedCollectionPictures['maternity'] = $otherSessionsCollection['maternity'];
+        unset($groupedCollectionPictures['portraits']);
 
         $this->set('pictures', $groupedCollectionPictures);
     }

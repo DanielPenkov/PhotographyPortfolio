@@ -48,32 +48,87 @@
     </div>
 </div>
 
-<?php $portraitsCount = 0; ?>
-<?php foreach ($pictures['portraits'] as $picture) : ?>
-    <?php if ($portraitsCount === 4) {
-        break;
-    } ?>
-    <div class="gallery-container home-gallery">
-        <div class="view view-first image-box">
-            <?= $this->Html->image($picture->url,[
-                'class' => 'img-box',
-                'url' => '/' . strtolower($picture->session->album->name) . '/' . $picture->session->id
-            ]) ?>
 
-            <?php $sessionUrl = $this->Url->build('/' . strtolower($picture->session->album->name) . '/' . $picture->session->id, true); ?>
+<div class="gallery-container home-gallery">
+    <div class="view view-first image-box">
+        <?= $this->Html->image($pictures['cv'][0]->url,[
+            'class' => 'img-box',
+            'url' => '/' . strtolower($pictures['cv'][0]->session->album->name) . '/' . $pictures['cv'][0]->session->id
+        ]) ?>
 
-            <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
-                <div class="thumbnail-image-category">
-                    <?=strtoupper($picture->session->album->name) ?>
-                </div>
-                <div class="separator"></div>
-                <div class="text-center thumbnail-image-name"><?=ucfirst($picture->session->name) ?></div>
-                <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
+        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['cv'][0]->session->album->name) . '/' . $pictures['cv'][0]->session->id, true); ?>
+
+        <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
+            <div class="thumbnail-image-category">
+                <?=strtoupper($pictures['cv'][0]->session->album->name) ?>
             </div>
+            <div class="separator"></div>
+            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['cv'][0]->session->name) ?></div>
+            <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
         </div>
     </div>
-    <?php $portraitsCount ++; ?>
-<?php endforeach; ?>
+</div>
+
+<div class="gallery-container home-gallery">
+    <div class="view view-first image-box">
+        <?= $this->Html->image($pictures['women'][0]->url,[
+            'class' => 'img-box',
+            'url' => '/' . strtolower($pictures['women'][0]->session->album->name) . '/' . $pictures['women'][0]->session->id
+        ]) ?>
+
+        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['women'][0]->session->album->name) . '/' . $pictures['women'][0]->session->id, true); ?>
+
+        <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
+            <div class="thumbnail-image-category">
+                <?=strtoupper($pictures['women'][0]->session->album->name) ?>
+            </div>
+            <div class="separator"></div>
+            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['women'][0]->session->name) ?></div>
+            <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="gallery-container home-gallery">
+    <div class="view view-first image-box">
+        <?= $this->Html->image($pictures['maternity'][0]->url,[
+            'class' => 'img-box',
+            'url' => '/' . strtolower($pictures['maternity'][0]->session->album->name) . '/' . $pictures['maternity'][0]->session->id
+        ]) ?>
+
+        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['maternity'][0]->session->album->name) . '/' . $pictures['maternity'][0]->session->id, true); ?>
+
+        <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
+            <div class="thumbnail-image-category">
+                <?=strtoupper($pictures['maternity'][0]->session->album->name) ?>
+            </div>
+            <div class="separator"></div>
+            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['maternity'][0]->session->name) ?></div>
+            <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="gallery-container home-gallery">
+    <div class="view view-first image-box">
+        <?= $this->Html->image($pictures['couples'][0]->url,[
+            'class' => 'img-box',
+            'url' => '/' . strtolower($pictures['couples'][0]->session->album->name) . '/' . $pictures['couples'][0]->session->id
+        ]) ?>
+
+        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['couples'][0]->session->album->name) . '/' . $pictures['couples'][0]->session->id, true); ?>
+
+        <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
+            <div class="thumbnail-image-category">
+                <?=strtoupper($pictures['couples'][0]->session->album->name) ?>
+            </div>
+            <div class="separator"></div>
+            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['couples'][0]->session->name) ?></div>
+            <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
+        </div>
+    </div>
+</div>
+
 
 <div class="pictureOfTheDay">
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%;"> CHILDREN</span></p>
