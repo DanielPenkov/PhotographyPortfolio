@@ -3,7 +3,6 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-use App\Model\Table\PicturesTable;
 use Cake\Collection\Collection;
 use Cake\ORM\Query;
 
@@ -15,15 +14,15 @@ use Cake\ORM\Query;
 
 class HomeController extends AppController {
 
-
-    public function index() {
+	// Works?
+	public function index() {
 		$this->loadModel('Pictures');
 		$this->loadModel('Albums');
 		$this->loadModel('Sessions');
 		$this->viewBuilder()->layout('gallery');
 
-        /** @var PicturesTable $pictures */
-        $pictures = $this->Pictures->find()
+		/** @var PicturesTable $pictures */
+		$pictures = $this->Pictures->find()
 		                 ->where(['Pictures.type' => 'thumbnails'])
 			->contain(['Sessions.Albums.Categories'])
 			->matching('Sessions', function (Query $q) {
@@ -33,20 +32,20 @@ class HomeController extends AppController {
 			})
 			->order('rand()');
 
-        /** @var Collection $picturesCollection */
-        $picturesCollection = new Collection($pictures);
+		/** @var Collection $picturesCollection */
+		$picturesCollection = new Collection($pictures);
 
-        /** @var Collection $groupedCollectionPictures */
-        $groupedCollectionPictures = $picturesCollection
+		/** @var Collection $groupedCollectionPictures */
+		$groupedCollectionPictures = $picturesCollection
 			->groupBy('session.album.category.name')
 			->toArray();
 
-        /** @var Collection $portraitsCollection */
-        $portraitsCollection = (new Collection($groupedCollectionPictures['portraits']))
+		/** @var Collection $portraitsCollection */
+		$portraitsCollection = (new Collection($groupedCollectionPictures['portraits']))
 			->groupBy('session.album.name')
 			->toArray();
 
-        $otherSessionsCollection = (new Collection($groupedCollectionPictures['']))
+		$otherSessionsCollection = (new Collection($groupedCollectionPictures['']))
 			->groupBy('session.album.name')
 			->toArray();
 
