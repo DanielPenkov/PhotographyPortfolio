@@ -15,7 +15,10 @@ use Cake\ORM\Query;
 
 class HomeController extends AppController {
 
-	public function index() {
+    /**
+     * Index
+     */
+    public function index() {
 		$this->loadModel('Pictures');
 		$this->loadModel('Albums');
 		$this->loadModel('Sessions');
@@ -45,7 +48,6 @@ class HomeController extends AppController {
 			->groupBy('session.album.name')
 			->toArray();
 
-        /** @var $otherSessionsCollection */
         $otherSessionsCollection = (new Collection($groupedCollectionPictures['']))
 			->groupBy('session.album.name')
 			->toArray();
