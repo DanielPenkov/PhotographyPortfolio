@@ -235,7 +235,6 @@ return [
             'cacheMetadata' => true,
             'log' => false,
 
-            
             /**
              * Set identifier quoting to true if you are using reserved words or
              * special characters in your table or column names. Enabling this

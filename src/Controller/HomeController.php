@@ -30,7 +30,8 @@ class HomeController extends AppController {
 			})
 			->order('rand()');
 
-		$picturesCollection = new Collection($pictures);
+        /** @var Collection $picturesCollection */
+        $picturesCollection = new Collection($pictures);
 
         /** @var Collection $groupedCollectionPictures */
         $groupedCollectionPictures = $picturesCollection
