@@ -37,7 +37,7 @@
 </div>
 
 <div class="pictureOfTheDay">
-    <p class="subtitle fancy"><span style="width:100%"> PORTRAITS</span></p>
+    <p class="subtitle fancy"><span style="width:100%"> PORTRAITS??</span></p>
     <div class="category-description">
             <H1>
                 I offer all kind of portraits: at my home studio in Aalborg center, your home, on location or outdoor in the park.
