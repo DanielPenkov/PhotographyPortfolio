@@ -36,7 +36,8 @@ class HomeController extends AppController {
 			->groupBy('session.album.category.name')
 			->toArray();
 
-		$portraitsCollection = (new Collection($groupedCollectionPictures['portraits']))
+        /** @var Collection $portraitsCollection */
+        $portraitsCollection = (new Collection($groupedCollectionPictures['portraits']))
 			->groupBy('session.album.name')
 			->toArray();
 
