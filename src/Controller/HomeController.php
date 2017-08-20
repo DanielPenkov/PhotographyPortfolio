@@ -14,7 +14,7 @@ use Cake\ORM\Query;
 
 class HomeController extends AppController {
 
-	// Works?
+	// Works? or not?
 	public function index() {
 		$this->loadModel('Pictures');
 		$this->loadModel('Albums');
