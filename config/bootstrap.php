@@ -17,10 +17,10 @@
  * Configure paths required to find CakePHP + general filepath
  * constants
  */
-require __DIR__ . '/paths.php';
+require __DIR__ .'/paths.php';
 
 // Use composer to load the autoloader.
-require ROOT . DS . 'vendor' . DS . 'autoload.php';
+require ROOT.DS.'vendor'.DS.'autoload.php';
 
 /**
  * Bootstrap CakePHP.
@@ -31,26 +31,26 @@ require ROOT . DS . 'vendor' . DS . 'autoload.php';
  * - Registering the CakePHP autoloader.
  * - Setting the default application paths.
  */
-require CORE_PATH . 'config' . DS . 'bootstrap.php';
+require CORE_PATH.'config'.DS.'bootstrap.php';
 
 // You can remove this if you are confident that your PHP version is sufficient.
 if (version_compare(PHP_VERSION, '5.5.9') < 0) {
-    trigger_error('You PHP version must be equal or higher than 5.5.9 to use CakePHP.', E_USER_ERROR);
+	trigger_error('You PHP version must be equal or higher than 5.5.9 to use CakePHP.', E_USER_ERROR);
 }
 
 // You can remove this if you are confident you have intl installed.
 if (!extension_loaded('intl')) {
-    trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
+	trigger_error('You must enable the intl extension to use CakePHP.', E_USER_ERROR);
 }
 
 // You can remove this if you are confident you have mbstring installed.
 if (!extension_loaded('mbstring')) {
-    trigger_error('You must enable the mbstring extension to use CakePHP.', E_USER_ERROR);
+	trigger_error('You must enable the mbstring extension to use CakePHP.', E_USER_ERROR);
 }
 
 use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
-use Cake\Core\App;
+
 use Cake\Core\Configure;
 use Cake\Core\Configure\Engine\PhpConfig;
 use Cake\Core\Plugin;
@@ -61,7 +61,7 @@ use Cake\Log\Log;
 use Cake\Mailer\Email;
 use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
-use Cake\Utility\Inflector;
+
 use Cake\Utility\Security;
 
 /**
@@ -73,10 +73,10 @@ use Cake\Utility\Security;
  * that changes from configuration that does not. This makes deployment simpler.
  */
 try {
-    Configure::config('default', new PhpConfig());
-    Configure::load('app', 'default', false);
+	Configure::config('default', new PhpConfig());
+	Configure::load('app', 'default', false);
 } catch (\Exception $e) {
-    exit($e->getMessage() . "\n");
+	exit($e->getMessage()."\n");
 }
 
 // Load an environment local configuration file.
@@ -88,8 +88,8 @@ try {
 // for a very very long time, as we don't want
 // to refresh the cache while users are doing requests.
 if (!Configure::read('debug')) {
-    Configure::write('Cache._cake_model_.duration', '+1 years');
-    Configure::write('Cache._cake_core_.duration', '+1 years');
+	Configure::write('Cache._cake_model_.duration', '+1 years');
+	Configure::write('Cache._cake_core_.duration', '+1 years');
 }
 
 /**
@@ -114,14 +114,14 @@ ini_set('intl.default_locale', Configure::read('App.defaultLocale'));
  */
 $isCli = PHP_SAPI === 'cli';
 if ($isCli) {
-    (new ConsoleErrorHandler(Configure::read('Error')))->register();
+	(new ConsoleErrorHandler(Configure::read('Error')))->register();
 } else {
-    (new ErrorHandler(Configure::read('Error')))->register();
+	(new ErrorHandler(Configure::read('Error')))->register();
 }
 
 // Include the CLI bootstrap overrides.
 if ($isCli) {
-    require __DIR__ . '/bootstrap_cli.php';
+	require __DIR__ .'/bootstrap_cli.php';
 }
 
 /**
@@ -131,16 +131,16 @@ if ($isCli) {
  * If you define fullBaseUrl in your config file you can remove this.
  */
 if (!Configure::read('App.fullBaseUrl')) {
-    $s = null;
-    if (env('HTTPS')) {
-        $s = 's';
-    }
+	$s = null;
+	if (env('HTTPS')) {
+		$s = 's';
+	}
 
-    $httpHost = env('HTTP_HOST');
-    if (isset($httpHost)) {
-        Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
-    }
-    unset($httpHost, $s);
+	$httpHost = env('HTTP_HOST');
+	if (isset($httpHost)) {
+		Configure::write('App.fullBaseUrl', 'http'.$s.'://'.$httpHost);
+	}
+	unset($httpHost, $s);
 }
 
 Cache::config(Configure::consume('Cache'));
@@ -160,14 +160,15 @@ Security::salt(Configure::consume('Security.salt'));
 /**
  * Setup detectors for mobile and tablet.
  */
-Request::addDetector('mobile', function ($request) {
-    $detector = new \Detection\MobileDetect();
-    return $detector->isMobile();
-});
+Request::addDetector('mobile',
+function ($request) {
+		$detector = new \Detection\MobileDetect();
+		return $detector->isMobile();
+	});
 Request::addDetector('tablet', function ($request) {
-    $detector = new \Detection\MobileDetect();
-    return $detector->isTablet();
-});
+		$detector = new \Detection\MobileDetect();
+		return $detector->isTablet();
+	});
 
 /**
  * Custom Inflector rules, can be set to correctly pluralize or singularize
@@ -191,46 +192,44 @@ Request::addDetector('tablet', function ($request) {
  */
 
 Configure::write('Glide', [
-    // Value of 'serverConfig' is passed as argument to Glide's ServerFactory::create() call.
-    // http://glide.thephpleague.com/1.0/config/setup/
+		// Value of 'serverConfig' is passed as argument to Glide's ServerFactory::create() call.
+		// http://glide.thephpleague.com/1.0/config/setup/
 
-    'scope' => null,
-    'serverConfig' => [
-        // Path or League\Flysystem adapter instance to read images from.
-        // http://glide.thephpleague.com/1.0/config/source-and-cache/
-        'source' => WWW_ROOT ,
+		'scope'        => null,
+		'serverConfig' => [
+			// Path or League\Flysystem adapter instance to read images from.
+			// http://glide.thephpleague.com/1.0/config/source-and-cache/
+			'source' => WWW_ROOT,
 
-        // Path or League\Flysystem adapter instance to write cached images to.
-        'cache' => WWW_ROOT . 'glide_cache',
+			// Path or League\Flysystem adapter instance to write cached images to.
+			'cache' => WWW_ROOT.'glide_cache',
 
-        // Optional: URL part to be omitted from source path
-        // http://glide.thephpleague.com/1.0/config/source-and-cache/#set-a-base-url
-        'base_url' => '/glide/',
+			// Optional: URL part to be omitted from source path
+			// http://glide.thephpleague.com/1.0/config/source-and-cache/#set-a-base-url
+			'base_url' => '/glide/',
 
-        // Optional: Response class for serving images. You normally don't need
-        // to change this. By default an instance of \ADmad\Glide\Responses\CakeResponseFactory()
-        // will be used.
-        // http://glide.thephpleague.com/1.0/config/responses/
-        'response' => null,
-        'watermarks' => WWW_ROOT . '/img/',
-    ],
+			// Optional: Response class for serving images. You normally don't need
+			// to change this. By default an instance of \ADmad\Glide\Responses\CakeResponseFactory()
+			// will be used.
+			// http://glide.thephpleague.com/1.0/config/responses/
+			'response'   => null,
+			'watermarks' => WWW_ROOT.'/img/',
+		],
 
-    // Optional: Use secure URLs to prevent URL parameter manipulation.
-    // http://glide.thephpleague.com/1.0/config/security/
-    'secureUrls' => false,
+		// Optional: Use secure URLs to prevent URL parameter manipulation.
+		// http://glide.thephpleague.com/1.0/config/security/
+		'secureUrls' => false,
 
-    // Optional: Cache duration. This makes GlideFilter set appropriate cache headers.
-    'cache' => '+1 days',
+		// Optional: Cache duration. This makes GlideFilter set appropriate cache headers.
+		'cache' => '+1 days',
 
-    // Optional: Any response headers you may want to set
-    'headers' => [
-    ],
-]);
-
-
+		// Optional: Any response headers you may want to set
+		'headers' => [
+		],
+	]);
 
 Plugin::load('Migrations');
-Plugin::load('Admin', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
+Plugin::load('Admin', ['bootstrap'  => false, 'routes'  => true, 'autoload'  => true]);
 Plugin::load('Client', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
 
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
@@ -240,7 +239,7 @@ Plugin::load('ADmad/Glide');
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
 if (Configure::read('debug')) {
-    Plugin::load('DebugKit', ['bootstrap' => true]);
+	Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
 /**
@@ -258,11 +257,11 @@ DispatcherFactory::add('ADmad/Glide.Glide', ['for' => '/glide']);
  * Also enable immutable time objects in the ORM.
  */
 Type::build('time')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();
 Type::build('date')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();
 Type::build('datetime')
-    ->useImmutable()
-    ->useLocaleParser();
+	->useImmutable()
+	->useLocaleParser();

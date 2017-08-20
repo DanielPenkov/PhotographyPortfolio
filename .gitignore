@@ -4,5 +4,6 @@
 /logs/*
 webroot/img/*
 .idea/
+.phpintel/
 
 docker-compose.yml
