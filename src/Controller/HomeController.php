@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
+use App\Model\Table\PicturesTable;
 use Cake\Collection\Collection;
 use Cake\ORM\Query;
 
@@ -20,7 +21,8 @@ class HomeController extends AppController {
 		$this->loadModel('Sessions');
 		$this->viewBuilder()->layout('gallery');
 
-		$pictures = $this->Pictures->find()
+        /** @var PicturesTable $pictures */
+        $pictures = $this->Pictures->find()
 		                 ->where(['Pictures.type' => 'thumbnails'])
 			->contain(['Sessions.Albums.Categories'])
 			->matching('Sessions', function (Query $q) {
