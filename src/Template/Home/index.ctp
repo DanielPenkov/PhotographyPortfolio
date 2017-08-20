@@ -22,7 +22,7 @@
 </style>
 
 <div class="promo-img" style="text-align: center; margin-top: 80px;">
-    <a href="https://www.facebook.com/gergana.stories" target="_blank"><img src="/images/cv-offer.jpg" style="width:100%;max-width: 800px;"></a>
+    <a href="https://www.facebook.com/gergana.stories" target="_blank"><img src="/images/cv-offer.jpg" style="width:100%;max-width: 800px;display:none"></a>
 </div>
 
 <div class="description-container" style="display:none">
@@ -56,14 +56,13 @@
             'url' => '/' . strtolower($pictures['cv'][0]->session->album->name) . '/' . $pictures['cv'][0]->session->id
         ]) ?>
 
-        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['cv'][0]->session->album->name) . '/' . $pictures['cv'][0]->session->id, true); ?>
+        <?php $sessionUrl = $this->Url->build('/portraits/cv-linkedin', true); ?>
 
         <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
             <div class="thumbnail-image-category">
                 <?=strtoupper($pictures['cv'][0]->session->album->name) ?>
             </div>
             <div class="separator"></div>
-            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['cv'][0]->session->name) ?></div>
             <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
         </div>
     </div>
@@ -76,14 +75,13 @@
             'url' => '/' . strtolower($pictures['women'][0]->session->album->name) . '/' . $pictures['women'][0]->session->id
         ]) ?>
 
-        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['women'][0]->session->album->name) . '/' . $pictures['women'][0]->session->id, true); ?>
+        <?php $sessionUrl = $this->Url->build('/portraits/women', true); ?>
 
         <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
             <div class="thumbnail-image-category">
                 <?=strtoupper($pictures['women'][0]->session->album->name) ?>
             </div>
             <div class="separator"></div>
-            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['women'][0]->session->name) ?></div>
             <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
         </div>
     </div>
@@ -96,14 +94,13 @@
             'url' => '/' . strtolower($pictures['maternity'][0]->session->album->name) . '/' . $pictures['maternity'][0]->session->id
         ]) ?>
 
-        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['maternity'][0]->session->album->name) . '/' . $pictures['maternity'][0]->session->id, true); ?>
+        <?php $sessionUrl = $this->Url->build('/maternity', true); ?>
 
         <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
             <div class="thumbnail-image-category">
                 <?=strtoupper($pictures['maternity'][0]->session->album->name) ?>
             </div>
             <div class="separator"></div>
-            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['maternity'][0]->session->name) ?></div>
             <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
         </div>
     </div>
@@ -116,14 +113,13 @@
             'url' => '/' . strtolower($pictures['couples'][0]->session->album->name) . '/' . $pictures['couples'][0]->session->id
         ]) ?>
 
-        <?php $sessionUrl = $this->Url->build('/' . strtolower($pictures['couples'][0]->session->album->name) . '/' . $pictures['couples'][0]->session->id, true); ?>
+        <?php $sessionUrl = $this->Url->build('/portraits/couples', true); ?>
 
         <div class="mask" style="cursor: pointer;" onclick="window.location='<?= $sessionUrl?>';">
             <div class="thumbnail-image-category">
                 <?=strtoupper($pictures['couples'][0]->session->album->name) ?>
             </div>
             <div class="separator"></div>
-            <div class="text-center thumbnail-image-name"><?=ucfirst($pictures['couples'][0]->session->name) ?></div>
             <div class="fa fa-play-circle-o" style="color:white; margin-top: 20px; font-size: 35px;"></div>
         </div>
     </div>

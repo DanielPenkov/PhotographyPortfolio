@@ -15,7 +15,6 @@ class ProofGalleryImagesController extends AppController
         'limit' => 1000,
     ];
 
-
     public function initialize()
     {
         parent::initialize();
