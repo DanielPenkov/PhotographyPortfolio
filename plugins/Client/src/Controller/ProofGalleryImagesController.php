@@ -1,5 +1,6 @@
 <?php
 namespace Client\Controller;
+use App\Model\Entity\ProofGallery;
 use Cake\ORM\Query;
 
 
@@ -41,7 +42,14 @@ class ProofGalleryImagesController extends AppController
         $this->loadModel('ProofGalleryImages');
         $this->loadModel('ProofGalleries');
 
-        $proofGallery = $this->ProofGalleries->get($id);
+        /** @var ProofGallery $proofGallery */
+        $proofGallery = $this->ProofGalleries->find()
+            ->where(['ProofGalleries.id' => $id])
+            ->first();
+
+        if  (empty($proofGallery)) {
+            return $this->response->withStatus('404');
+        }
 
         $pictures = $this->ProofGalleryImages->find()
             ->matching('ProofGalleries', function (Query $q) use ($id) {
