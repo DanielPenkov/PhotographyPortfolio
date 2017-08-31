@@ -48,7 +48,7 @@ class ProofGalleryImagesController extends AppController
             ->first();
 
         if  (empty($proofGallery)) {
-            return $this->response->withStatus(500);
+            return $this->redirect('/not-found');
         }
 
         $pictures = $this->ProofGalleryImages->find()
