@@ -48,7 +48,7 @@ class ProofGalleryImagesController extends AppController
             ->first();
 
         if  (empty($proofGallery)) {
-            return $this->response->withStatus('404');
+            return $this->response->withStatus(404);
         }
 
         $pictures = $this->ProofGalleryImages->find()
