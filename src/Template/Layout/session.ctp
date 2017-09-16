@@ -70,6 +70,8 @@
             $('#events').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         } else if (name.indexOf('weddings') > -1) {
             $('#weddings').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
+        } else if (name.indexOf('dogs') > -1) {
+            $('#dogs').css({ "background-color": '#f0f0f0', "text-decoration": "underline"});
         }
     });
 </script>
@@ -187,6 +189,9 @@
             </li>
             <li id="projects">
                 <?= $this->Html->link('PROJECTS', '/projects'); ?>
+            </li>
+            <li id="dogs">
+                <?= $this->Html->link('DOGS', '/dogs'); ?>
             </li>
         </ul>
     </div>

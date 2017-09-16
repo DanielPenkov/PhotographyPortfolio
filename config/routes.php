@@ -79,6 +79,7 @@ function (RouteBuilder $routes) {
 		$routes->connect('/maternity', ['controller'  => 'Albums', 'action'  => 'view', 3]);
 		$routes->connect('/landscapes', ['controller' => 'Albums', 'action' => 'view', 5]);
 		$routes->connect('/weddings', ['controller'   => 'Albums', 'action'   => 'view', 14]);
+        $routes->connect('/dogs', ['controller'   => 'Albums', 'action'   => 'view', 22]);
 
 		$routes->connect('/business/:id',
 			['controller' => 'Sessions', 'action' => 'view'],
@@ -134,6 +135,9 @@ function (RouteBuilder $routes) {
 		$routes->connect('/weddings/:id',
 			['controller' => 'Sessions', 'action' => 'view'],
 			['id'         => '\d+', 'pass'         => ['id']]);
+         $routes->connect('/dogs/:id',
+            ['controller' => 'Sessions', 'action' => 'view'],
+            ['id'         => '\d+', 'pass'         => ['id']]);
 
 		$routes->connect('/christmas/:id',
 			['controller' => 'Sessions', 'action' => 'view'],
