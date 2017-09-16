@@ -254,14 +254,14 @@
             <li id="landscapes">
                 <?= $this->Html->link('LANDSCAPES', '/landscapes'); ?>
             </li>
-            <li id="contacts">
-                <?= $this->Html->link('CONTACTS', '/contacts'); ?>
+            <li id="dogs">
+                <?= $this->Html->link('DOGS', '/dogs'); ?>
             </li>
             <li id="projects">
                 <?= $this->Html->link('PROJECTS', '/projects'); ?>
             </li>
-            <li id="dogs">
-                <?= $this->Html->link('DOGS', '/dogs'); ?>
+            <li id="contacts">
+                <?= $this->Html->link('CONTACTS', '/contacts'); ?>
             </li>
         </ul>
     </div>
