@@ -146,7 +146,7 @@ use Cake\Routing\Router;
                     }
 
                 } else {
-                    if (numberOfSelected <= allowed) {
+                    if (numberOfSelected < allowed) {
                         this.setAttribute('data-selected', 'true');
                         $('#' + id).removeClass('btn-default');
                         $('#' + id).addClass('btn-success');
