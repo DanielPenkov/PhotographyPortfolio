@@ -5,5 +5,7 @@
 webroot/img/*
 .idea/
 .phpintel/
+mysql
+.htaccess
 
 docker-compose.yml
