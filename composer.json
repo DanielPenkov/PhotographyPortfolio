@@ -24,6 +24,7 @@
 
     "require-dev": {
         "psy/psysh": "@stable",
+        "phpunit/phpunit": "^5.7.25",
         "cakephp/debug_kit": "~3.2",
         "cakephp/bake": "~1.1"
     },
