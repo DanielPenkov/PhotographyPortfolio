@@ -17,10 +17,10 @@ addons:
 sudo: false
 
 before_install:
+  - mysql -e 'CREATE DATABASE test_myapp;'
   - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('secret') where User='my_app'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
   - sudo mysql_upgrade
   - sudo service mysql restart
-  - mysql -e 'CREATE DATABASE test_myapp;'
 
 before_script:
   - composer self-update
