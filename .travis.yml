@@ -5,19 +5,12 @@ php:
 
 services:
   - mysql
-dist: trusty
-sudo: required
-addons:
-  apt:
-    packages:
-    - mysql-server-5.6
-    - mysql-client-core-5.6
-    - mysql-client-5.6
+
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test_myapp;'
+  - mysql -u root --default-character-set=utf8 test_myapp < scripts/bd.sql
 
 before_script:
-- mysql -u root -e 'CREATE DATABASE test_myapp;'
-- mysql -u root -e "CREATE USER 'travis'@'localhost' IDENTIFIED BY 'travis';"
-- mysql -u root -e "GRANT ALL ON test_myapp.* TO 'travis'@'localhost';"
 - composer self-update
 - composer install --prefer-source --no-interaction --dev
 
