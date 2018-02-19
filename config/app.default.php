@@ -266,7 +266,7 @@ return [
             'persistent' => false,
             'host' => '127.0.0.1',
             //'port' => 'non_standard_port_number',
-            'username' => 'root',
+            'username' => 'travis',
             'password' => 'secret',
             'database' => 'test_myapp',
             'encoding' => 'utf8',
