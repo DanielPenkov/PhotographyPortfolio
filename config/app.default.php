@@ -267,7 +267,7 @@ return [
             'host' => 'localhost',
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => 'password',
+            'password' => '',
             'database' => 'test',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
