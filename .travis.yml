@@ -16,19 +16,12 @@ addons:
 
 sudo: false
 
-test:
-  adapter: mysql2
-  database: test_myapp
-  username: travis
-  encoding: utf8
-
-before_install:
-  - mysql -u root -e "CREATE DATABASE test_myapp;";
-  - mysql -u root -e "GRANT ALL PRIVILEGES ON test_myapp.* TO 'travis'@'%';";
-
 before_script:
-  - composer self-update
-  - composer install --prefer-source --no-interaction --dev
+- mysql -u root -e 'CREATE DATABASE test_myapp;'
+- mysql -u root -e "CREATE USER 'travis'@'localhost' IDENTIFIED BY 'travis';"
+- mysql -u root -e "GRANT ALL ON test_myapp.* TO 'travis'@'localhost';"
+- composer self-update
+- composer install --prefer-source --no-interaction --dev
 
 script:
   - phpunit
