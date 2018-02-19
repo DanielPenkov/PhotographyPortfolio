@@ -268,7 +268,7 @@ return [
             //'port' => 'non_standard_port_number',
             'username' => 'root',
             'password' => '',
-            'database' => 'test',
+            'database' => 'test_gerry',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
