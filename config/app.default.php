@@ -226,7 +226,7 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'myapp',
+            'username' => 'root',
 			'password' => 'secret',
             'database' => 'test_myapp',
             'encoding' => 'utf8',
@@ -266,7 +266,7 @@ return [
             'persistent' => false,
             'host' => '127.0.0.1',
             //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
+            'username' => 'root',
             'password' => 'secret',
             'database' => 'test_myapp',
             'encoding' => 'utf8',
