@@ -1,5 +1,7 @@
 dist: precise
-language: ph
+
+language: php
+
 php:
   - 7.0
 
