@@ -129,7 +129,7 @@ class ProofGalleriesController extends AppController
 
         $options = array(
             'max_file_size' => 2222048000,
-            'max_number_of_files' => 300,
+            'max_number_of_files' => 500,
             'access_control_allow_methods' => array(
                 'POST'
             ),
