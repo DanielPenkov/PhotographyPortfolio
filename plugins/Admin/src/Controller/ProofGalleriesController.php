@@ -46,6 +46,10 @@ class ProofGalleriesController extends AppController
                 ->first();
         }
 
+        if (empty($proofGallery)) {
+            return $this->redirect(['action' => 'index']);
+        }
+
         $this->set('proofGallery', $proofGallery);
         $this->set('_serialize', ['proofGallery']);
     }
