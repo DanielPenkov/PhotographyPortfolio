@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Daniel Penkov">
-    <meta name="description" content="Aalborg based photographer
+    <meta name="description" content="Sofia based photographer
             specializing in different kinds of photography - portraits, family, maternity,
             weddings, babies and events." />
-    <meta name="keywords" content="fotograf,photo, photography, Aalborg, Nørresundby, photographer, Gergana Kurukyuvlieva, Gergana, Fotograf i Aalborg, fotograf, fotografer, børnefotografer, foto, børnebilleder, fotografering børn, portræt, familier, Konfirmationer, CV, foto, bryllup, REPORTAGE ERHVERVSPORTRÆTTER, Fotograf I Nørresundby, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, confirmation, party, photographer, christening"/>
-    <title>Gergana - Fotograf i Aalborg</title>
+    <meta name="keywords" content="фотограф, photo, photography, Sofia, София, photographer, Gergana Kurukyuvlieva, Gergana, Фотограф в София, портрети, CV, portrait,photography, children, event, maternity, wedding, couples, cv, photo, landscape, party, Photographer in Sofia"/>
+    <title>Gergana - Photographer in Sofia</title>
     <link rel="canonical" href="http://gerganastories.com/<?= $this->request->url . '/'?>">
 
     <?= $this->Html->meta('icon') ?>
@@ -77,7 +77,7 @@
 </script>
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <H1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Fotograf i Aalborg")?></H1>
+    <H1 style="font-weight: 300" class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Sofia")?></H1>
     <div class="menu">
         <ul style="width:150px">
             <li style="width:50px"><a class="menu-icon" href="https://www.instagram.com/kurukyuvlieva/" target="_blank"><span class="fa fa-instagram"></span></a></li>

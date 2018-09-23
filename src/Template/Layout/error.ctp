@@ -68,7 +68,7 @@
 </script>
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
+    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Sofia")?></p>
 </div>
 <div class="menu-container">
     <div class="menu">

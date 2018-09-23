@@ -1,6 +1,6 @@
 <?php
 
-$cakeDescription = 'Fotograf i Aalborg - Gergana Kurukyuvlieva';
+$cakeDescription = 'Photographer in Sofia - Gergana Kurukyuvlieva';
 ?>
 <!DOCTYPE html>
 <html>

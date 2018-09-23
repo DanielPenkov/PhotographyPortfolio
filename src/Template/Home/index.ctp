@@ -166,7 +166,7 @@
     <p class="subtitle fancy"><span style="width:100%; margin-top: 35%;"> WEDDINGS</span></p>
     <div class="category-description">
         <H1>
-            <?= __('Wedding photography in Aalborg - candid moments, traditional poses or romantic and intimate photo session - you will have it all!')?>
+            <?= __('Wedding photography in Sofia - candid moments, traditional poses or romantic and intimate photo session - you will have it all!')?>
         </H1>
     </div>
 </div>

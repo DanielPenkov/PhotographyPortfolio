@@ -68,7 +68,7 @@
 </script>
 <div class="header-logo">
     <p class="header-title"> <?=__("GERGANA KURUKYUVLIEVA")?></p>
-    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Aalborg and Nørresundby")?></p>
+    <p class="header-text"><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Sofia")?></p>
     <?= $this->Html->link('HOME', ['plugin' => false, 'controller' => 'Home', 'action' => 'index'], ['class' => 'waves-effect waves-light btn-large']); ?>
 </div>
 
