@@ -19,20 +19,3 @@
     </div>
     <div id="googleMap" style="width:100%;height:400px;"></div>
 </div>
-
-<script>
-    function myMap() {
-        var myLatLng = {lat: 42.675927, lng: 23.325232};
-
-        var map = new google.maps.Map(document.getElementById('googleMap'), {
-            zoom: 15,
-            center: myLatLng
-        });
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-        });
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhSlQN-7yg7dZ2wvc8rtyBp6yn97bkImk&callback=myMap"></script>
