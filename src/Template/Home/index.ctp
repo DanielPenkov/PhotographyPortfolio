@@ -22,7 +22,7 @@
 </style>
 
 <div class="promo-img" style="text-align: center; margin-top: 80px;">
-    <a href="https://www.facebook.com/pg/gergana.stories/photos/?tab=album&album_id=1673672142668812" target="_blank"><img src="/images/pictures.jpg" style="width:100%;max-width: 800px;"></a>
+    <a href="https://www.facebook.com/events/493735257806873/" target="_blank"><img src="/images/lady-and-tramp.png" style="width:100%;max-width: 800px;"></a>
 </div>
 
 <div class="description-container" style="display:none">
