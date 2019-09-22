@@ -22,7 +22,7 @@
 </style>
 
 <div class="promo-img" style="text-align: center; margin-top: 80px;">
-    <a href="https://www.facebook.com/media/set/?set=a.2040650129304343&type=1&l=e887bc7e96" target="_blank"><img src="/images/valentine.png" style="width:100%;max-width: 800px;"></a>
+    <a href="https://www.facebook.com/media/set/?set=a.2040650129304343&type=1&l=e887bc7e96" target="_blank"><img src="/images/cv_obqva.png" style="width:100%;max-width: 800px;"></a>
 </div>
 
 <div class="description-container" style="display:none">
