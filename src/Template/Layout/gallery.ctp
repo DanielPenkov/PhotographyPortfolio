@@ -275,7 +275,7 @@
         All material © copyright by Gergana Kurukyuvlieva
         <H2 style="font-weight: 300" ><span class="menu-line fa fa-camera-retro"></span> <?=("Photographer in Sofia")?></H2>
         <p>
-            All rights reserved. Site by <?= $this->Html->link('Daniel Penkov', 'http://danielpenkov.eu'); ?>
+            All rights reserved. Site by -  <?= $this->Html->link('Daniel Penkov', 'http://danielpenkov.eu'); ?>
         </p>
     </div>
 </div>
